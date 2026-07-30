@@ -1,0 +1,5351 @@
+[
+  {
+    "nome": "Ah-Yu",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Ah-Yu",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/c/c3/Ah-Yu.png/260px-Ah-Yu.png",
+    "immagine": "Ah-Yu.png",
+    "funzione": [
+      "NPC"
+    ],
+    "ha_missioni": true,
+    "missioni": [
+      "Torta di riso",
+      "Le lance",
+      "Richiesta di Ah-Yus"
+    ],
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Joan": {
+        "x": 553,
+        "y": 663
+      },
+      "Pyungmoo": {
+        "x": 377,
+        "y": 577
+      },
+      "Yongan": {
+        "x": 698,
+        "y": 513
+      }
+    }
+  },
+  {
+    "nome": "Aiutante Eventi",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Aiutante_Eventi",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/8/83/Aiutante_Eventi.png/260px-Aiutante_Eventi.png",
+    "immagine": "Aiutante Eventi.png",
+    "funzione": [],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": true,
+    "posizioni": {
+      "Bokjung": {
+        "x": 476,
+        "y": 360
+      },
+      "Bakra": {
+        "x": 478,
+        "y": 375
+      },
+      "Yongan": {
+        "x": 615,
+        "y": 618
+      },
+      "Jayang": {
+        "x": 500,
+        "y": 625
+      }
+    }
+  },
+  {
+    "nome": "Alabardiere",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Alabardiere",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/b/b0/Alabardiere.png/260px-Alabardiere.png",
+    "immagine": "Alabardiere.png",
+    "funzione": [
+      "Caverne Gnoll"
+    ],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Piana Dongan": {
+        "x": 990,
+        "y": 973
+      }
+    }
+  },
+  {
+    "nome": "Albero di Natale (città)",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Albero_di_Natale_(citt%C3%A0)",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/2/22/Albero_di_Natale_%28citt%C3%A0%29.png/260px-Albero_di_Natale_%28citt%C3%A0%29.png",
+    "immagine": "Albero di Natale (città).png",
+    "funzione": [],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Joan": {
+        "x": 542,
+        "y": 551
+      },
+      "Pyungmoo": {
+        "x": 442,
+        "y": 717
+      },
+      "Yongan": {
+        "x": 625,
+        "y": 676
+      }
+    }
+  },
+  {
+    "nome": "Albero",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Albero",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/e/ec/Albero.png/260px-Albero.png",
+    "immagine": "Albero.png",
+    "funzione": [
+      "Difesa Nave"
+    ],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Difesa Nave": {
+        "x": 385,
+        "y": 400
+      }
+    }
+  },
+  {
+    "nome": "Alchimista",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Alchimista",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/6/60/Alchimista.png/260px-Alchimista.png",
+    "immagine": "Alchimista.png",
+    "funzione": [
+      "Scaglia di Energia",
+      "File:Icona Scaglia di Energia.png"
+    ],
+    "ha_missioni": true,
+    "missioni": [
+      "Tintura Nimbus",
+      "Fermare la Materia Oscura"
+    ],
+    "vende": [],
+    "venditore": true
+  },
+  {
+    "nome": "Alchimista (gilda)",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Alchimista_(gilda)",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/b/b2/Alchimista_%28gilda%29.png/260px-Alchimista_%28gilda%29.png",
+    "immagine": "Alchimista (gilda).png",
+    "funzione": [],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false
+  },
+  {
+    "nome": "Alchimista (Yohara)",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Alchimista_(Yohara)",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/7/75/Alchimista_%28Yohara%29.png/260px-Alchimista_%28Yohara%29.png",
+    "immagine": "Alchimista (Yohara)!.png",
+    "funzione": [
+      "NPC",
+      "Scaglia di Energia",
+      "File:Icona Scaglia di Energia.png"
+    ],
+    "ha_missioni": true,
+    "missioni": [
+      "Salva l'Alchimista",
+      "Anima della luce (ripetibile)"
+    ],
+    "vende": [],
+    "venditore": true
+  },
+  {
+    "nome": "Altare",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Altare",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/e/e8/Altare.png/260px-Altare.png",
+    "immagine": "Altare.png",
+    "funzione": [],
+    "ha_missioni": true,
+    "missioni": [
+      "Preparativi per il rituale del turbamento",
+      "Il rituale del turbamento"
+    ],
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Fortezza Abbandonata": {
+        "x": 103,
+        "y": 249
+      }
+    }
+  },
+  {
+    "nome": "Altare del Sangue",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Altare_del_Sangue",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/c/c4/Altare_del_Sangue.png/260px-Altare_del_Sangue.png",
+    "immagine": "Altare del Sangue.png",
+    "funzione": [
+      "Evento Rituale di Sangue"
+    ],
+    "ha_missioni": true,
+    "missioni": [
+      "Sacrificio di Sangue"
+    ],
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Joan": {
+        "x": 602,
+        "y": 698
+      },
+      "Pyungmoo": {
+        "x": 399,
+        "y": 667
+      },
+      "Yongan": {
+        "x": 658,
+        "y": 534
+      },
+      "Capo Fuoco del Drago": {
+        "x": 510,
+        "y": 1197
+      }
+    }
+  },
+  {
+    "nome": "Am-heh Gorge",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Am-heh_Gorge",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/e/e2/Am-heh_Gorge.png/260px-Am-heh_Gorge.png",
+    "immagine": "Am-heh Gorge.png",
+    "funzione": [
+      "NPC",
+      "Fortezza del Drago Rosso"
+    ],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Fortezza del Drago Rosso": {
+        "x": 352,
+        "y": 363
+      }
+    }
+  },
+  {
+    "nome": "Am-heh Gorge (FT)",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Am-heh_Gorge_(FT)",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/9/94/Am-heh_Gorge_%28FT%29.png/260px-Am-heh_Gorge_%28FT%29.png",
+    "immagine": "Am-heh Gorge (FT).png",
+    "funzione": [
+      "NPC",
+      "Fortezza del Drago Rosso (FT)"
+    ],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Fortezza del Drago Rosso (FT)": {
+        "x": 352,
+        "y": 363
+      }
+    }
+  },
+  {
+    "nome": "Am-heh Gorge (RSV)",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Am-heh_Gorge_(RSV)",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/7/74/Am-heh_Gorge_%28RSV%29.png/260px-Am-heh_Gorge_%28RSV%29.png",
+    "immagine": "Am-heh Gorge (RSV).png",
+    "funzione": [
+      "NPC",
+      "Fortezza del Drago Rosso (RSV)"
+    ],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Fortezza del Drago Rosso (RSV)": {
+        "x": 352,
+        "y": 363
+      }
+    }
+  },
+  {
+    "nome": "Amministratore Battaglie",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Amministratore_Battaglie",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/a/a2/Amministratore_Battaglie.png/260px-Amministratore_Battaglie.png",
+    "immagine": "Amministratore Battaglie.png",
+    "funzione": [
+      "Guerre tra i Regni"
+    ],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Yongan": {
+        "x": 657,
+        "y": 619
+      },
+      "Jayang": {
+        "x": 478,
+        "y": 633
+      },
+      "Pyungmoo": {
+        "x": 367,
+        "y": 617
+      },
+      "Bakra": {
+        "x": 420,
+        "y": 416
+      },
+      "Joan": {
+        "x": 623,
+        "y": 617
+      },
+      "Bokjung": {
+        "x": 415,
+        "y": 370
+      }
+    }
+  },
+  {
+    "nome": "Amministratore Gilda",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Amministratore_Gilda",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/0/00/Amministratore_Gilda.png/260px-Amministratore_Gilda.png",
+    "immagine": "Amministratore Gilda.png",
+    "funzione": [],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false
+  },
+  {
+    "nome": "Amministratore dei Magazzini",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Amministratore_dei_Magazzini",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/5/53/Amministratore_dei_Magazzini.png/260px-Amministratore_dei_Magazzini.png",
+    "immagine": "Amministratore dei Magazzini.png",
+    "funzione": [],
+    "ha_missioni": true,
+    "missioni": [
+      "Aiuto per l'Amministratore Magazzini",
+      "Prendi le cosce di rana"
+    ],
+    "vende": [],
+    "venditore": true,
+    "posizioni": {
+      "Yongan": {
+        "x": 674,
+        "y": 607
+      },
+      "Jayang": {
+        "x": 430,
+        "y": 574
+      },
+      "Contea Songpa": {
+        "x": 273,
+        "y": 254
+      },
+      "Pyungmoo": {
+        "x": 315,
+        "y": 560
+      },
+      "Bakra": {
+        "x": 394,
+        "y": 390
+      },
+      "Contea Daeyami": {
+        "x": 273,
+        "y": 254
+      },
+      "Joan": {
+        "x": 609,
+        "y": 596
+      },
+      "Bokjung": {
+        "x": 471,
+        "y": 347
+      },
+      "Contea Miryang": {
+        "x": 273,
+        "y": 254
+      },
+      "Capo Fuoco del Drago": {
+        "x": 649,
+        "y": 1272
+      },
+      "Bazar": {
+        "x": 408,
+        "y": 233
+      }
+    }
+  },
+  {
+    "nome": "Amministratore dei Magazzini (Yohara)",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Amministratore_dei_Magazzini_(Yohara)",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/9/95/Amministratore_dei_Magazzini_%28Yohara%29.png/260px-Amministratore_dei_Magazzini_%28Yohara%29.png",
+    "immagine": "Amministratore dei Magazzini (Yohara).png",
+    "funzione": [
+      "Una malattia misteriosa",
+      "Ricostruzione",
+      "Un'azione sospetta"
+    ],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": true,
+    "posizioni": {
+      "Piana Dongan": {
+        "x": 538,
+        "y": 689
+      }
+    }
+  },
+  {
+    "nome": "Amministratore del Terreno",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Amministratore_del_Terreno",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/8/8c/Amministratore_del_Terreno.png/260px-Amministratore_del_Terreno.png",
+    "immagine": "Amministratore_del_Terreno.png",
+    "funzione": [
+      "Gilda"
+    ],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false
+  },
+  {
+    "nome": "Amministratrice Commercio",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Amministratrice_Commercio",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/0/06/Amministratrice_Commercio.png/260px-Amministratrice_Commercio.png",
+    "immagine": "Amministratrice Commercio.png",
+    "funzione": [
+      "Bazar"
+    ],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false
+  },
+  {
+    "nome": "Ammiraglio Angmur",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Ammiraglio_Angmur",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/8/89/Ammiraglio_Angmur.png/260px-Ammiraglio_Angmur.png",
+    "immagine": "Ammiraglio Angmur.png",
+    "funzione": [],
+    "ha_missioni": true,
+    "missioni": [
+      "Lettera di Lee Chung (missione)",
+      "Lettera dei Gnoll I",
+      "Lettera dei Gnoll II",
+      "Le Manticore",
+      "Rinforza Bastione I",
+      "Rinforza Bastione II",
+      "La Lettera della Manticora",
+      "Il Nascondiglio di Martyaxwar",
+      "Avvelenato!",
+      "Lettera Ladro Rosso I",
+      "Lettera Ladro Rosso II",
+      "Decripta la Lettera Ladro Rosso",
+      "Piani Oscuri",
+      "Scorta di Potenza I",
+      "Richiamo sui Monti Tonanti",
+      "Indebolire i Ladri Rossi",
+      "Indebolire i Ciclopi",
+      "Indebolire i Giganti",
+      "Per i Monti Tonanti"
+    ],
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Capo Fuoco del Drago": {
+        "x": 665,
+        "y": 1242
+      }
+    }
+  },
+  {
+    "nome": "Ammiraglio Angmur (Yohara)",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Ammiraglio_Angmur_(Yohara)",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/9/9a/Ammiraglio_Angmur_%28Yohara%29.png/260px-Ammiraglio_Angmur_%28Yohara%29.png",
+    "immagine": "Ammiraglio Angmur (Yohara).png",
+    "funzione": [],
+    "ha_missioni": true,
+    "missioni": [
+      "Una sensazione strana",
+      "Preparativi per il rituale del turbamento",
+      "Il rituale del turbamento"
+    ],
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Fortezza Abbandonata": {
+        "x": 255,
+        "y": 301
+      }
+    }
+  },
+  {
+    "nome": "Aranyo",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Aranyo",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/f/f5/Aranyo.png/260px-Aranyo.png",
+    "immagine": "Aranyo.png",
+    "funzione": [
+      "NPC"
+    ],
+    "ha_missioni": true,
+    "missioni": [
+      "Dove si nasconde?"
+    ],
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Joan": {
+        "x": 553,
+        "y": 596
+      },
+      "Pyungmoo": {
+        "x": 343,
+        "y": 560
+      },
+      "Yongan": {
+        "x": 686,
+        "y": 474
+      }
+    }
+  },
+  {
+    "nome": "Ariyoung",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Ariyoung",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/d/df/Ariyoung.png/260px-Ariyoung.png",
+    "immagine": "Ariyoung.png",
+    "funzione": [
+      "NPC"
+    ],
+    "ha_missioni": true,
+    "missioni": [
+      "Uccidi alcuni Goo Pae"
+    ],
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Bokjung": {
+        "x": 375,
+        "y": 378
+      },
+      "Bakra": {
+        "x": 403,
+        "y": 481
+      },
+      "Jayang": {
+        "x": 408,
+        "y": 581
+      }
+    }
+  },
+  {
+    "nome": "Babbo Natale",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Babbo_Natale",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/a/a6/Babbo_Natale.png/260px-Babbo_Natale.png",
+    "immagine": "Babbo Natale.png",
+    "funzione": [
+      "NPC",
+      "Cucciolo di Renna",
+      "Vin Brulé"
+    ],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Joan": {
+        "x": 596,
+        "y": 610
+      },
+      "Pyungmoo": {
+        "x": 357,
+        "y": 743
+      },
+      "Yongan": {
+        "x": 608,
+        "y": 617
+      }
+    }
+  },
+  {
+    "nome": "Baek-Go",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Baek-Go",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/4/4f/Baek-Go.png/260px-Baek-Go.png",
+    "immagine": "Baek-Go.png",
+    "funzione": [
+      "NPC"
+    ],
+    "ha_missioni": true,
+    "missioni": [
+      "Ingrediente per la Medicina"
+    ],
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Joan": {
+        "x": 673,
+        "y": 589
+      },
+      "Pyungmoo": {
+        "x": 465,
+        "y": 612
+      },
+      "Yongan": {
+        "x": 695,
+        "y": 657
+      }
+    }
+  },
+  {
+    "nome": "Baule d'Oro dei Draghi",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Baule_d%27Oro_dei_Draghi",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/7/76/Baule_d%27Oro_dei_Draghi.png/260px-Baule_d%27Oro_dei_Draghi.png",
+    "immagine": "Baule d'Oro dei Draghi.png",
+    "funzione": [
+      "Rifugio di Meley (gilda)"
+    ],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false
+  },
+  {
+    "nome": "Baule di Gaya",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Baule_di_Gaya",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/0/0a/Baule_di_Gaya.png/260px-Baule_di_Gaya.png",
+    "immagine": "Baule di Gaya.png",
+    "funzione": [
+      "Rifugio di Meley (gruppo)"
+    ],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false
+  },
+  {
+    "nome": "Biologo Chaegirab",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Biologo_Chaegirab",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/8/84/Biologo_Chaegirab.png/260px-Biologo_Chaegirab.png",
+    "immagine": "Biologo Chaegirab.png",
+    "funzione": [
+      "NPC"
+    ],
+    "ha_missioni": true,
+    "missioni": [
+      "Ricerca del Biologo (fiori di pesco)",
+      "Ricerca del Biologo (campanula)",
+      "Ricerca del Biologo (fiori di caco)",
+      "Ricerca del Biologo (radice di gango)",
+      "Ricerca del Biologo (lillà)",
+      "Ricerca del Biologo (fungo tue)",
+      "Ricerca del Biologo (dente d'orco)",
+      "Ricerca del Biologo (libro delle maledizioni)",
+      "Ricerca del Biologo (ricordo del demone)",
+      "Ricerca del Biologo (palla di ghiaccio)",
+      "Ricerca del Biologo (ramo di zelkova)",
+      "Ricerca del Biologo (tavola di tugyi)",
+      "Ricerca del Biologo (ramo d'albero fantasma rosso)",
+      "Ricerca del Biologo (notizie dei capi)"
+    ],
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Joan": {
+        "x": 898,
+        "y": 797
+      },
+      "Pyungmoo": {
+        "x": 285,
+        "y": 285
+      },
+      "Yongan": {
+        "x": 896,
+        "y": 610
+      }
+    }
+  },
+  {
+    "nome": "Biologo Chaegirab (Yohara)",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Biologo_Chaegirab_(Yohara)",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/6/60/Biologo_Chaegirab_%28Yohara%29.png/260px-Biologo_Chaegirab_%28Yohara%29.png",
+    "immagine": "Biologo Chaegirab (Yohara).png",
+    "funzione": [
+      "NPC"
+    ],
+    "ha_missioni": true,
+    "missioni": [
+      "Nuclei purificati",
+      "Cristalli Metin",
+      "Aggressione nelle caverne"
+    ],
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Piana Dongan": {
+        "x": 570,
+        "y": 467
+      }
+    }
+  },
+  {
+    "nome": "Blocco del Destino",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Blocco_del_Destino",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/8/81/Blocco_del_Destino.png/260px-Blocco_del_Destino.png",
+    "immagine": "Blocco del Destino.png",
+    "funzione": [
+      "Fortezza del Drago Rosso"
+    ],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false
+  },
+  {
+    "nome": "Blocco del Destino (FT)",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Blocco_del_Destino_(FT)",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/8/8f/Blocco_del_Destino_%28FT%29.png/260px-Blocco_del_Destino_%28FT%29.png",
+    "immagine": "Blocco del Destino (FT).png",
+    "funzione": [
+      "Fortezza del Drago Rosso (FT)"
+    ],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false
+  },
+  {
+    "nome": "Blocco del Destino (RSV)",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Blocco_del_Destino_(RSV)",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/f/f7/Blocco_del_Destino_%28RSV%29.png/260px-Blocco_del_Destino_%28RSV%29.png",
+    "immagine": "Blocco del Destino (RSV).png",
+    "funzione": [
+      "Fortezza del Drago Rosso (RSV)"
+    ],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false
+  },
+  {
+    "nome": "Bottegaia",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Bottegaia",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/6/6c/Bottegaia.png/260px-Bottegaia.png",
+    "immagine": "Bottegaia.png",
+    "funzione": [
+      "NPC"
+    ],
+    "ha_missioni": true,
+    "missioni": [
+      "La bottiglia vuota",
+      "La cena",
+      "Lo spillone per capelli!!",
+      "Un Nuovo Profumo"
+    ],
+    "vende": [],
+    "venditore": true,
+    "posizioni": {
+      "Joan": {
+        "x": 590,
+        "y": 689
+      },
+      "Bokjung": {
+        "x": 389,
+        "y": 352
+      },
+      "Contea Songpa": {
+        "x": 258,
+        "y": 239
+      },
+      "Pyungmoo": {
+        "x": 383,
+        "y": 693
+      },
+      "Bakra": {
+        "x": 484,
+        "y": 387
+      },
+      "Contea Daeyami": {
+        "x": 258,
+        "y": 239
+      },
+      "Yongan": {
+        "x": 678,
+        "y": 565
+      },
+      "Jayang": {
+        "x": 422,
+        "y": 608
+      },
+      "Contea Miryang": {
+        "x": 258,
+        "y": 239
+      },
+      "Capo Fuoco del Drago": {
+        "x": 579,
+        "y": 1223
+      },
+      "Bazar": {
+        "x": 398,
+        "y": 253
+      }
+    }
+  },
+  {
+    "nome": "Bottegaia (Yohara)",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Bottegaia_(Yohara)",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/9/9f/Bottegaia_%28Yohara%29.png/260px-Bottegaia_%28Yohara%29.png",
+    "immagine": "Bottegaia (Yohara).png",
+    "funzione": [
+      "NPC"
+    ],
+    "ha_missioni": true,
+    "missioni": [
+      "Consegna la merce in sicurezza",
+      "Dimostra ciò che sai fare"
+    ],
+    "vende": [],
+    "venditore": true,
+    "posizioni": {
+      "Piana Dongan": {
+        "x": 566,
+        "y": 687
+      }
+    }
+  },
+  {
+    "nome": "Bottegaia (Inferna Sung Mahi)",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Bottegaia_(Inferna_Sung_Mahi)",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/a/ab/Bottegaia_%28Inferna_Sung_Mahi%29.png/260px-Bottegaia_%28Inferna_Sung_Mahi%29.png",
+    "immagine": "Bottegaia (Inferna Sung Mahi).png",
+    "funzione": [
+      "NPC",
+      "Inferna Sung Mahi"
+    ],
+    "ha_missioni": true,
+    "missioni": [
+      "Racconta com'è la situazione nell'Inferna Sung Mahi"
+    ],
+    "vende": [],
+    "venditore": true,
+    "posizioni": {
+      "Inferna Sung Mahi": {
+        "x": 137,
+        "y": 142
+      }
+    }
+  },
+  {
+    "nome": "Camminatore Yon-I",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Camminatore_Yon-I",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/4/4b/Camminatore_Yon-I.png/260px-Camminatore_Yon-I.png",
+    "immagine": "Camminatore Yon-I.png",
+    "funzione": [
+      "NPC"
+    ],
+    "ha_missioni": true,
+    "missioni": [
+      "Decodifica",
+      "Lettera della Manticora Decifrata",
+      "Scorta di Potenza II",
+      "Scorta di Potenza III"
+    ],
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Capo Fuoco del Drago": {
+        "x": 550,
+        "y": 1278
+      }
+    }
+  },
+  {
+    "nome": "Cancello del Drago",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Cancello_del_Drago",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/d/df/Cancello_del_Drago.png/260px-Cancello_del_Drago.png",
+    "immagine": "Cancello del Drago.png",
+    "funzione": [
+      "Fortezza del Drago Rosso"
+    ],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false
+  },
+  {
+    "nome": "Cancello del Drago (FT)",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Cancello_del_Drago_(FT)",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/5/53/Cancello_del_Drago_%28FT%29.png/260px-Cancello_del_Drago_%28FT%29.png",
+    "immagine": "Cancello del Drago (FT).png",
+    "funzione": [
+      "Fortezza del Drago Rosso (FT)"
+    ],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false
+  },
+  {
+    "nome": "Cancello del Drago (RSV)",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Cancello_del_Drago_(RSV)",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/b/b1/Cancello_del_Drago_%28RSV%29.png/260px-Cancello_del_Drago_%28RSV%29.png",
+    "immagine": "Cancello del Drago (RSV).png",
+    "funzione": [
+      "Fortezza del Drago Rosso (RSV)"
+    ],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false
+  },
+  {
+    "nome": "Capo Guardiani Foresta",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Capo_Guardiani_Foresta",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/5/52/Capo_Guardiani_Foresta.png/260px-Capo_Guardiani_Foresta.png",
+    "immagine": "Capo Guardiani Foresta.png",
+    "funzione": [
+      "Erebus"
+    ],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Sottobosco": {
+        "x": 615,
+        "y": 108
+      }
+    }
+  },
+  {
+    "nome": "Capo Guardiani Foresta (FT)",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Capo_Guardiani_Foresta_(FT)",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/9/92/Capo_Guardiani_Foresta_%28FT%29.png/260px-Capo_Guardiani_Foresta_%28FT%29.png",
+    "immagine": "Capo Guardiani Foresta (FT).png",
+    "funzione": [
+      "Erebus (FT)"
+    ],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Sottobosco (FT)": {
+        "x": 615,
+        "y": 108
+      }
+    }
+  },
+  {
+    "nome": "Capo Guardiani Foresta (RSV)",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Capo_Guardiani_Foresta_(RSV)",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/2/2f/Capo_Guardiani_Foresta_%28RSV%29.png/260px-Capo_Guardiani_Foresta_%28RSV%29.png",
+    "immagine": "Capo Guardiani Foresta (RSV).png",
+    "funzione": [
+      "Erebus (RSV)"
+    ],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Sottobosco (RSV)": {
+        "x": 615,
+        "y": 108
+      }
+    }
+  },
+  {
+    "nome": "Casella di Posta",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Casella_di_Posta",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/f/fd/Casella_di_Posta.png/260px-Casella_di_Posta.png",
+    "immagine": "Casella di Posta.png",
+    "funzione": [
+      "Sistema del Mailing"
+    ],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Joan": {
+        "x": 613,
+        "y": 593
+      },
+      "Bokjung": {
+        "x": 471,
+        "y": 354
+      },
+      "Contea Songpa": {
+        "x": 267,
+        "y": 244
+      },
+      "Pyungmoo": {
+        "x": 316,
+        "y": 554
+      },
+      "Bakra": {
+        "x": 394,
+        "y": 400
+      },
+      "Contea Daeyami": {
+        "x": 267,
+        "y": 244
+      },
+      "Yongan": {
+        "x": 681,
+        "y": 602
+      },
+      "Jayang": {
+        "x": 435,
+        "y": 581
+      },
+      "Contea Miryang": {
+        "x": 267,
+        "y": 244
+      },
+      "Capo Fuoco del Drago": {
+        "x": 648,
+        "y": 1262
+      },
+      "Bazar": {
+        "x": 408,
+        "y": 273
+      },
+      "Piana Dongan": {
+        "x": 528,
+        "y": 674
+      },
+      "Inferna Sung Mahi": {
+        "x": 109,
+        "y": 142
+      }
+    }
+  },
+  {
+    "nome": "Chuk-Sal",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Chuk-Sal",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/5/5f/Chuk-Sal.png/260px-Chuk-Sal.png",
+    "immagine": "Chuk-Sal.png",
+    "funzione": [],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Kuahlo Dong": {
+        "x": 412,
+        "y": 391
+      }
+    }
+  },
+  {
+    "nome": "Cittadino a digiuno",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Cittadino_a_digiuno",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/b/b5/Cittadino_a_digiuno.png/260px-Cittadino_a_digiuno.png",
+    "immagine": "Cittadino a digiuno.png",
+    "funzione": [
+      "Offerta di Cibo",
+      "File:Icona Offerta di Cibo.png",
+      "Forziere Benedetto",
+      "File:Icona Forziere Benedetto.png"
+    ],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false
+  },
+  {
+    "nome": "Cittadino Ubriaco",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Cittadino_Ubriaco",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/e/e9/Cittadino_Ubriaco.png/260px-Cittadino_Ubriaco.png",
+    "immagine": "Cittadino_Ubriaco.png",
+    "funzione": [],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false
+  },
+  {
+    "nome": "Comandante",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Comandante",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/5/56/Comandante.png/260px-Comandante.png",
+    "immagine": "Comandante.png",
+    "funzione": [
+      "NPC"
+    ],
+    "ha_missioni": true,
+    "missioni": [
+      "Cerca il musicista Yu-Hwan",
+      "Uccidi 10 lupi grigi alfa",
+      "Distruggi metin della battaglia",
+      "Cerca il musicista Yuhwan",
+      "Cattura la spia",
+      "La cavalleria corazzata",
+      "Distruggi le rocce metin!",
+      "Gli uomini inquietanti",
+      "Uccidi i generali del Vento oscuro!",
+      "Svela il seguente codice",
+      "Aiuti Militari di sostegno",
+      "Incontrare la spia",
+      "L'epigrafe",
+      "Il rifornimento",
+      "Riposo notturno"
+    ],
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Yongan": {
+        "x": 573,
+        "y": 531
+      },
+      "Pyungmoo": {
+        "x": 286,
+        "y": 639
+      },
+      "Joan": {
+        "x": 772,
+        "y": 682
+      }
+    }
+  },
+  {
+    "nome": "Comandante Distaccato",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Comandante_Distaccato",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/1/1d/Comandante_Distaccato.png/260px-Comandante_Distaccato.png",
+    "immagine": "Comandante Distaccato.png",
+    "funzione": [
+      "NPC"
+    ],
+    "ha_missioni": true,
+    "missioni": [
+      "Pietre dell'anima"
+    ],
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Piana Dongan": {
+        "x": 633,
+        "y": 920
+      }
+    }
+  },
+  {
+    "nome": "Comandante di Yohara",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Comandante_di_Yohara",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/d/d1/Comandante_di_Yohara.png/260px-Comandante_di_Yohara.png",
+    "immagine": "Comandante di Yohara.png",
+    "funzione": [],
+    "ha_missioni": true,
+    "missioni": [
+      "Incarico Piana Dongan (ripetiz.)",
+      "2° Incarico Piana Dongan (ripetiz.)"
+    ],
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Piana Dongan": {
+        "x": 535,
+        "y": 710
+      }
+    }
+  },
+  {
+    "nome": "Commerciante Zodiaco",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Commerciante_Zodiaco",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/5/58/Commerciante_Zodiaco.png/260px-Commerciante_Zodiaco.png",
+    "immagine": "Commerciante Zodiaco.png",
+    "funzione": [],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": true
+  },
+  {
+    "nome": "Confucio",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Confucio",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/2/22/Confucio.png/260px-Confucio.png",
+    "immagine": "Confucio.png",
+    "funzione": [],
+    "ha_missioni": true,
+    "missioni": [
+      "Pericolo nella Terra del Fuoco"
+    ],
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Capo Fuoco del Drago": {
+        "x": 614,
+        "y": 1304
+      }
+    }
+  },
+  {
+    "nome": "Confucio (Yohara)",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Confucio_(Yohara)",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/a/a8/Confucio_%28Yohara%29.png/260px-Confucio_%28Yohara%29.png",
+    "immagine": "Confucio (Yohara).png",
+    "funzione": [
+      "NPC"
+    ],
+    "ha_missioni": true,
+    "missioni": [
+      "Pozioni per il villaggio",
+      "Armi per il villaggio",
+      "Una malattia misteriosa",
+      "Gnoll nel villaggio",
+      "Aria di festa",
+      "Problemi nelle Caverne Gnoll",
+      "Indebolisci l'influsso 1",
+      "Indebolisci l'influsso 2",
+      "Una valle nascosta"
+    ],
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Piana Dongan": {
+        "x": 517,
+        "y": 676
+      }
+    }
+  },
+  {
+    "nome": "Coniglio Pasquale",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Coniglio_Pasquale",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/4/44/Coniglio_Pasquale.png/260px-Coniglio_Pasquale.png",
+    "immagine": "Coniglio Pasquale.png",
+    "funzione": [],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false
+  },
+  {
+    "nome": "Custode delle Medaglie",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Custode_delle_Medaglie",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/2/2a/Custode_delle_Medaglie.png/260px-Custode_delle_Medaglie.png",
+    "immagine": "Custode_delle_Medaglie.png",
+    "funzione": [
+      "Palazzo del Re Drago"
+    ],
+    "ha_missioni": true,
+    "missioni": [],
+    "vende": [],
+    "venditore": true,
+    "posizioni": {
+      "Waryong": {
+        "x": 253,
+        "y": 236
+      },
+      "Imha": {
+        "x": 284,
+        "y": 240
+      },
+      "Jungrang": {
+        "x": 346,
+        "y": 171
+      }
+    }
+  },
+  {
+    "nome": "Dado Artico",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Dado_Artico",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/7/76/Dado_Artico.png/260px-Dado_Artico.png",
+    "immagine": "Dado Artico.png",
+    "funzione": [
+      "Stella Polare"
+    ],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false
+  },
+  {
+    "nome": "Dado Artico (FT)",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Dado_Artico_(FT)",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/8/82/Dado_Artico_%28FT%29.png/260px-Dado_Artico_%28FT%29.png",
+    "immagine": "Dado Artico (FT).png",
+    "funzione": [
+      "Stella Polare (FT)"
+    ],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false
+  },
+  {
+    "nome": "Dado Artico (RSV)",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Dado_Artico_(RSV)",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/6/66/Dado_Artico_%28RSV%29.png/260px-Dado_Artico_%28RSV%29.png",
+    "immagine": "Dado Artico (RSV).png",
+    "funzione": [
+      "Stella Polare (RSV)"
+    ],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false
+  },
+  {
+    "nome": "Deokbae",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Deokbae",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/0/07/Deokbae.png/260px-Deokbae.png",
+    "immagine": "Deokbae.png",
+    "funzione": [],
+    "ha_missioni": true,
+    "missioni": [
+      "L'ascia d'oro di Deokbae"
+    ],
+    "vende": [],
+    "venditore": true,
+    "posizioni": {
+      "Bokjung": {
+        "x": 466,
+        "y": 321
+      },
+      "Bakra": {
+        "x": 515,
+        "y": 322
+      },
+      "Jayang": {
+        "x": 582,
+        "y": 561
+      },
+      "Piana Dongan": {
+        "x": 467,
+        "y": 681
+      }
+    }
+  },
+  {
+    "nome": "Dolnarr Guardiano dei Draghi",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Dolnarr_Guardiano_dei_Draghi",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/1/16/Dolnarr_Guardiano_dei_Draghi.png/260px-Dolnarr_Guardiano_dei_Draghi.png",
+    "immagine": "Dolnarr Guardiano dei Draghi.png",
+    "funzione": [
+      "Rifugio di Meley (gilda)",
+      "Rifugio di Meley (gruppo)",
+      "Cripta di Balathor",
+      "Rifugio di Meley (gilda)"
+    ],
+    "ha_missioni": true,
+    "missioni": [
+      "Traccia di Meley II"
+    ],
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Doyyumhwaji": {
+        "x": 83,
+        "y": 851
+      },
+      "Monte Sohan": {
+        "x": 668,
+        "y": 93
+      }
+    }
+  },
+  {
+    "nome": "Erba solare",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Erba_solare",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/a/a7/Erba_solare.png/260px-Erba_solare.png",
+    "immagine": "Erba solare.png",
+    "funzione": [
+      "NPC"
+    ],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Doyyumhwaji": {
+        "x": 227,
+        "y": 731
+      }
+    }
+  },
+  {
+    "nome": "Esploratore della Foresta",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Esploratore_della_Foresta",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/4/48/Esploratore_della_Foresta.png/260px-Esploratore_della_Foresta.png",
+    "immagine": "Esploratore della Foresta.png",
+    "funzione": [
+      "NPC"
+    ],
+    "ha_missioni": true,
+    "missioni": [
+      "Seconda perlustrazione",
+      "Procura la Rugiada En-Tai"
+    ],
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Sottobosco": {
+        "x": 680,
+        "y": 400
+      }
+    }
+  },
+  {
+    "nome": "Esploratore della Foresta (FT)",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Esploratore_della_Foresta_(FT)",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/4/41/Esploratore_della_Foresta_%28FT%29.png/260px-Esploratore_della_Foresta_%28FT%29.png",
+    "immagine": "Esploratore della Foresta (FT).png",
+    "funzione": [
+      "NPC"
+    ],
+    "ha_missioni": true,
+    "missioni": [
+      "Seconda perlustrazione della Frattura temporale",
+      "Procura la Rugiada En-Tai (FT)"
+    ],
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Sottobosco (FT)": {
+        "x": 680,
+        "y": 400
+      }
+    }
+  },
+  {
+    "nome": "Esploratore della Foresta (RSV)",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Esploratore_della_Foresta_(RSV)",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/a/a0/Esploratore_della_Foresta_%28RSV%29.png/260px-Esploratore_della_Foresta_%28RSV%29.png",
+    "immagine": "Esploratore della Foresta (FT).png",
+    "funzione": [
+      "NPC"
+    ],
+    "ha_missioni": true,
+    "missioni": [
+      "Seconda perlustrazione del Risveglio",
+      "Procura la Rugiada En-Tai (RSV)"
+    ],
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Sottobosco (RSV)": {
+        "x": 680,
+        "y": 400
+      }
+    }
+  },
+  {
+    "nome": "Fabbricante d'Armature",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Fabbricante_d%27Armature",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/b/b1/Fabbricante_d%27Armature.png/260px-Fabbricante_d%27Armature.png",
+    "immagine": "Fabbricante d'Armature.png",
+    "funzione": [],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false
+  },
+  {
+    "nome": "Fabbricante d'Armi",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Fabbricante_d%27Armi",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/7/77/Fabbricante_d%27Armi.png/260px-Fabbricante_d%27Armi.png",
+    "immagine": "Fabbricante d'Armi.png",
+    "funzione": [],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false
+  },
+  {
+    "nome": "Fabbro",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Fabbro",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/5/58/Fabbro.png/260px-Fabbro.png",
+    "immagine": "Fabbro.png",
+    "funzione": [
+      "NPC",
+      "Papiro del Drago",
+      "Papiro della Guerra",
+      "Libro del Fabbro"
+    ],
+    "ha_missioni": true,
+    "missioni": [
+      "Un altro favore",
+      "Come sta Deokbae?",
+      "Trova l'ascia d'oro",
+      "La nuova armatura",
+      "La nuova arma del fabbro"
+    ],
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Joan": {
+        "x": 594,
+        "y": 692
+      },
+      "Bokjung": {
+        "x": 396,
+        "y": 344
+      },
+      "Contea Songpa": {
+        "x": 257,
+        "y": 269
+      },
+      "Pyungmoo": {
+        "x": 393,
+        "y": 692
+      },
+      "Bakra": {
+        "x": 491,
+        "y": 399
+      },
+      "Contea Daeyami": {
+        "x": 257,
+        "y": 269
+      },
+      "Yongan": {
+        "x": 672,
+        "y": 556
+      },
+      "Jayang": {
+        "x": 423,
+        "y": 618
+      },
+      "Contea Miryang": {
+        "x": 257,
+        "y": 269
+      },
+      "Capo Fuoco del Drago": {
+        "x": 504,
+        "y": 1211
+      },
+      "Bazar": {
+        "x": 101,
+        "y": 366
+      }
+    }
+  },
+  {
+    "nome": "Fabbro (Yohara)",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Fabbro_(Yohara)",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/3/39/Fabbro_%28Yohara%29.png/260px-Fabbro_%28Yohara%29.png",
+    "immagine": "Fabbro (Yohara).png",
+    "funzione": [
+      "NPC",
+      "Papiro del Drago",
+      "Papiro della Guerra",
+      "Libro del Fabbro"
+    ],
+    "ha_missioni": true,
+    "missioni": [
+      "Armature per il villaggio"
+    ],
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Piana Dongan": {
+        "x": 498,
+        "y": 738
+      }
+    }
+  },
+  {
+    "nome": "Fabbro Set Cortese",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Fabbro_Set_Cortese",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/1/1a/Fabbro_Set_Cortese.png/260px-Fabbro_Set_Cortese.png",
+    "immagine": "Fabbro Set Cortese.png",
+    "funzione": [],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Porto del Nuovo Continente": {
+        "x": 256,
+        "y": 570
+      }
+    }
+  },
+  {
+    "nome": "Fabbro Set Maestoso",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Fabbro_Set_Maestoso",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/5/5b/Fabbro_Set_Maestoso.png/260px-Fabbro_Set_Maestoso.png",
+    "immagine": "Fabbro Set Maestoso.png",
+    "funzione": [],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Porto del Nuovo Continente": {
+        "x": 254,
+        "y": 572
+      }
+    }
+  },
+  {
+    "nome": "Fabbro Set Reale",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Fabbro_Set_Reale",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/e/ef/Fabbro_Set_Reale.png/260px-Fabbro_Set_Reale.png",
+    "immagine": "Fabbro Set Reale.png",
+    "funzione": [],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Porto del Nuovo Continente": {
+        "x": 255,
+        "y": 571
+      }
+    }
+  },
+  {
+    "nome": "Fabbro Set Sacro",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Fabbro_Set_Sacro",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/a/af/Fabbro_Set_Sacro.png/260px-Fabbro_Set_Sacro.png",
+    "immagine": "Fabbro Set Sacro.png",
+    "funzione": [],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Porto del Nuovo Continente": {
+        "x": 258,
+        "y": 268
+      }
+    }
+  },
+  {
+    "nome": "Fabbro Set Sontuoso",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Fabbro_Set_Sontuoso",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/e/e2/Fabbro_Set_Sontuoso.png/260px-Fabbro_Set_Sontuoso.png",
+    "immagine": "Fabbro Set Sontuoso.png",
+    "funzione": [],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Porto del Nuovo Continente": {
+        "x": 257,
+        "y": 269
+      }
+    }
+  },
+  {
+    "nome": "Ferito",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Ferito",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/6/6b/Ferito.png/260px-Ferito.png",
+    "immagine": "Ferito.png",
+    "funzione": [
+      "NPC"
+    ],
+    "ha_missioni": true,
+    "missioni": [
+      "Il Ferito"
+    ],
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Piana Dongan": {
+        "x": 214,
+        "y": 530
+      }
+    }
+  },
+  {
+    "nome": "Fiori Contaminati",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Fiori_Contaminati",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/4/4d/Fiori_Contaminati.png/260px-Fiori_Contaminati.png",
+    "immagine": "Fiori Contaminati.png",
+    "funzione": [
+      "Acqua contaminata"
+    ],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Piana Dongan": {
+        "x": 485,
+        "y": 585
+      }
+    }
+  },
+  {
+    "nome": "Fiore delle Rocce",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Fiore_delle_Rocce",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/1/14/Fiore_delle_Rocce.png/260px-Fiore_delle_Rocce.png",
+    "immagine": "Fiore delle Rocce.png",
+    "funzione": [
+      "NPC"
+    ],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Capo Fuoco del Drago": {
+        "x": 1430,
+        "y": 1140
+      }
+    }
+  },
+  {
+    "nome": "Fiori Senza Nome",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Fiori_Senza_Nome",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/6/65/Fiori_Senza_Nome.png/260px-Fiori_Senza_Nome.png",
+    "immagine": "Fiori Senza Nome.png",
+    "funzione": [
+      "NPC"
+    ],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Joan": {
+        "x": 250,
+        "y": 1104
+      },
+      "Pyungmoo": {
+        "x": 771,
+        "y": 78
+      },
+      "Yongan": {
+        "x": 60,
+        "y": 1118
+      }
+    }
+  },
+  {
+    "nome": "Fiori (Yohara)",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Fiori_(Yohara)",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/f/f6/Fiori_%28Yohara%29.png/260px-Fiori_%28Yohara%29.png",
+    "immagine": "Fiori (Yohara).png",
+    "funzione": [
+      "Il Ferito"
+    ],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Piana Dongan": {
+        "x": 655,
+        "y": 767
+      }
+    }
+  },
+  {
+    "nome": "Gioielliere",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Gioielliere",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/5/5b/Gioielliere.png/260px-Gioielliere.png",
+    "immagine": "Gioielliere.png",
+    "funzione": [],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false
+  },
+  {
+    "nome": "Guardia del Corpo",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Guardia_del_Corpo",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/6/6a/Guardia_del_Corpo.png/260px-Guardia_del_Corpo.png",
+    "immagine": "Guardia del Corpo.png",
+    "funzione": [],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Capo Fuoco del Drago": {
+        "x": 819,
+        "y": 1261
+      }
+    }
+  },
+  {
+    "nome": "Guardia di Yohara",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Guardia_di_Yohara",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/8/81/Guardia_di_Yohara.png/260px-Guardia_di_Yohara.png",
+    "immagine": "Guardia di Yohara.png",
+    "funzione": [],
+    "ha_missioni": true,
+    "missioni": [
+      "Vita a rischio"
+    ],
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Fortezza Abbandonata": {
+        "x": 254,
+        "y": 112
+      }
+    }
+  },
+  {
+    "nome": "Guardiano del Portale",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Guardiano_del_Portale",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/e/e9/Guardiano_del_Portale.png/260px-Guardiano_del_Portale.png",
+    "immagine": "Guardiano del Portale.png",
+    "funzione": [
+      "NPC"
+    ],
+    "ha_missioni": true,
+    "missioni": [
+      "Fonte del male",
+      "Caccia ai meteoriti"
+    ],
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Mappa dei Lican": {
+        "x": 87,
+        "y": 123
+      }
+    }
+  },
+  {
+    "nome": "Guardiano del Tempio",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Guardiano_del_Tempio",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/4/43/Guardiano_del_Tempio.png/260px-Guardiano_del_Tempio.png",
+    "immagine": "Guardiano del Tempio.png",
+    "funzione": [
+      "NPC"
+    ],
+    "ha_missioni": true,
+    "missioni": [
+      "Caos nella Foresta Incantata"
+    ],
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Falesia di Gautama": {
+        "x": 1003,
+        "y": 695
+      }
+    }
+  },
+  {
+    "nome": "Guardiano dell'Altare",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Guardiano_dell%27Altare",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/f/fb/Guardiano_dell%27Altare.png/260px-Guardiano_dell%27Altare.png",
+    "immagine": "Guardiano dell'Altare.png",
+    "funzione": [],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false
+  },
+  {
+    "nome": "Guardiano dell'Arena",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Guardiano_dell%27Arena",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/1/1e/Guardiano_dell%27Arena.png/260px-Guardiano_dell%27Arena.png",
+    "immagine": "Guardiano dell'Arena.png",
+    "funzione": [],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false
+  },
+  {
+    "nome": "Guardiano della Catacomba",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Guardiano_della_Catacomba",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/7/73/Guardiano_della_Catacomba.png/260px-Guardiano_della_Catacomba.png",
+    "immagine": "Guardiano della Catacomba.png",
+    "funzione": [
+      "PG",
+      "Catacombe del Diavolo",
+      "livello"
+    ],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Tempio Hwang": {
+        "x": 542,
+        "y": 492
+      }
+    }
+  },
+  {
+    "nome": "Guardiano della Città",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Guardiano_della_Citt%C3%A0",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/d/d8/Guardiano_della_Citt%C3%A0.png/260px-Guardiano_della_Citt%C3%A0.png",
+    "immagine": "Guardiano della Città.png",
+    "funzione": [
+      "NPC"
+    ],
+    "ha_missioni": true,
+    "missioni": [
+      "Primo esercizio",
+      "Consegna il Libro",
+      "Vai dal guardiano della città",
+      "Parla con il Guardiano della Città"
+    ],
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Yongan": {
+        "x": 695,
+        "y": 657
+      },
+      "Pyungmoo": {
+        "x": 468,
+        "y": 714
+      },
+      "Joan": {
+        "x": 571,
+        "y": 558
+      }
+    }
+  },
+  {
+    "nome": "Guardiano della Colonia",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Guardiano_della_Colonia",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/4/45/Guardiano_della_Colonia.png/260px-Guardiano_della_Colonia.png",
+    "immagine": "Guardiano della Colonia.png",
+    "funzione": [
+      "NPC"
+    ],
+    "ha_missioni": true,
+    "missioni": [
+      "Frenesia degli animali",
+      "Pietra sconosciuta (missione)"
+    ],
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Mappa dei Lican": {
+        "x": 369,
+        "y": 343
+      }
+    }
+  },
+  {
+    "nome": "Guardiano della Foresta",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Guardiano_della_Foresta",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/9/90/Guardiano_della_Foresta.png/260px-Guardiano_della_Foresta.png",
+    "immagine": "Guardiano della Foresta.png",
+    "funzione": [
+      "NPC"
+    ],
+    "ha_missioni": true,
+    "missioni": [
+      "Prima perlustrazione",
+      "Trova la Borsa Medica",
+      "Consegna la Borsa Medica"
+    ],
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Sottobosco": {
+        "x": 495,
+        "y": 963
+      }
+    }
+  },
+  {
+    "nome": "Guardiano della Foresta (FT)",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Guardiano_della_Foresta_(FT)",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/7/76/Guardiano_della_Foresta_%28FT%29.png/260px-Guardiano_della_Foresta_%28FT%29.png",
+    "immagine": "Guardiano della Foresta (FT).png",
+    "funzione": [
+      "NPC"
+    ],
+    "ha_missioni": true,
+    "missioni": [
+      "Prima Perlustrazione della Frattura Temporale",
+      "Trova la Borsa medica della Frattura temporale",
+      "Consegna la Borsa medica della Frattura temporale"
+    ],
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Sottobosco (FT)": {
+        "x": 495,
+        "y": 963
+      }
+    }
+  },
+  {
+    "nome": "Guardiano della Foresta (RSV)",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Guardiano_della_Foresta_(RSV)",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/0/06/Guardiano_della_Foresta_%28RSV%29.png/260px-Guardiano_della_Foresta_%28RSV%29.png",
+    "immagine": "Guardiano della Foresta (RSV).png",
+    "funzione": [
+      "NPC"
+    ],
+    "ha_missioni": true,
+    "missioni": [
+      "Prima perlustrazione del Risveglio",
+      "Trova la Borsa medica del Risveglio",
+      "Consegna la Borsa medica del Risveglio"
+    ],
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Sottobosco (RSV)": {
+        "x": 495,
+        "y": 963
+      }
+    }
+  },
+  {
+    "nome": "Guardiano della Piazza del Villaggio",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Guardiano_della_Piazza_del_Villaggio",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/4/4d/Guardiano_della_Piazza_del_Villaggio.png/260px-Guardiano_della_Piazza_del_Villaggio.png",
+    "immagine": "Guardiano della Piazza del Villaggio.png",
+    "funzione": [],
+    "ha_missioni": true,
+    "missioni": [
+      "Compra la Pozione Rossa",
+      "Mi-Jung delle eid bianche",
+      "Uccidi Eun-Jung delle eid bianche",
+      "Il Guardiano Malato",
+      "La lettera anonima"
+    ],
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Joan": {
+        "x": 633,
+        "y": 640
+      },
+      "Bokjung": {
+        "x": 431,
+        "y": 357
+      },
+      "Pyungmoo": {
+        "x": 383,
+        "y": 640
+      },
+      "Bakra": {
+        "x": 442,
+        "y": 412
+      },
+      "Yongan": {
+        "x": 647,
+        "y": 542
+      },
+      "Jayang": {
+        "x": 548,
+        "y": 631
+      }
+    }
+  },
+  {
+    "nome": "Guardiano della Terra del Fuoco",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Guardiano_della_Terra_del_Fuoco",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/8/83/Guardiano_della_Terra_del_Fuoco.png/260px-Guardiano_della_Terra_del_Fuoco.png",
+    "immagine": "Guardiano della Terra del Fuoco.png",
+    "funzione": [
+      "NPC",
+      "Biglietto del Passaggio",
+      "Fortezza del Drago Rosso"
+    ],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Doyyumhwaji": {
+        "x": 260,
+        "y": 926
+      }
+    }
+  },
+  {
+    "nome": "Guardiano di Yohara",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Guardiano_di_Yohara",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/0/0c/Guardiano_di_Yohara.png/260px-Guardiano_di_Yohara.png",
+    "immagine": "Guardiano di Yohara.png",
+    "funzione": [],
+    "ha_missioni": true,
+    "missioni": [
+      "Vita a rischio",
+      "Il capo dei demoni"
+    ],
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Fortezza Abbandonata": {
+        "x": 254,
+        "y": 78
+      }
+    }
+  },
+  {
+    "nome": "Guardiano Terra dei Ghiacci",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Guardiano_Terra_dei_Ghiacci",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/7/7f/Guardiano_Terra_dei_Ghiacci.png/260px-Guardiano_Terra_dei_Ghiacci.png",
+    "immagine": "Guardiano Terra dei Ghiacci.png",
+    "funzione": [
+      "Torre di Vedetta di Nemere"
+    ],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Monte Sohan": {
+        "x": 734,
+        "y": 106
+      }
+    }
+  },
+  {
+    "nome": "Guardiano Torre dei Demoni",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Guardiano_Torre_dei_Demoni",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/2/24/Guardiano_Torre_dei_Demoni.png/260px-Guardiano_Torre_dei_Demoni.png",
+    "immagine": "Guardiano Torre dei Demoni.png",
+    "funzione": [
+      "PG",
+      "Torre dei Demoni",
+      "livello"
+    ],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Tempio Hwang": {
+        "x": 532,
+        "y": 596
+      }
+    }
+  },
+  {
+    "nome": "Handu-Up",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Handu-Up",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/f/f7/Handu-Up.png/260px-Handu-Up.png",
+    "immagine": "Handu-Up.png",
+    "funzione": [
+      "Succo di Radice di Gango"
+    ],
+    "ha_missioni": true,
+    "missioni": [
+      "Sagra del Raccolto"
+    ],
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Yongan": {
+        "x": 545,
+        "y": 397
+      },
+      "Pyungmoo": {
+        "x": 447,
+        "y": 928
+      },
+      "Joan": {
+        "x": 864,
+        "y": 823
+      }
+    }
+  },
+  {
+    "nome": "Harang",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Harang",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/e/e7/Harang.png/260px-Harang.png",
+    "immagine": "Harang.png",
+    "funzione": [
+      "NPC"
+    ],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Bokjung": {
+        "x": 489,
+        "y": 355
+      },
+      "Bakra": {
+        "x": 372,
+        "y": 362
+      },
+      "Jayang": {
+        "x": 583,
+        "y": 585
+      }
+    }
+  },
+  {
+    "nome": "Heuk-Young",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Heuk-Young",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/a/a5/Heuk-Young.png/260px-Heuk-Young.png",
+    "immagine": "Heuk-Young.png",
+    "funzione": [],
+    "ha_missioni": true,
+    "missioni": [
+      "Il Diario di una Leggenda"
+    ],
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Grotta 1": {
+        "x": 120,
+        "y": 80
+      },
+      "Bokjung": {
+        "x": 397,
+        "y": 250
+      },
+      "Bakra": {
+        "x": 566,
+        "y": 426
+      },
+      "Jayang": {
+        "x": 588,
+        "y": 617
+      },
+      "Valle di Seungryong": {
+        "x": 286,
+        "y": 1437
+      }
+    }
+  },
+  {
+    "nome": "Huahn-So",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Huahn-So",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/e/ef/Huahn-So.png/260px-Huahn-So.png",
+    "immagine": "Huahn-So.png",
+    "funzione": [],
+    "ha_missioni": true,
+    "missioni": [
+      "Vai a prendere il fiore"
+    ],
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Bokjung": {
+        "x": 449,
+        "y": 303
+      },
+      "Bakra": {
+        "x": 370,
+        "y": 475
+      },
+      "Jayang": {
+        "x": 419,
+        "y": 563
+      }
+    }
+  },
+  {
+    "nome": "Insegnante della Dottrina",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Insegnante_della_Dottrina",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/3/37/Insegnante_della_Dottrina.png/260px-Insegnante_della_Dottrina.png",
+    "immagine": "Insegnante della Dottrina.png",
+    "funzione": [
+      "NPC"
+    ],
+    "ha_missioni": true,
+    "missioni": [
+      "Cerca un Soldato Esperto (segreta)",
+      "Pattuglia il Castello (segreta)",
+      "Aiuta i morti a riposare",
+      "L'istruzione"
+    ],
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Yongan": {
+        "x": 76,
+        "y": 601
+      },
+      "Pyungmoo": {
+        "x": 125,
+        "y": 1118
+      },
+      "Joan": {
+        "x": 908,
+        "y": 82
+      }
+    }
+  },
+  {
+    "nome": "Jack Pumpkin",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Jack_Pumpkin",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/f/fe/Jack_Pumpkin.png/260px-Jack_Pumpkin.png",
+    "immagine": "Jack Pumpkin.png",
+    "funzione": [
+      "Carta Maschera Zucca",
+      "Maschera Zucca"
+    ],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Joan": {
+        "x": 596,
+        "y": 609
+      },
+      "Pyungmoo": {
+        "x": 356,
+        "y": 743
+      },
+      "Yongan": {
+        "x": 607,
+        "y": 616
+      }
+    }
+  },
+  {
+    "nome": "Jae-Seon Kim",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Jae-Seon_Kim",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/e/ea/Jae-Seon_Kim.png/260px-Jae-Seon_Kim.png",
+    "immagine": "Jae-Seon Kim.png",
+    "funzione": [],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Capo Fuoco del Drago": {
+        "x": 667,
+        "y": 1236
+      }
+    }
+  },
+  {
+    "nome": "Jaharr Guardiano dei Draghi",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Jaharr_Guardiano_dei_Draghi",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/c/ce/Jaharr_Guardiano_dei_Draghi.png/260px-Jaharr_Guardiano_dei_Draghi.png",
+    "immagine": "Jaharr Guardiano dei Draghi.png",
+    "funzione": [
+      "Rifugio di Meley (gruppo)",
+      "Rifugio di Meley (gruppo)"
+    ],
+    "ha_missioni": true,
+    "missioni": [],
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Joan": {
+        "x": 658,
+        "y": 683
+      },
+      "Pyungmoo": {
+        "x": 322,
+        "y": 734
+      },
+      "Yongan": {
+        "x": 555,
+        "y": 533
+      },
+      "Piana Dongan": {
+        "x": 503,
+        "y": 707
+      }
+    }
+  },
+  {
+    "nome": "Kawuco",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Kawuco",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/0/0a/Kawuco.png/260px-Kawuco.png",
+    "immagine": "Kawuco.png",
+    "funzione": [],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Capo Fuoco del Drago": {
+        "x": 661,
+        "y": 1222
+      }
+    }
+  },
+  {
+    "nome": "Kim Rim",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Kim_Rim",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/5/5b/Kim_Rim.png/260px-Kim_Rim.png",
+    "immagine": "Kim Rim.png",
+    "funzione": [
+      "Purificazione dell'acqua"
+    ],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Piana Dongan": {
+        "x": 623,
+        "y": 1100
+      }
+    }
+  },
+  {
+    "nome": "Koe-Pung",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Koe-Pung",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/0/03/Koe-Pung.png/260px-Koe-Pung.png",
+    "immagine": "Koe-Pung.png",
+    "funzione": [
+      "Grotta dell'Esilio",
+      "Ematite"
+    ],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Valle di Seungryong": {
+        "x": 282,
+        "y": 1455
+      }
+    }
+  },
+  {
+    "nome": "Lapide",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Lapide",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/7/74/Lapide.png/260px-Lapide.png",
+    "immagine": "Lapide.png",
+    "funzione": [
+      "NPC",
+      "Baronessa Ragno"
+    ],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Sotterraneo dei Ragni 3": {
+        "x": 178,
+        "y": 489
+      }
+    }
+  },
+  {
+    "nome": "Lapide Taramor",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Lapide_Taramor",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/e/ed/Lapide_Taramor.png/260px-Lapide_Taramor.png",
+    "immagine": "Lapide Taramor.png",
+    "funzione": [
+      "NPC"
+    ],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false
+  },
+  {
+    "nome": "Lapide Taramor (FT)",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Lapide_Taramor_(FT)",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/d/d1/Lapide_Taramor_%28FT%29.png/260px-Lapide_Taramor_%28FT%29.png",
+    "immagine": "Lapide Taramor (FT).png",
+    "funzione": [],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false
+  },
+  {
+    "nome": "Lapide Taramor (RSV)",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Lapide_Taramor_(RSV)",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/5/51/Lapide_Taramor_%28RSV%29.png/260px-Lapide_Taramor_%28RSV%29.png",
+    "immagine": "Lapide Taramor (RSV).png",
+    "funzione": [],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false
+  },
+  {
+    "nome": "Lee Chung",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Lee_Chung",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/b/b8/Lee_Chung.png/260px-Lee_Chung.png",
+    "immagine": "Lee Chung.png",
+    "funzione": [
+      "NPC"
+    ],
+    "ha_missioni": true,
+    "missioni": [
+      "La scoperta",
+      "Un tesoro glaciale"
+    ],
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Tempio Hwang": {
+        "x": 505,
+        "y": 446
+      }
+    }
+  },
+  {
+    "nome": "Leone del Gelo",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Leone_del_Gelo",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/5/58/Leone_del_Gelo.png/260px-Leone_del_Gelo.png",
+    "immagine": "Leone del Gelo.png",
+    "funzione": [
+      "Torre di Vedetta di Nemere"
+    ],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false
+  },
+  {
+    "nome": "Leone del Gelo (FT)",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Leone_del_Gelo_(FT)",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/3/3e/Leone_del_Gelo_%28FT%29.png/260px-Leone_del_Gelo_%28FT%29.png",
+    "immagine": "Leone del Gelo (FT).png",
+    "funzione": [
+      "Torre di Vedetta di Nemere (FT)"
+    ],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false
+  },
+  {
+    "nome": "Leone del Gelo (RSV)",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Leone_del_Gelo_(RSV)",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/9/9e/Leone_del_Gelo_%28RSV%29.png/260px-Leone_del_Gelo_%28RSV%29.png",
+    "immagine": "Leone del Gelo (RSV).png",
+    "funzione": [
+      "Torre di Vedetta di Nemere (RSV)"
+    ],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false
+  },
+  {
+    "nome": "Maestro Chi",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Maestro_Chi",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/2/2f/Maestro_Chi.png/260px-Maestro_Chi.png",
+    "immagine": "Maestro Chi.png",
+    "funzione": [],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Piana Dongan": {
+        "x": 505,
+        "y": 748
+      }
+    }
+  },
+  {
+    "nome": "Maestro Zona Combattimento",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Maestro_Zona_Combattimento",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/6/6e/Maestro_Zona_Combattimento.png/260px-Maestro_Zona_Combattimento.png",
+    "immagine": "Maestro Zona Combattimento.png",
+    "funzione": [
+      "NPC"
+    ],
+    "ha_missioni": true,
+    "missioni": [
+      "La Pozione Speciale"
+    ],
+    "vende": [],
+    "venditore": true,
+    "posizioni": {
+      "Joan": {
+        "x": 620,
+        "y": 580
+      },
+      "Pyungmoo": {
+        "x": 371,
+        "y": 703
+      },
+      "Yongan": {
+        "x": 665,
+        "y": 634
+      }
+    }
+  },
+  {
+    "nome": "Mendicante",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Mendicante",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/b/b6/Mendicante.png/260px-Mendicante.png",
+    "immagine": "Mendicante.png",
+    "funzione": [],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Capo Fuoco del Drago": {
+        "x": 822,
+        "y": 1149
+      }
+    }
+  },
+  {
+    "nome": "Mercante Ambulante",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Mercante_Ambulante",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/6/65/Mercante_Ambulante.png/260px-Mercante_Ambulante.png",
+    "immagine": "Mercante Ambulante.png",
+    "funzione": [],
+    "ha_missioni": true,
+    "missioni": [
+      "Indagine tra i mercanti"
+    ],
+    "vende": [],
+    "venditore": true,
+    "posizioni": {
+      "Bokjung": {
+        "x": 628,
+        "y": 723
+      },
+      "Bakra": {
+        "x": 160,
+        "y": 220
+      },
+      "Jayang": {
+        "x": 180,
+        "y": 600
+      }
+    }
+  },
+  {
+    "nome": "Mercante d'Armature",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Mercante_d%27Armature",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/c/cc/Mercante_d%27Armature.png/260px-Mercante_d%27Armature.png",
+    "immagine": "Mercante d'Armature.png",
+    "funzione": [
+      "NPC",
+      "armature",
+      "elmi"
+    ],
+    "ha_missioni": true,
+    "missioni": [
+      "L'ordine delle armature"
+    ],
+    "vende": [],
+    "venditore": true,
+    "posizioni": {
+      "Joan": {
+        "x": 676,
+        "y": 617
+      },
+      "Bokjung": {
+        "x": 461,
+        "y": 374
+      },
+      "Pyungmoo": {
+        "x": 403,
+        "y": 586
+      },
+      "Bakra": {
+        "x": 435,
+        "y": 467
+      },
+      "Yongan": {
+        "x": 596,
+        "y": 557
+      },
+      "Jayang": {
+        "x": 450,
+        "y": 608
+      },
+      "Capo Fuoco del Drago": {
+        "x": 579,
+        "y": 1234
+      }
+    }
+  },
+  {
+    "nome": "Mercante d'Armature (Yohara)",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Mercante_d%27Armature_(Yohara)",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/4/46/Mercante_d%27Armature_%28Yohara%29.png/260px-Mercante_d%27Armature_%28Yohara%29.png",
+    "immagine": "Mercante d'Armature  (Yohara).png",
+    "funzione": [
+      "NPC"
+    ],
+    "ha_missioni": true,
+    "missioni": [
+      "Salva il Mercante di armature",
+      "Anima della protezione (ripetibile)"
+    ],
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Piana Dongan": {
+        "x": 484,
+        "y": 727
+      }
+    }
+  },
+  {
+    "nome": "Mercante d'Armi",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Mercante_d%27Armi",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/d/d5/Mercante_d%27Armi.png/260px-Mercante_d%27Armi.png",
+    "immagine": "Mercante d'Armi.png",
+    "funzione": [
+      "NPC",
+      "armi"
+    ],
+    "ha_missioni": true,
+    "missioni": [
+      "Cerca i materiali"
+    ],
+    "vende": [],
+    "venditore": true,
+    "posizioni": {
+      "Joan": {
+        "x": 676,
+        "y": 662
+      },
+      "Bokjung": {
+        "x": 448,
+        "y": 387
+      },
+      "Pyungmoo": {
+        "x": 430,
+        "y": 607
+      },
+      "Bakra": {
+        "x": 460,
+        "y": 467
+      },
+      "Yongan": {
+        "x": 596,
+        "y": 605
+      },
+      "Jayang": {
+        "x": 471,
+        "y": 608
+      },
+      "Capo Fuoco del Drago": {
+        "x": 606,
+        "y": 1242
+      }
+    }
+  },
+  {
+    "nome": "Mercante d'Armi (Yohara)",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Mercante_d%27Armi_(Yohara)",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/4/44/Mercante_d%27Armi_%28Yohara%29.png/260px-Mercante_d%27Armi_%28Yohara%29.png",
+    "immagine": "Mercante d'Armi (Yohara).png",
+    "funzione": [
+      "NPC"
+    ],
+    "ha_missioni": true,
+    "missioni": [
+      "Salva il Mercante di armi",
+      "Anima della spada (ripetibile)"
+    ],
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Piana Dongan": {
+        "x": 484,
+        "y": 677
+      }
+    }
+  },
+  {
+    "nome": "Mercante dell'Anniversario",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Mercante_dell%27Anniversario",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/2/2e/Mercante_dell%27Anniversario.png/260px-Mercante_dell%27Anniversario.png",
+    "immagine": "Mercante dell'Anniversario.png",
+    "funzione": [],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": true,
+    "posizioni": {
+      "Joan": {
+        "x": 610,
+        "y": 656
+      },
+      "Pyungmoo": {
+        "x": 373,
+        "y": 693
+      },
+      "Yongan": {
+        "x": 685,
+        "y": 577
+      }
+    }
+  },
+  {
+    "nome": "Mercante delle Illusioni",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Mercante_delle_Illusioni",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/5/58/Mercante_delle_Illusioni.png/260px-Mercante_delle_Illusioni.png",
+    "immagine": "Mercante delle Illusioni.png",
+    "funzione": [],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": true,
+    "posizioni": {
+      "Altopiano delle Illusioni": {
+        "x": 128,
+        "y": 98
+      }
+    }
+  },
+  {
+    "nome": "Mercanti di Gaya",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Mercanti_di_Gaya",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/f/fd/Mercanti_di_Gaya.png/260px-Mercanti_di_Gaya.png",
+    "immagine": "Mercanti di Gaya.png",
+    "funzione": [],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Joan": {
+        "x": 701,
+        "y": 654
+      },
+      "Pyungmoo": {
+        "x": 308,
+        "y": 812
+      },
+      "Yongan": {
+        "x": 652,
+        "y": 475
+      }
+    }
+  },
+  {
+    "nome": "Mirine",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Mirine",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/4/4c/Mirine.png/260px-Mirine.png",
+    "immagine": "Mirine.png",
+    "funzione": [
+      "NPC"
+    ],
+    "ha_missioni": true,
+    "missioni": [
+      "Trova mio fratello",
+      "Cerca l'uniforme nera (missione segreta)",
+      "Il fratello perduto"
+    ],
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Yongan": {
+        "x": 582,
+        "y": 578
+      },
+      "Pyungmoo": {
+        "x": 336,
+        "y": 770
+      },
+      "Joan": {
+        "x": 716,
+        "y": 632
+      }
+    }
+  },
+  {
+    "nome": "Monaco Milbon",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Monaco_Milbon",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/f/f7/Monaco_Milbon.png/260px-Monaco_Milbon.png",
+    "immagine": "Monaco Milbon.png",
+    "funzione": [
+      "NPC",
+      "Tempio dello Zodiaco",
+      "Cofanetto Zodiaco Blu",
+      "Cofanetto Zodiaco Rosso",
+      "Fiore Elementale"
+    ],
+    "ha_missioni": true,
+    "missioni": [
+      "Forze elementali (missione)",
+      "Prisma del risveglio (missione)",
+      "Allarme al Tempio dello Zodiaco"
+    ],
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Tempio dello Zodiaco": {
+        "x": 261,
+        "y": 258
+      }
+    }
+  },
+  {
+    "nome": "Monumento di Pietra SeulRong",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Monumento_di_Pietra_SeulRong",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/1/11/Monumento_di_Pietra_SeulRong.png/260px-Monumento_di_Pietra_SeulRong.png",
+    "immagine": "Monumento di Pietra SeulRong.png",
+    "funzione": [
+      "NPC"
+    ],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Valle di Seungryong": {
+        "x": 770,
+        "y": 730
+      }
+    }
+  },
+  {
+    "nome": "Monumento Gum",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Monumento_Gum",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/8/8e/Monumento_Gum.png/260px-Monumento_Gum.png",
+    "immagine": "Monumento Gum.png",
+    "funzione": [
+      "NPC"
+    ],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Tempio Hwang": {
+        "x": 554,
+        "y": 526
+      }
+    }
+  },
+  {
+    "nome": "Monumento Hasun",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Monumento_Hasun",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/9/9e/Monumento_Hasun.png/260px-Monumento_Hasun.png",
+    "immagine": "Monumento Hasun.png",
+    "funzione": [
+      "NPC"
+    ],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false
+  },
+  {
+    "nome": "Monumento Mok",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Monumento_Mok",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/4/45/Monumento_Mok.png/260px-Monumento_Mok.png",
+    "immagine": "Monumento Mok.png",
+    "funzione": [
+      "NPC"
+    ],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false
+  },
+  {
+    "nome": "Monumento Su",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Monumento_Su",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/9/98/Monumento_Su.png/260px-Monumento_Su.png",
+    "immagine": "Monumento Su.png",
+    "funzione": [
+      "NPC"
+    ],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Jungsun Dong": {
+        "x": 405,
+        "y": 702
+      }
+    }
+  },
+  {
+    "nome": "Monumento To",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Monumento_To",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/0/09/Monumento_To.png/260px-Monumento_To.png",
+    "immagine": "Monumento To.png",
+    "funzione": [
+      "NPC"
+    ],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Kuahlo Dong": {
+        "x": 62,
+        "y": 415
+      }
+    }
+  },
+  {
+    "nome": "Monumento Weol",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Monumento_Weol",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/b/b5/Monumento_Weol.png/260px-Monumento_Weol.png",
+    "immagine": "Monumento Weol.png",
+    "funzione": [
+      "NPC"
+    ],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Joan": {
+        "x": 614,
+        "y": 1167
+      },
+      "Pyungmoo": {
+        "x": 114,
+        "y": 960
+      },
+      "Yongan": {
+        "x": 582,
+        "y": 347
+      }
+    }
+  },
+  {
+    "nome": "Monumento Wha",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Monumento_Wha",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/6/6b/Monumento_Wha.png/260px-Monumento_Wha.png",
+    "immagine": "Monumento Wha.png",
+    "funzione": [
+      "NPC"
+    ],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Jungsun Dong": {
+        "x": 102,
+        "y": 748
+      }
+    }
+  },
+  {
+    "nome": "Myonghorang il Saggio",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Myonghorang_il_Saggio",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/3/34/Myonghorang_il_Saggio.png/260px-Myonghorang_il_Saggio.png",
+    "immagine": "Myonghorang il Saggio.png",
+    "funzione": [
+      "NPC",
+      "Lican"
+    ],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Yongan": {
+        "x": 539,
+        "y": 547
+      },
+      "Pyungmoo": {
+        "x": 493,
+        "y": 571
+      },
+      "Joan": {
+        "x": 513,
+        "y": 521
+      }
+    }
+  },
+  {
+    "nome": "Nagual",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Nagual",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/d/d9/Nagual.png/260px-Nagual.png",
+    "immagine": "Nagual.png",
+    "funzione": [],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Mappa dei Lican": {
+        "x": 425,
+        "y": 370
+      }
+    }
+  },
+  {
+    "nome": "Nakajima",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Nakajima",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/b/b5/Nakajima.png/260px-Nakajima.png",
+    "immagine": "Nakajima.png",
+    "funzione": [
+      "NPC"
+    ],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Bokjung": {
+        "x": 805,
+        "y": 865
+      },
+      "Bakra": {
+        "x": 600,
+        "y": 820
+      },
+      "Jayang": {
+        "x": 481,
+        "y": 298
+      }
+    }
+  },
+  {
+    "nome": "Negozio di Gaya",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Negozio_di_Gaya",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/1/1b/Negozio_di_Gaya.png/260px-Negozio_di_Gaya.png",
+    "immagine": "Negozio di Gaya.png",
+    "funzione": [
+      "Gaya"
+    ],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": true
+  },
+  {
+    "nome": "Obelisco di Basalto",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Obelisco_di_Basalto",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/5/51/Obelisco_di_Basalto.png/260px-Obelisco_di_Basalto.png",
+    "immagine": "Obelisco_di_Basalto.png",
+    "funzione": [
+      "Totem della Smorfia‎",
+      "Catacombe del Diavolo"
+    ],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false
+  },
+  {
+    "nome": "Octavio",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Octavio",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/4/48/Octavio.png/260px-Octavio.png",
+    "immagine": "Octavio.png",
+    "funzione": [
+      "NPC"
+    ],
+    "ha_missioni": true,
+    "missioni": [
+      "Il miglior libro di cucina",
+      "La ricetta di Octavio",
+      "Il matrimonio della figlia",
+      "Mostro di mare furioso",
+      "Scorta di Potenza III - La ricetta Millenaria",
+      "Essenza Millenaria (missione)"
+    ],
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Yongan": {
+        "x": 623,
+        "y": 630
+      },
+      "Pyungmoo": {
+        "x": 340,
+        "y": 747
+      },
+      "Joan": {
+        "x": 581,
+        "y": 620
+      }
+    }
+  },
+  {
+    "nome": "Organizzatrice di Matrimoni",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Organizzatrice_di_Matrimoni",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/f/fe/Organizzatrice_di_Matrimoni.png/260px-Organizzatrice_di_Matrimoni.png",
+    "immagine": "Organizzatrice di Matrimoni.png",
+    "funzione": [
+      "Matrimonio"
+    ],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Mappa Matrimonio": {
+        "x": 137,
+        "y": 111
+      }
+    }
+  },
+  {
+    "nome": "Palo Runico",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Palo_Runico",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/a/a4/Palo_Runico.png/260px-Palo_Runico.png",
+    "immagine": "Palo Runico.png",
+    "funzione": [
+      "NPC",
+      "Catacombe del Diavolo"
+    ],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false
+  },
+  {
+    "nome": "Perlustratore della Foresta",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Perlustratore_della_Foresta",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/1/11/Perlustratore_della_Foresta.png/260px-Perlustratore_della_Foresta.png",
+    "immagine": "Perlustratore della Foresta.png",
+    "funzione": [
+      "NPC"
+    ],
+    "ha_missioni": true,
+    "missioni": [
+      "Annienta il Sovrano En-Tai",
+      "Procura uno Smeraldo arboreo"
+    ],
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Sottobosco": {
+        "x": 125,
+        "y": 495
+      }
+    }
+  },
+  {
+    "nome": "Perlustratore della Foresta (FT)",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Perlustratore_della_Foresta_(FT)",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/c/cc/Perlustratore_della_Foresta_%28FT%29.png/260px-Perlustratore_della_Foresta_%28FT%29.png",
+    "immagine": "Perlustratore della Foresta (FT).png",
+    "funzione": [
+      "NPC"
+    ],
+    "ha_missioni": true,
+    "missioni": [
+      "Annienta il Sovrano En-Tai della Frattura temporale",
+      "Procura uno Smeraldo arboreo della Frattura temporale"
+    ],
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Sottobosco (FT)": {
+        "x": 125,
+        "y": 495
+      }
+    }
+  },
+  {
+    "nome": "Perlustratore della Foresta (RSV)",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Perlustratore_della_Foresta_(RSV)",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/8/85/Perlustratore_della_Foresta_%28RSV%29.png/260px-Perlustratore_della_Foresta_%28RSV%29.png",
+    "immagine": "Perlustratore della Foresta (RSV).png",
+    "funzione": [
+      "NPC"
+    ],
+    "ha_missioni": true,
+    "missioni": [
+      "Annienta il Sovrano En-Tai del Risveglio",
+      "Procura uno Smeraldo arboreo del Risveglio"
+    ],
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Sottobosco (RSV)": {
+        "x": 125,
+        "y": 495
+      }
+    }
+  },
+  {
+    "nome": "Pescatore",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Pescatore",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/8/86/Pescatore.png/260px-Pescatore.png",
+    "immagine": "Pescatore.png",
+    "funzione": [
+      "Sistema della Pesca"
+    ],
+    "ha_missioni": true,
+    "missioni": [
+      "Gara di pesca (segreta)"
+    ],
+    "vende": [],
+    "venditore": true,
+    "posizioni": {
+      "Capo Fuoco del Drago": {
+        "x": 838,
+        "y": 1187
+      }
+    }
+  },
+  {
+    "nome": "Portale del Castello",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Portale_del_Castello",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/0/00/Portale_del_Castello.png/260px-Portale_del_Castello.png",
+    "immagine": "Portale del Castello.png",
+    "funzione": [
+      "Castello Milaard",
+      "Castello Listhmos",
+      "Castello Dendera"
+    ],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false
+  },
+  {
+    "nome": "Portale di Chen",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Portale_di_Chen",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/3/3f/Portale_di_Chen.png/260px-Portale_di_Chen.png",
+    "immagine": "Portale di Chen.png",
+    "funzione": [
+      "Tempio dello Zodiaco/Chen"
+    ],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Tempio dello Zodiaco": {
+        "x": 289,
+        "y": 291
+      }
+    }
+  },
+  {
+    "nome": "Portale di Chou",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Portale_di_Chou",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/4/4d/Portale_di_Chou.png/260px-Portale_di_Chou.png",
+    "immagine": "Portale di Chou.png",
+    "funzione": [
+      "Tempio dello Zodiaco/Chou"
+    ],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Tempio dello Zodiaco": {
+        "x": 289,
+        "y": 236
+      }
+    }
+  },
+  {
+    "nome": "Portale di Hai",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Portale_di_Hai",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/8/8e/Portale_di_Hai.png/260px-Portale_di_Hai.png",
+    "immagine": "Portale di Hai.png",
+    "funzione": [
+      "Tempio dello Zodiaco/Hai"
+    ],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Tempio dello Zodiaco": {
+        "x": 249,
+        "y": 226
+      }
+    }
+  },
+  {
+    "nome": "Portale di Mao",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Portale_di_Mao",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/3/3b/Portale_di_Mao.png/260px-Portale_di_Mao.png",
+    "immagine": "Portale di Mao.png",
+    "funzione": [
+      "Tempio dello Zodiaco/Mao"
+    ],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Tempio dello Zodiaco": {
+        "x": 299,
+        "y": 273
+      }
+    }
+  },
+  {
+    "nome": "Portale di Shen",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Portale_di_Shen",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/1/10/Portale_di_Shen.png/260px-Portale_di_Shen.png",
+    "immagine": "Portale di Shen.png",
+    "funzione": [
+      "Tempio dello Zodiaco/Shen"
+    ],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Tempio dello Zodiaco": {
+        "x": 224,
+        "y": 274
+      }
+    }
+  },
+  {
+    "nome": "Portale di Si",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Portale_di_Si",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/6/6b/Portale_di_Si.png/260px-Portale_di_Si.png",
+    "immagine": "Portale di Si.png",
+    "funzione": [
+      "Tempio dello Zodiaco/Si"
+    ],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Tempio dello Zodiaco": {
+        "x": 272,
+        "y": 301
+      }
+    }
+  },
+  {
+    "nome": "Portale di Wei",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Portale_di_Wei",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/a/a6/Portale_di_Wei.png/260px-Portale_di_Wei.png",
+    "immagine": "Portale di Wei.png",
+    "funzione": [
+      "Tempio dello Zodiaco/Wei"
+    ],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Tempio dello Zodiaco": {
+        "x": 234,
+        "y": 292
+      }
+    }
+  },
+  {
+    "nome": "Portale di Wu",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Portale_di_Wu",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/b/b1/Portale_di_Wu.png/260px-Portale_di_Wu.png",
+    "immagine": "Portale di Wu.png",
+    "funzione": [
+      "Tempio dello Zodiaco/Wu"
+    ],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Tempio dello Zodiaco": {
+        "x": 252,
+        "y": 302
+      }
+    }
+  },
+  {
+    "nome": "Portale di Xu",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Portale_di_Xu",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/f/fa/Portale_di_Xu.png/260px-Portale_di_Xu.png",
+    "immagine": "Portale di Xu.png",
+    "funzione": [
+      "Tempio dello Zodiaco/Xu"
+    ],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Tempio dello Zodiaco": {
+        "x": 234,
+        "y": 236
+      }
+    }
+  },
+  {
+    "nome": "Portale di Yin",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Portale_di_Yin",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/f/f5/Portale_di_Yin.png/260px-Portale_di_Yin.png",
+    "immagine": "Portale di Yin.png",
+    "funzione": [
+      "Tempio dello Zodiaco/Yin"
+    ],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Tempio dello Zodiaco": {
+        "x": 299,
+        "y": 253
+      }
+    }
+  },
+  {
+    "nome": "Portale di Yu",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Portale_di_Yu",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/9/92/Portale_di_Yu.png/260px-Portale_di_Yu.png",
+    "immagine": "Portale di Yu.png",
+    "funzione": [
+      "Tempio dello Zodiaco/Yu"
+    ],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Tempio dello Zodiaco": {
+        "x": 224,
+        "y": 254
+      }
+    }
+  },
+  {
+    "nome": "Portale di Zi",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Portale_di_Zi",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/b/bc/Portale_di_Zi.png/260px-Portale_di_Zi.png",
+    "immagine": "Portale di Zi.png",
+    "funzione": [
+      "Tempio dello Zodiaco/Zi"
+    ],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Tempio dello Zodiaco": {
+        "x": 274,
+        "y": 228
+      }
+    }
+  },
+  {
+    "nome": "Portale Nuovo Continente",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Portale_Nuovo_Continente",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/d/d0/Portale_Nuovo_Continente.png/260px-Portale_Nuovo_Continente.png",
+    "immagine": "Portale Nuovo Continente.png",
+    "funzione": [
+      "Porto del Nuovo Continente",
+      "Difesa Nave"
+    ],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Difesa Nave": {
+        "x": 385,
+        "y": 450
+      }
+    }
+  },
+  {
+    "nome": "Portale Sottobosco",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Portale_Sottobosco",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/0/05/Portale_Sottobosco.png/260px-Portale_Sottobosco.png",
+    "immagine": "Portale Sottobosco.png",
+    "funzione": [
+      "Sottobosco"
+    ],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false
+  },
+  {
+    "nome": "Portale Enigma",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Portale_Enigma",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/1/19/Portale_Enigma.png/260px-Portale_Enigma.png",
+    "immagine": "Portale Enigma.png",
+    "funzione": [
+      "Tempio Enigma"
+    ],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false
+  },
+  {
+    "nome": "Pung-Ho",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Pung-Ho",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/7/79/Pung-Ho.png/260px-Pung-Ho.png",
+    "immagine": "Pung-Ho.png",
+    "funzione": [],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false
+  },
+  {
+    "nome": "Raccoglitore di Ginseng",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Raccoglitore_di_Ginseng",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/8/89/Raccoglitore_di_Ginseng.png/260px-Raccoglitore_di_Ginseng.png",
+    "immagine": "Raccoglitore_di_Ginseng.png",
+    "funzione": [
+      "NPC"
+    ],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Valle di Seungryong": {
+        "x": 945,
+        "y": 760
+      }
+    }
+  },
+  {
+    "nome": "Roccia della Tartaruga",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Roccia_della_Tartaruga",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/d/de/Roccia_della_Tartaruga.png/260px-Roccia_della_Tartaruga.png",
+    "immagine": "Roccia della Tartaruga.png",
+    "funzione": [
+      "Testa Ristretta",
+      "Catacombe del Diavolo"
+    ],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false
+  },
+  {
+    "nome": "Sa-Soe",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Sa-Soe",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/8/8a/Sa-Soe.png/260px-Sa-Soe.png",
+    "immagine": "Sa-Soe.png",
+    "funzione": [
+      "NPC",
+      "Chiave Zin-Bong-In"
+    ],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false
+  },
+  {
+    "nome": "Sam Pumpkin",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Sam_Pumpkin",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/2/27/Sam_Pumpkin.png/260px-Sam_Pumpkin.png",
+    "immagine": "Sam Pumpkin.png",
+    "funzione": [
+      "NPC",
+      "Evento di Halloween",
+      "Busta di Dolci"
+    ],
+    "ha_missioni": true,
+    "missioni": [
+      "Dolcetto o Scherzetto?"
+    ],
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Joan": {
+        "x": 596,
+        "y": 610
+      },
+      "Pyungmoo": {
+        "x": 357,
+        "y": 743
+      },
+      "Yongan": {
+        "x": 608,
+        "y": 617
+      }
+    }
+  },
+  {
+    "nome": "Scheletro di Sura 1",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Scheletro_di_Sura_1",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/6/6d/Scheletro_di_Sura_1.png/260px-Scheletro_di_Sura_1.png",
+    "immagine": "Scheletro di Sura 1.png",
+    "funzione": [],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false
+  },
+  {
+    "nome": "Scheletro di Sura 2",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Scheletro_di_Sura_2",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/1/14/Scheletro_di_Sura_2.png/260px-Scheletro_di_Sura_2.png",
+    "immagine": "Scheletro di Sura 2.png",
+    "funzione": [],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false
+  },
+  {
+    "nome": "Scheletro di Sura 3",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Scheletro_di_Sura_3",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/7/70/Scheletro_di_Sura_3.png/260px-Scheletro_di_Sura_3.png",
+    "immagine": "Scheletro di Sura 3.png",
+    "funzione": [],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Grotta 1": {
+        "x": 515,
+        "y": 1405
+      }
+    }
+  },
+  {
+    "nome": "Scheletro di Sura 4",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Scheletro_di_Sura_4",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/d/d2/Scheletro_di_Sura_4.png/260px-Scheletro_di_Sura_4.png",
+    "immagine": "Scheletro di Sura 4.png",
+    "funzione": [],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Grotta 1": {
+        "x": 375,
+        "y": 650
+      }
+    }
+  },
+  {
+    "nome": "Scheletro di Sura 5",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Scheletro_di_Sura_5",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/c/c5/Scheletro_di_Sura_5.png/260px-Scheletro_di_Sura_5.png",
+    "immagine": "Scheletro di Sura 5.png",
+    "funzione": [],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Grotta 2": {
+        "x": 989,
+        "y": 929
+      }
+    }
+  },
+  {
+    "nome": "Scrigno Oscuro",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Scrigno_Oscuro",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/e/ea/Scrigno_Oscuro.png/260px-Scrigno_Oscuro.png",
+    "immagine": "Scrigno_Oscuro.png",
+    "funzione": [
+      "NPC"
+    ],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Grotta 1": {
+        "x": 830,
+        "y": 855
+      }
+    }
+  },
+  {
+    "nome": "Seon-Hae",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Seon-Hae",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/9/9e/Seon-Hae.png/260px-Seon-Hae.png",
+    "immagine": "Seon-Hae.png",
+    "funzione": [
+      "NPC"
+    ],
+    "ha_missioni": true,
+    "missioni": [
+      "Nella Grotta"
+    ],
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Joan": {
+        "x": 618,
+        "y": 562
+      },
+      "Pyungmoo": {
+        "x": 471,
+        "y": 576
+      },
+      "Yongan": {
+        "x": 655,
+        "y": 646
+      }
+    }
+  },
+  {
+    "nome": "Seon-Pyeong",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Seon-Pyeong",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/4/44/Seon-Pyeong.png/260px-Seon-Pyeong.png",
+    "immagine": "Seon-Pyeong.png",
+    "funzione": [
+      "NPC",
+      "Item Epici"
+    ],
+    "ha_missioni": true,
+    "missioni": [
+      "Ricerca di Seon-Pyeong (gioiello dell'invidia)",
+      "Ricerca di Seon-Pyeong (gioiello della saggezza)"
+    ],
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Valle di Seungryong": {
+        "x": 295,
+        "y": 1442
+      }
+    }
+  },
+  {
+    "nome": "Sigillo del Pas. Rubato",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Sigillo_del_Pas._Rubato",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/7/7c/Sigillo_del_Pas._Rubato.png/260px-Sigillo_del_Pas._Rubato.png",
+    "immagine": "Sigillo del Pas. Rubato.png",
+    "funzione": [
+      "NPC",
+      "Pietra Chiave",
+      "Terra Santa"
+    ],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false
+  },
+  {
+    "nome": "Sigillo di Inferna",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Sigillo_di_Inferna",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/8/8b/Sigillo_di_Inferna.png/260px-Sigillo_di_Inferna.png",
+    "immagine": "Sigillo di Inferna.png",
+    "funzione": [
+      "NPC",
+      "Pietra Sigillo Sung Mahi"
+    ],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false
+  },
+  {
+    "nome": "Signor B.",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Signor_B.",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/b/b9/Signor_B.png/260px-Signor_B.png",
+    "immagine": "Signor B.png",
+    "funzione": [
+      "Evento Cacciatori di Boss/Pasqua",
+      "Evento Cacciatori di Boss/Anniversario"
+    ],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Joan": {
+        "x": 596,
+        "y": 612
+      },
+      "Pyungmoo": {
+        "x": 354,
+        "y": 740
+      },
+      "Yongan": {
+        "x": 608,
+        "y": 620
+      }
+    }
+  },
+  {
+    "nome": "Soldato Avvelenato",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Soldato_Avvelenato",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/8/86/Soldato_Avvelenato.png/260px-Soldato_Avvelenato.png",
+    "immagine": "Soldato_Avvelenato.png",
+    "funzione": [
+      "NPC"
+    ],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Tempio Hwang": {
+        "x": 505,
+        "y": 446
+      }
+    }
+  },
+  {
+    "nome": "Soldato Ferito",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Soldato_Ferito",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/6/61/Soldato_Ferito.png/260px-Soldato_Ferito.png",
+    "immagine": "Soldato Ferito.png",
+    "funzione": [
+      "NPC"
+    ],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Baia Nefrite": {
+        "x": 677,
+        "y": 1414
+      },
+      "Fortezza del Drago Rosso": {
+        "x": 361,
+        "y": 540
+      }
+    }
+  },
+  {
+    "nome": "Soon",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Soon",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/d/d4/Soon.png/260px-Soon.png",
+    "immagine": "Soon.png",
+    "funzione": [
+      "NPC"
+    ],
+    "ha_missioni": true,
+    "missioni": [
+      "Un favore per Soon",
+      "Vai da Aranyo",
+      "Mappa del tesoro del topo di biblioteca",
+      "Il Tempio Oscuro",
+      "La Maschera di Legno Oscura"
+    ],
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Joan": {
+        "x": 692,
+        "y": 577
+      },
+      "Pyungmoo": {
+        "x": 454,
+        "y": 530
+      },
+      "Yongan": {
+        "x": 629,
+        "y": 471
+      }
+    }
+  },
+  {
+    "nome": "Spirito di un Guerriero",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Spirito_di_un_Guerriero",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/8/8b/Spirito_di_un_Guerriero.png/260px-Spirito_di_un_Guerriero.png",
+    "immagine": "Spirito di un Guerriero.png",
+    "funzione": [],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Grotta 2": {
+        "x": 367,
+        "y": 299
+      }
+    }
+  },
+  {
+    "nome": "Spirito di un Sura",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Spirito_di_un_Sura",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/4/46/Spirito_di_un_Sura.png/260px-Spirito_di_un_Sura.png",
+    "immagine": "Spirito di un Sura.png",
+    "funzione": [
+      "Tempio del Drago"
+    ],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Grotta 2": {
+        "x": 263,
+        "y": 180
+      }
+    }
+  },
+  {
+    "nome": "Spirito di un Sura (FT)",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Spirito_di_un_Sura_(FT)",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/f/f3/Spirito_di_un_Sura_%28FT%29.png/260px-Spirito_di_un_Sura_%28FT%29.png",
+    "immagine": "Spirito di un Sura (FT).png",
+    "funzione": [
+      "Tempio del Drago (FT)"
+    ],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Grotta 2 (FT)": {
+        "x": 263,
+        "y": 180
+      }
+    }
+  },
+  {
+    "nome": "Spirito di un Sura (RSV)",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Spirito_di_un_Sura_(RSV)",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/7/7b/Spirito_di_un_Sura_%28RSV%29.png/260px-Spirito_di_un_Sura_%28RSV%29.png",
+    "immagine": "Spirito di un Sura (RSV).png",
+    "funzione": [
+      "Tempio del Drago (RSV)"
+    ],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Grotta 2 (RSV)": {
+        "x": 263,
+        "y": 180
+      }
+    }
+  },
+  {
+    "nome": "Stalliere",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Stalliere",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/6/66/Stalliere.png/260px-Stalliere.png",
+    "immagine": "Stalliere.png",
+    "funzione": [
+      "NPC",
+      "Cavallo"
+    ],
+    "ha_missioni": true,
+    "missioni": [
+      "Voglio Cavalcare",
+      "Come combatto da cavallo?",
+      "Voglio migliorare il cavallo"
+    ],
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Joan": {
+        "x": 549,
+        "y": 610
+      },
+      "Bokjung": {
+        "x": 445,
+        "y": 276
+      },
+      "Pyungmoo": {
+        "x": 396,
+        "y": 735
+      },
+      "Bakra": {
+        "x": 527,
+        "y": 373
+      },
+      "Yongan": {
+        "x": 718,
+        "y": 577
+      },
+      "Jayang": {
+        "x": 548,
+        "y": 588
+      },
+      "Capo Fuoco del Drago": {
+        "x": 754,
+        "y": 1045
+      },
+      "Piana Dongan": {
+        "x": 569,
+        "y": 700
+      }
+    }
+  },
+  {
+    "nome": "Statua Armaiolo",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Statua_Armaiolo",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/e/e1/Statua_Armaiolo.png/260px-Statua_Armaiolo.png",
+    "immagine": "Statua Armaiolo.png",
+    "funzione": [],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Altopiano delle Illusioni": {
+        "x": 141,
+        "y": 181
+      }
+    }
+  },
+  {
+    "nome": "Statua del Guerriero",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Statua_del_Guerriero",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/f/f6/Statua_del_Guerriero.png/260px-Statua_del_Guerriero.png",
+    "immagine": "Statua del Guerriero.png",
+    "funzione": [
+      "Difesa Nave",
+      "Difesa Nave"
+    ],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false
+  },
+  {
+    "nome": "Statua di Kud",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Statua_di_Kud",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/a/a6/Statua_di_Kud.png/260px-Statua_di_Kud.png",
+    "immagine": "Statua di Kud.png",
+    "funzione": [
+      "Chiave Crist. d'Anime‎",
+      "Catacombe del Diavolo"
+    ],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false
+  },
+  {
+    "nome": "Statua Fabbrica Armature",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Statua_Fabbrica_Armature",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/f/f1/Statua_Fabbrica_Armature.png/260px-Statua_Fabbrica_Armature.png",
+    "immagine": "Statua Fabbrica Armature.png",
+    "funzione": [],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Altopiano delle Illusioni": {
+        "x": 113,
+        "y": 179
+      }
+    }
+  },
+  {
+    "nome": "Statua Frattura Temporale",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Statua_Frattura_Temporale",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/a/a7/Statua_Frattura_Temporale.png/260px-Statua_Frattura_Temporale.png",
+    "immagine": "Statua Frattura Temporale.png",
+    "funzione": [
+      "Grotta dell'Esilio - Secondo Piano (FT)",
+      "Fortezza del Drago Rosso (FT)",
+      "Torre di Vedetta di Nemere (FT)",
+      "Sottobosco (FT)"
+    ],
+    "ha_missioni": true,
+    "missioni": [
+      "Missione Frattura Temporale"
+    ],
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Altopiano delle Illusioni": {
+        "x": 103,
+        "y": 90
+      }
+    }
+  },
+  {
+    "nome": "Statua Illusioni",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Statua_Illusioni",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/a/a8/Statua_Illusioni.png/260px-Statua_Illusioni.png",
+    "immagine": "Statua Illusioni.png",
+    "funzione": [
+      "Altopiano delle Illusioni"
+    ],
+    "ha_missioni": true,
+    "missioni": [
+      "Missione Giornaliera Mondo delle Illusioni"
+    ],
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Joan": {
+        "x": 688,
+        "y": 748
+      },
+      "Pyungmoo": {
+        "x": 342,
+        "y": 800
+      },
+      "Yongan": {
+        "x": 540,
+        "y": 500
+      },
+      "Capo Fuoco del Drago": {
+        "x": 530,
+        "y": 1256
+      }
+    }
+  },
+  {
+    "nome": "Statua Risveglio",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Statua_Risveglio",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/6/69/Statua_Risveglio.png/260px-Statua_Risveglio.png",
+    "immagine": "Statua Risveglio.png",
+    "funzione": [
+      "Grotta dell'Esilio - Secondo Piano (RSV)",
+      "Fortezza del Drago Rosso (RSV)",
+      "Torre di Vedetta di Nemere (RSV)",
+      "Sottobosco (RSV)"
+    ],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Altopiano delle Illusioni": {
+        "x": 153,
+        "y": 89
+      }
+    }
+  },
+  {
+    "nome": "Stele Isfet",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Stele_Isfet",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/f/fa/Stele_Isfet.png/260px-Stele_Isfet.png",
+    "immagine": "Stele Isfet.png",
+    "funzione": [],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false
+  },
+  {
+    "nome": "Stele Isfet (FT)",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Stele_Isfet_(FT)",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/0/0b/Stele_Isfet_%28FT%29.png/260px-Stele_Isfet_%28FT%29.png",
+    "immagine": "Stele Isfet (FT).png",
+    "funzione": [],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false
+  },
+  {
+    "nome": "Stele Isfet (RSV)",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Stele_Isfet_(RSV)",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/9/9d/Stele_Isfet_%28RSV%29.png/260px-Stele_Isfet_%28RSV%29.png",
+    "immagine": "Stele Isfet (RSV).png",
+    "funzione": [],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false
+  },
+  {
+    "nome": "Storico",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Storico",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/f/f9/Storico.png/260px-Storico.png",
+    "immagine": "Storico.png",
+    "funzione": [
+      "Pane",
+      "File:Icona Pane.png",
+      "Dolci",
+      "File:Icona Dolci.png",
+      "Frutto della Benedizione",
+      "File:Icona Frutto della Benedizione.png",
+      "File:Icona Cavallo Nero (sigillo).png",
+      "Cavallo Nero (sigillo)"
+    ],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Joan": {
+        "x": 598,
+        "y": 618
+      },
+      "Pyungmoo": {
+        "x": 357,
+        "y": 743
+      },
+      "Yongan": {
+        "x": 607,
+        "y": 616
+      }
+    }
+  },
+  {
+    "nome": "Summer",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Summer",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/8/85/Summer.png/260px-Summer.png",
+    "immagine": "Summer.png",
+    "funzione": [
+      "Evento Estivo"
+    ],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Joan": {
+        "x": 630,
+        "y": 674
+      },
+      "Pyungmoo": {
+        "x": 305,
+        "y": 588
+      },
+      "Yongan": {
+        "x": 697,
+        "y": 636
+      }
+    }
+  },
+  {
+    "nome": "Taurean",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Taurean",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/8/81/Taurean.png/260px-Taurean.png",
+    "immagine": "Taurean.png",
+    "funzione": [
+      "NPC"
+    ],
+    "ha_missioni": true,
+    "missioni": [
+      "Torta di riso",
+      "Trova il ragno",
+      "Bingsu?"
+    ],
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Bokjung": {
+        "x": 383,
+        "y": 400
+      },
+      "Bakra": {
+        "x": 411,
+        "y": 333
+      },
+      "Jayang": {
+        "x": 475,
+        "y": 684
+      }
+    }
+  },
+  {
+    "nome": "Tavola di Pietra Rovinata",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Tavola_di_Pietra_Rovinata",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/9/9d/Tavola_di_Pietra_Rovinata.png/260px-Tavola_di_Pietra_Rovinata.png",
+    "immagine": "Tavola di Pietra Rovinata.png",
+    "funzione": [
+      "NPC"
+    ],
+    "ha_missioni": true,
+    "missioni": [
+      "La scoperta"
+    ],
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Bosco Rosso": {
+        "x": 622,
+        "y": 518
+      }
+    }
+  },
+  {
+    "nome": "Tavolo da Gioco Okey",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Tavolo_da_Gioco_Okey",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/9/9e/Tavolo_da_Gioco_Okey.png/260px-Tavolo_da_Gioco_Okey.png",
+    "immagine": "Tavolo da Gioco Okey.png",
+    "funzione": [
+      "NPC",
+      "Gioco di Carte Okey"
+    ],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Pyungmoo": {
+        "x": 354,
+        "y": 740
+      },
+      "Joan": {
+        "x": 596,
+        "y": 612
+      },
+      "Yongan": {
+        "x": 608,
+        "y": 620
+      }
+    }
+  },
+  {
+    "nome": "Tavolo da Yutnori",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Tavolo_da_Yutnori",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/f/f7/Tavolo_da_Yutnori.png/260px-Tavolo_da_Yutnori.png",
+    "immagine": "Tavolo da Yutnori.png",
+    "funzione": [
+      "NPC"
+    ],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": true,
+    "posizioni": {
+      "Pyungmoo": {
+        "x": 358,
+        "y": 748
+      },
+      "Joan": {
+        "x": 596,
+        "y": 608
+      },
+      "Yongan": {
+        "x": 608,
+        "y": 614
+      }
+    }
+  },
+  {
+    "nome": "Tavolo di Trova il Re",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Tavolo_di_Trova_il_Re",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/9/98/Tavolo_di_Trova_il_Re.png/260px-Tavolo_di_Trova_il_Re.png",
+    "immagine": "Tavolo di Trova il Re.png",
+    "funzione": [
+      "NPC",
+      "Trova il Re"
+    ],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Pyungmoo": {
+        "x": 350,
+        "y": 738
+      },
+      "Joan": {
+        "x": 596,
+        "y": 614
+      },
+      "Yongan": {
+        "x": 608,
+        "y": 623
+      },
+      "Piana Dongan": {
+        "x": 505,
+        "y": 672
+      }
+    }
+  },
+  {
+    "nome": "Teleporter",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Teleporter",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/8/87/Teleporter.png/260px-Teleporter.png",
+    "immagine": "Teleporter.png",
+    "funzione": [],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Joan": {
+        "x": 519,
+        "y": 512
+      },
+      "Bokjung": {
+        "x": 345,
+        "y": 355
+      },
+      "Waryong": {
+        "x": 250,
+        "y": 240
+      },
+      "Contea Songpa": {
+        "x": 243,
+        "y": 256
+      },
+      "Pyungmoo": {
+        "x": 432,
+        "y": 685
+      },
+      "Bakra": {
+        "x": 480,
+        "y": 355
+      },
+      "Imha": {
+        "x": 280,
+        "y": 240
+      },
+      "Contea Daeyami": {
+        "x": 243,
+        "y": 256
+      },
+      "Yongan": {
+        "x": 555,
+        "y": 625
+      },
+      "Jayang": {
+        "x": 500,
+        "y": 575
+      },
+      "Jungrang": {
+        "x": 350,
+        "y": 175
+      },
+      "Contea Miryang": {
+        "x": 243,
+        "y": 256
+      },
+      "Monte Sohan": {
+        "x": 780,
+        "y": 620
+      },
+      "Doyyumhwaji": {
+        "x": 120,
+        "y": 730
+      },
+      "Tempio Hwang": {
+        "x": 570,
+        "y": 820
+      },
+      "Lungsam": {
+        "x": 220,
+        "y": 270
+      },
+      "Campo Serpi": {
+        "x": 245,
+        "y": 580
+      },
+      "Valle di Seungryong": {
+        "x": 800,
+        "y": 900
+      },
+      "Deserto Yongbi": {
+        "x": 920,
+        "y": 610
+      },
+      "Tempio di Ochao": {
+        "x": 400,
+        "y": 385
+      },
+      "Sottobosco": {
+        "x": 338,
+        "y": 915
+      },
+      "Altopiano delle Illusioni": {
+        "x": 127,
+        "y": 190
+      },
+      "Piana Dongan": {
+        "x": 462,
+        "y": 703
+      }
+    }
+  },
+  {
+    "nome": "Timone (NPC)",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Timone_(NPC)",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/5/54/Timone_%28NPC%29.png/260px-Timone_%28NPC%29.png",
+    "immagine": "Timone (NPC).png",
+    "funzione": [
+      "Difesa Nave",
+      "Difesa Nave"
+    ],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Difesa Nave": {
+        "x": 385,
+        "y": 367
+      }
+    }
+  },
+  {
+    "nome": "Theowahdan",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Theowahdan",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/a/ae/Theowahdan.png/260px-Theowahdan.png",
+    "immagine": "Theowahdan.png",
+    "funzione": [],
+    "ha_missioni": true,
+    "missioni": [
+      "Una stoffa particolare"
+    ],
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Capo Fuoco del Drago": {
+        "x": 564,
+        "y": 1168
+      },
+      "Joan": {
+        "x": 681,
+        "y": 717
+      },
+      "Pyungmoo": {
+        "x": 413,
+        "y": 539
+      },
+      "Yongan": {
+        "x": 732,
+        "y": 480
+      }
+    }
+  },
+  {
+    "nome": "Theowahdan (Yohara)",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Theowahdan_(Yohara)",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/2/29/Theowahdan_%28Yohara%29.png/260px-Theowahdan_%28Yohara%29.png",
+    "immagine": "Theowahdan (Yohara).png",
+    "funzione": [
+      "NPC"
+    ],
+    "ha_missioni": true,
+    "missioni": [
+      "Forze nefaste",
+      "Sfrutta le forze oscure",
+      "Nuove forze",
+      "Un'azione sospetta",
+      "Caccia al truffatore"
+    ],
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Piana Dongan": {
+        "x": 588,
+        "y": 761
+      }
+    }
+  },
+  {
+    "nome": "Tortina",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Tortina",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/8/83/Tortina.png/260px-Tortina.png",
+    "immagine": "Tortina.png",
+    "funzione": [
+      "Evento dell'Anniversario"
+    ],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false
+  },
+  {
+    "nome": "Traccia di Meley",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Traccia_di_Meley",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/7/79/Traccia_di_Meley.png/260px-Traccia_di_Meley.png",
+    "immagine": "https://it-wiki.metin2.gameforge.com/images/thumb/5/52/Sorry.png/45px-Sorry.png"
+  },
+  {
+    "nome": "Traditore Balso",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Traditore_Balso",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/0/0b/Traditore_Balso.png/260px-Traditore_Balso.png",
+    "immagine": "Traditore Balso.png",
+    "funzione": [
+      "NPC"
+    ],
+    "ha_missioni": true,
+    "missioni": [
+      "Una medicina per Balso",
+      "Consegna per il Traditore Balso",
+      "Una vittima della banda del vento oscuro"
+    ],
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Bokjung": {
+        "x": 409,
+        "y": 268
+      },
+      "Bakra": {
+        "x": 451,
+        "y": 330
+      },
+      "Jayang": {
+        "x": 541,
+        "y": 620
+      }
+    }
+  },
+  {
+    "nome": "Tris di Mostri",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Tris_di_Mostri",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/5/57/Tris_di_Mostri.png/260px-Tris_di_Mostri.png",
+    "immagine": "Tris di Mostri.png",
+    "funzione": [
+      "NPC"
+    ],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Pyungmoo": {
+        "x": 347,
+        "y": 733
+      },
+      "Joan": {
+        "x": 604,
+        "y": 613
+      },
+      "Yongan": {
+        "x": 618,
+        "y": 620
+      }
+    }
+  },
+  {
+    "nome": "Truffatore",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Truffatore",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/9/9c/Truffatore.png/260px-Truffatore.png",
+    "immagine": "Truffatore.png",
+    "funzione": [
+      "Caccia al truffatore"
+    ],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Falesia di Gautama": {
+        "x": 777,
+        "y": 714
+      }
+    }
+  },
+  {
+    "nome": "Uriel",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Uriel",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/a/a7/Uriel.png/260px-Uriel.png",
+    "immagine": "Uriel.png",
+    "funzione": [
+      "NPC",
+      "Gara OX",
+      "Chiave degli Aracnidi",
+      "L'epigrafe"
+    ],
+    "ha_missioni": true,
+    "missioni": [
+      "Il segreto delle rocce metin!",
+      "Il libro segreto",
+      "Le pagine del libro segreto",
+      "Vai nel deserto Yongbi",
+      "La sesta pagina",
+      "Uccidi i guerrieri serpenti",
+      "La nona pagina",
+      "Una traccia nel deserto di ghiaccio",
+      "Cattura il piccolo ragno velenoso",
+      "Cerca i monumenti",
+      "L'ultima pagina",
+      "Nazione Oscura",
+      "Nazione Oscura II",
+      "Il Diario"
+    ],
+    "vende": [],
+    "venditore": false
+  },
+  {
+    "nome": "Uriel (Yohara)",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Uriel_(Yohara)",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/5/57/Uriel_%28Yohara%29.png/260px-Uriel_%28Yohara%29.png",
+    "immagine": "Uriel (Yohara).png",
+    "funzione": [
+      "NPC"
+    ],
+    "ha_missioni": true,
+    "missioni": [
+      "Salva Uriel",
+      "Anima dei gioielli (ripetibile)"
+    ],
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Piana Dongan": {
+        "x": 572,
+        "y": 709
+      }
+    }
+  },
+  {
+    "nome": "Vecchia Lapide",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Vecchia_Lapide",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/2/24/Vecchia_Lapide.png/260px-Vecchia_Lapide.png",
+    "immagine": "Vecchia Lapide.png",
+    "funzione": [
+      "NPC"
+    ],
+    "ha_missioni": true,
+    "missioni": [
+      "Nazione Oscura"
+    ],
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Monte Sohan": {
+        "x": 243,
+        "y": 1422
+      }
+    }
+  },
+  {
+    "nome": "Vecchia Scatola con Carte",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Vecchia_Scatola_con_Carte",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/6/61/Vecchia_Scatola_con_Carte.png/260px-Vecchia_Scatola_con_Carte.png",
+    "immagine": "Vecchia Scatola con Carte.png",
+    "funzione": [
+      "NPC"
+    ],
+    "ha_missioni": true,
+    "missioni": [
+      "Una traccia nel deserto di ghiaccio"
+    ],
+    "vende": [],
+    "venditore": false
+  },
+  {
+    "nome": "Vecchietta",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Vecchietta",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/b/b1/Vecchietta.png/260px-Vecchietta.png",
+    "immagine": "Vecchietta.png",
+    "funzione": [
+      "NPC",
+      "fortuna",
+      "Mappa Matrimonio",
+      "Abilità",
+      "Yang"
+    ],
+    "ha_missioni": true,
+    "missioni": [
+      "Polvere alla polvere",
+      "Sconfiggi le jin hee (missione segreta)"
+    ],
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Yongan": {
+        "x": 633,
+        "y": 622
+      },
+      "Jayang": {
+        "x": 487,
+        "y": 666
+      },
+      "Pyungmoo": {
+        "x": 417,
+        "y": 671
+      },
+      "Bakra": {
+        "x": 411,
+        "y": 376
+      },
+      "Joan": {
+        "x": 588,
+        "y": 633
+      },
+      "Bokjung": {
+        "x": 419,
+        "y": 309
+      }
+    }
+  },
+  {
+    "nome": "Vecchietta (Yohara)",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Vecchietta_(Yohara)",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/0/0a/Vecchietta_%28Yohara%29.png/260px-Vecchietta_%28Yohara%29.png",
+    "immagine": "Vecchietta (Yohara).png",
+    "funzione": [
+      "Un'azione sospetta",
+      "fortuna",
+      "Mappa Matrimonio",
+      "Abilità",
+      "Yang"
+    ],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Piana Dongan": {
+        "x": 517,
+        "y": 755
+      }
+    }
+  },
+  {
+    "nome": "Vecchietto",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Vecchietto",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/f/f0/Vecchietto.png/260px-Vecchietto.png",
+    "immagine": "Vecchietto.png",
+    "funzione": [
+      "Zone Neutrali",
+      "Yang"
+    ],
+    "ha_missioni": true,
+    "missioni": [
+      "Mappa del tesoro del topo di biblioteca"
+    ],
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Yongan": {
+        "x": 76,
+        "y": 601
+      },
+      "Jayang": {
+        "x": 100,
+        "y": 150
+      },
+      "Pyungmoo": {
+        "x": 125,
+        "y": 1118
+      },
+      "Bakra": {
+        "x": 136,
+        "y": 899
+      },
+      "Joan": {
+        "x": 908,
+        "y": 82
+      },
+      "Bokjung": {
+        "x": 772,
+        "y": 140
+      }
+    }
+  },
+  {
+    "nome": "Vecchio Sigillo",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Vecchio_Sigillo",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/d/d7/Vecchio_Sigillo.png/260px-Vecchio_Sigillo.png",
+    "immagine": "Vecchio Sigillo.png",
+    "funzione": [
+      "NPC",
+      "Pietra Chiave"
+    ],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false
+  },
+  {
+    "nome": "Waheela",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Waheela",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/c/c2/Waheela.png/260px-Waheela.png",
+    "immagine": "Waheela.png",
+    "funzione": [],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Mappa dei Lican": {
+        "x": 395,
+        "y": 404
+      }
+    }
+  },
+  {
+    "nome": "Wonda-Rim",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Wonda-Rim",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/b/bb/Wonda-Rim.png/260px-Wonda-Rim.png",
+    "immagine": "Wonda-Rim.png",
+    "funzione": [
+      "NPC"
+    ],
+    "ha_missioni": true,
+    "missioni": [
+      "Una visita a Wonda-Rim",
+      "Un regalo per Chaegirab"
+    ],
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Pyungmoo": {
+        "x": 456,
+        "y": 936
+      },
+      "Joan": {
+        "x": 864,
+        "y": 823
+      }
+    }
+  },
+  {
+    "nome": "Yak-Hwan",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Yak-Hwan",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/e/ef/Yak-Hwan.png/260px-Yak-Hwan.png",
+    "immagine": "Yak-Hwan.png",
+    "funzione": [
+      "NPC"
+    ],
+    "ha_missioni": true,
+    "missioni": [
+      "Decifrare il documento",
+      "Emergenza",
+      "Riconoscimento",
+      "Investigare la Fortezza",
+      "Materia Oscura",
+      "Fortezza Misteriosa",
+      "Espugnare la Fortezza",
+      "Assalto alla Fortezza del Drago Rosso",
+      "Passo dopo Passo",
+      "Secondo passo",
+      "Terzo passo",
+      "La Battaglia contro Razador",
+      "Contrastare i piani I",
+      "Inizia la Battaglia",
+      "Vecchio Rancore, Nuova Battaglia",
+      "Il Drago Rosso"
+    ],
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Capo Fuoco del Drago": {
+        "x": 587,
+        "y": 1314
+      }
+    }
+  },
+  {
+    "nome": "Yang-Shin",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Yang-Shin",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/3/3e/Yang-Shin.png/260px-Yang-Shin.png",
+    "immagine": "Yang-Shin.png",
+    "funzione": [
+      "NPC"
+    ],
+    "ha_missioni": true,
+    "missioni": [
+      "Cerca la seconda pagina",
+      "Il tesoro del cacciatore",
+      "Il disertore"
+    ],
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Bokjung": {
+        "x": 481,
+        "y": 329
+      },
+      "Bakra": {
+        "x": 366,
+        "y": 389
+      },
+      "Jayang": {
+        "x": 564,
+        "y": 603
+      }
+    }
+  },
+  {
+    "nome": "Yonah",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Yonah",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/3/30/Yonah.png/260px-Yonah.png",
+    "immagine": "Yonah.png",
+    "funzione": [
+      "NPC"
+    ],
+    "ha_missioni": true,
+    "missioni": [
+      "Il segreto della porcellana Seladon",
+      "Porcellana Seladon",
+      "La porcellana frantumata",
+      "Le stalle sono in pericolo"
+    ],
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Joan": {
+        "x": 701,
+        "y": 685
+      },
+      "Pyungmoo": {
+        "x": 292,
+        "y": 717
+      },
+      "Yongan": {
+        "x": 596,
+        "y": 510
+      }
+    }
+  },
+  {
+    "nome": "Yu-Hwan",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Yu-Hwan",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/0/04/Yu-Hwan.png/260px-Yu-Hwan.png",
+    "immagine": "Yu-Hwan.png",
+    "funzione": [
+      "NPC",
+      "Pozioni Primo Livello",
+      "Pozioni Secondo Livello",
+      "Cinture",
+      "Pallone d'Oro",
+      "Giochiamo a Calcio"
+    ],
+    "ha_missioni": true,
+    "missioni": [
+      "I banditi del deserto",
+      "Le preoccupazioni di Ah-Yu",
+      "Consegnare il Lumen Puro",
+      "La Medaglia dell'Eroe"
+    ],
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Bokjung": {
+        "x": 375,
+        "y": 318
+      },
+      "Bakra": {
+        "x": 384,
+        "y": 454
+      },
+      "Jayang": {
+        "x": 415,
+        "y": 639
+      },
+      "Capo Fuoco del Drago": {
+        "x": 693,
+        "y": 1190
+      }
+    }
+  },
+  {
+    "nome": "Yu-Rang",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Yu-Rang",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/0/06/Yu-Rang.png/260px-Yu-Rang.png",
+    "immagine": "Yu-Rang.png",
+    "funzione": [
+      "NPC"
+    ],
+    "ha_missioni": true,
+    "missioni": [
+      "Trova il ragno",
+      "Trova le torte di riso perse da Yu-Rang!"
+    ],
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Bokjung": {
+        "x": 406,
+        "y": 418
+      },
+      "Bakra": {
+        "x": 493,
+        "y": 335
+      },
+      "Jayang": {
+        "x": 549,
+        "y": 562
+      }
+    }
+  },
+  {
+    "nome": "Altare Misterioso",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Altare_Misterioso",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/a/a8/Altare_Misterioso.png/260px-Altare_Misterioso.png",
+    "immagine": "Altare Misterioso.png",
+    "funzione": [
+      "Dungeon Misterioso",
+      "Talismano Misterioso"
+    ],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Abisso Namgan": {
+        "x": 960,
+        "y": 242
+      }
+    }
+  },
+  {
+    "nome": "Cacciatore di Taglie Passo Yilad",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Cacciatore_di_Taglie_Passo_Yilad",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/1/18/Cacciatore_di_Taglie_Passo_Yilad.png/260px-Cacciatore_di_Taglie_Passo_Yilad.png",
+    "immagine": "Cacciatore di Taglie Passo Yilad.png",
+    "funzione": [
+      "NPC"
+    ],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Passo Yilad": {
+        "x": 580,
+        "y": 110
+      }
+    }
+  },
+  {
+    "nome": "Statua Serpens (Passo Yilad)",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Statua_Serpens_(Passo_Yilad)",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/5/5e/Statua_Serpens_%28Passo_Yilad%29.png/260px-Statua_Serpens_%28Passo_Yilad%29.png",
+    "immagine": "Statua Serpens (Passo Yilad).png",
+    "funzione": [],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Passo Yilad": {
+        "x": 1197,
+        "y": 151
+      }
+    }
+  },
+  {
+    "nome": "Statua Serpens",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Statua_Serpens",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/8/81/Statua_Serpens.png/260px-Statua_Serpens.png",
+    "immagine": "Statua Serpens.png",
+    "funzione": [],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Templum Serpens": {
+        "x": 1197,
+        "y": 151
+      }
+    }
+  },
+  {
+    "nome": "Guardiano Serpens",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Guardiano_Serpens",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/2/2e/Guardiano_Serpens.png/260px-Guardiano_Serpens.png",
+    "immagine": "Guardiano Serpens.png",
+    "funzione": [
+      "NPC"
+    ],
+    "ha_missioni": true,
+    "missioni": [
+      "Cos'è il Templum Serpens?",
+      "Templum Serpens?!",
+      "Là dove soffia Borea"
+    ],
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Passo Yilad": {
+        "x": 637,
+        "y": 494
+      }
+    }
+  },
+  {
+    "nome": "Guardiano Boreale",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Guardiano_Boreale",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/3/3b/Guardiano_Boreale.png/260px-Guardiano_Boreale.png",
+    "immagine": "Guardiano Boreale.png",
+    "funzione": [
+      "NPC"
+    ],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Canyon Boreale": {
+        "x": 503,
+        "y": 456
+      }
+    }
+  },
+  {
+    "nome": "Cacciatore Taglie Canyon Boreale",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Cacciatore_Taglie_Canyon_Boreale",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/9/99/Cacciatore_Taglie_Canyon_Boreale.png/260px-Cacciatore_Taglie_Canyon_Boreale.png",
+    "immagine": "Cacciatore Taglie Canyon Boreale.png",
+    "funzione": [
+      "NPC"
+    ],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Canyon Boreale": {
+        "x": 1117,
+        "y": 871
+      }
+    }
+  },
+  {
+    "nome": "Guardiano Gola delle Anime",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Guardiano_Gola_delle_Anime",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/c/c1/Guardiano_Gola_delle_Anime.png/260px-Guardiano_Gola_delle_Anime.png",
+    "immagine": "Guardiano Gola delle Anime.png",
+    "funzione": [
+      "NPC"
+    ],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Gola delle Anime": {
+        "x": 562,
+        "y": 670
+      }
+    }
+  },
+  {
+    "nome": "Cacciatore Taglie Gola Anime",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Cacciatore_Taglie_Gola_Anime",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/8/88/Cacciatore_Taglie_Gola_Anime.png/260px-Cacciatore_Taglie_Gola_Anime.png",
+    "immagine": "Cacciatore Taglie Gola Anime.png",
+    "funzione": [
+      "NPC"
+    ],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Gola delle Anime": {
+        "x": 499,
+        "y": 231
+      }
+    }
+  },
+  {
+    "nome": "Generale Kohan",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Generale_Kohan",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/6/65/Generale_Kohan.png/260px-Generale_Kohan.png",
+    "immagine": "Generale Kohan.png",
+    "funzione": [
+      "NPC"
+    ],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false
+  },
+  {
+    "nome": "Esploratore Perduto",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Esploratore_Perduto",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/0/02/Esploratore_Perduto.png/260px-Esploratore_Perduto.png"
+  },
+  {
+    "nome": "Cacciatore Taglie Rifugio",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Cacciatore_Taglie_Rifugio",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/3/39/Cacciatore_Taglie_Rifugio.png/260px-Cacciatore_Taglie_Rifugio.png",
+    "immagine": "Cacciatore Taglie Rifugio.png",
+    "funzione": [
+      "NPC"
+    ],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Rifugio Boreale": {
+        "x": 87,
+        "y": 670
+      }
+    }
+  },
+  {
+    "nome": "Eremita Boreale",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Eremita_Boreale",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/b/b7/Eremita_Boreale.png/260px-Eremita_Boreale.png",
+    "immagine": "Eremita Boreale.png",
+    "funzione": [
+      "NPC"
+    ],
+    "ha_missioni": true,
+    "missioni": [
+      "Dicerie lugubri",
+      "Training del gelo"
+    ],
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Pendio Boreale": {
+        "x": 67,
+        "y": 71
+      }
+    }
+  },
+  {
+    "nome": "Vecchie Ossa",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Vecchie_Ossa",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/8/8b/Vecchie_Ossa.png/260px-Vecchie_Ossa.png",
+    "immagine": "Vecchie Ossa.png",
+    "funzione": [
+      "NPC",
+      "Pendio Boreale"
+    ],
+    "ha_missioni": true,
+    "missioni": [
+      "Dicerie lugubri"
+    ],
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Pendio Boreale": {
+        "x": 413,
+        "y": 200
+      }
+    }
+  },
+  {
+    "nome": "Guardiano Spettrale",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Guardiano_Spettrale",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/e/e9/Guardiano_Spettrale.png/260px-Guardiano_Spettrale.png",
+    "immagine": "Guardiano Spettrale.png",
+    "funzione": [
+      "NPC",
+      "Abissi Boreali (facile)",
+      "Abissi Boreali (difficile)"
+    ],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false
+  },
+  {
+    "nome": "Araldo della Morte",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Araldo_della_Morte",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/3/33/Araldo_della_Morte.png/260px-Araldo_della_Morte.png",
+    "immagine": "Araldo della Morte.png",
+    "funzione": [
+      "Altromondo"
+    ],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false
+  },
+  {
+    "nome": "Guardiano Hae-Tae",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Guardiano_Hae-Tae",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/4/47/Guardiano_Hae-Tae.png/260px-Guardiano_Hae-Tae.png",
+    "immagine": "Guardiano Hae-Tae.png",
+    "funzione": [
+      "Altromondo",
+      "Redenzione",
+      "Asmodeus"
+    ],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Altromondo": {
+        "x": 255,
+        "y": 315
+      }
+    }
+  },
+  {
+    "nome": "Uovo di Drago Bianco (NPC)",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Uovo_di_Drago_Bianco_(NPC)",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/4/47/Uovo_di_Drago_Bianco_%28NPC%29.png/260px-Uovo_di_Drago_Bianco_%28NPC%29.png",
+    "immagine": "Uovo di Drago Bianco (NPC).png",
+    "funzione": [
+      "Abissi Boreali (facile)",
+      "Abissi Boreali (difficile)",
+      "Alastor (facile)",
+      "Alastor (difficile)"
+    ],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false
+  },
+  {
+    "nome": "Cacciatore Luce di Luna",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Cacciatore_Luce_di_Luna",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/2/26/Cacciatore_Luce_di_Luna.png/260px-Cacciatore_Luce_di_Luna.png",
+    "immagine": "Cacciatore Luce di Luna.png",
+    "funzione": [
+      "NPC"
+    ],
+    "ha_missioni": true,
+    "missioni": [
+      "Incarico nella Valle dell'Ombra di Luna (ripetibile)",
+      "Secondo Incarico nella Valle dell'Ombra di Luna (ripetibile)"
+    ],
+    "vende": [],
+    "venditore": false,
+    "posizioni": {
+      "Valle dell'Ombra di Luna": {
+        "x": 753,
+        "y": 833
+      }
+    }
+  },
+  {
+    "nome": "Portale dell'Avidità",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Portale_dell%27Avidit%C3%A0",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/1/1b/Portale_dell%27Avidit%C3%A0.png/260px-Portale_dell%27Avidit%C3%A0.png",
+    "immagine": "Portale dell'Avidità.png",
+    "funzione": [
+      "Cuore dell'Avidità"
+    ],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false
+  },
+  {
+    "nome": "Altare Maligno",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Altare_Maligno",
+    "immagine_card": "https://it-wiki.metin2.gameforge.com/images/thumb/0/05/Altare_Maligno.png/260px-Altare_Maligno.png",
+    "immagine": "Altare Maligno.png",
+    "funzione": [
+      "Nykos",
+      "Nykos Maledetto",
+      "Altopiano Oscuro"
+    ],
+    "ha_missioni": false,
+    "vende": [],
+    "venditore": false
+  }
+]

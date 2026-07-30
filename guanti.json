@@ -1,0 +1,102 @@
+[
+  {
+    "nome": "Guanti Forza",
+    "categoria": "Guanti",
+    "tipo": "Guanti",
+    "livello": 105,
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Guanti_Forza",
+    "icona": "https://it-wiki.metin2.gameforge.com/images/8/8c/Icona_Guanti_Forza.png",
+    "prezzo_vendita": "",
+    "slot": 3,
+    "tipo_upgrade": "upgrade",
+    "costo_yang": "650000"
+  },
+  {
+    "nome": "Guanti Agilità",
+    "categoria": "Guanti",
+    "tipo": "Guanti",
+    "livello": 105,
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Guanti_Agilit%C3%A0",
+    "icona": "https://it-wiki.metin2.gameforge.com/images/d/d3/Icona_Guanti_Agilit%C3%A0.png",
+    "prezzo_vendita": "",
+    "slot": 3,
+    "tipo_upgrade": "upgrade",
+    "costo_yang": "650000"
+  },
+  {
+    "nome": "Guanti Armatura",
+    "categoria": "Guanti",
+    "tipo": "Guanti",
+    "livello": 105,
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Guanti_Armatura",
+    "icona": "https://it-wiki.metin2.gameforge.com/images/0/03/Icona_Guanti_Armatura.png",
+    "prezzo_vendita": "",
+    "slot": 3,
+    "tipo_upgrade": "upgrade",
+    "costo_yang": "650000"
+  },
+  {
+    "nome": "Guanti Protezione",
+    "categoria": "Guanti",
+    "tipo": "Guanti",
+    "livello": 105,
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Guanti_Protezione",
+    "icona": "https://it-wiki.metin2.gameforge.com/images/8/87/Icona_Guanti_Protezione.png",
+    "prezzo_vendita": "",
+    "slot": 3,
+    "tipo_upgrade": "upgrade",
+    "costo_yang": "650000"
+  },
+  {
+    "nome": "Guanti Serpens(STR)",
+    "categoria": "Guanti",
+    "tipo": "Guanti",
+    "livello": 120,
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Guanti_Serpens(STR)",
+    "icona": "https://it-wiki.metin2.gameforge.com/images/9/9b/Icona_Guanti_Serpens%28STR%29.png",
+    "prezzo_vendita": "Non disponibile",
+    "slot": 3,
+    "tipo_upgrade": "upgrade",
+    "costo_yang": "650000",
+    "difesa": "55~67"
+  },
+  {
+    "nome": "Guanti Serpens(RES)",
+    "categoria": "Guanti",
+    "tipo": "Guanti",
+    "livello": 120,
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Guanti_Serpens(RES)",
+    "icona": "https://it-wiki.metin2.gameforge.com/images/2/22/Icona_Guanti_Serpens%28RES%29.png",
+    "prezzo_vendita": "Non disponibile",
+    "slot": 3,
+    "tipo_upgrade": "upgrade",
+    "costo_yang": "650000",
+    "difesa": "55~67"
+  },
+  {
+    "nome": "Guanti Serpens(VIT)",
+    "categoria": "Guanti",
+    "tipo": "Guanti",
+    "livello": 120,
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Guanti_Serpens(VIT)",
+    "icona": "https://it-wiki.metin2.gameforge.com/images/1/14/Icona_Guanti_Serpens%28VIT%29.png",
+    "prezzo_vendita": "Non disponibile",
+    "slot": 3,
+    "tipo_upgrade": "upgrade",
+    "costo_yang": "650000",
+    "difesa": "55~67"
+  },
+  {
+    "nome": "Guanti Serpens(INT)",
+    "categoria": "Guanti",
+    "tipo": "Guanti",
+    "livello": 120,
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Guanti_Serpens(INT)",
+    "icona": "https://it-wiki.metin2.gameforge.com/images/2/24/Icona_Guanti_Serpens%28INT%29.png",
+    "prezzo_vendita": "Non disponibile",
+    "slot": 3,
+    "tipo_upgrade": "upgrade",
+    "costo_yang": "650000",
+    "difesa": "55~67"
+  }
+]

@@ -1,0 +1,1310 @@
+[
+  {
+    "nome": "Metin del Dolore",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Metin_del_Dolore",
+    "categoria": "Campo Aperto",
+    "livello": 5,
+    "hp": null,
+    "drop": [],
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/a/ae/Metin_del_Dolore.png/260px-Metin_del_Dolore.png"
+  },
+  {
+    "nome": "Metin della Luna",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Metin_della_Luna",
+    "categoria": "Campo Aperto",
+    "livello": 5,
+    "hp": null,
+    "drop": [],
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/4/46/Metin_della_Luna.png/260px-Metin_della_Luna.png"
+  },
+  {
+    "nome": "Metin della Lotta",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Metin_della_Lotta",
+    "categoria": "Campo Aperto",
+    "livello": 10,
+    "hp": null,
+    "drop": [],
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/4/40/Metin_della_Lotta.png/260px-Metin_della_Lotta.png"
+  },
+  {
+    "nome": "Metin della Battaglia",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Metin_della_Battaglia",
+    "categoria": "Campo Aperto",
+    "livello": 15,
+    "hp": null,
+    "drop": [],
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/7/7e/Metin_della_Battaglia.png/260px-Metin_della_Battaglia.png"
+  },
+  {
+    "nome": "Metin dell'Avidità",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Metin_dell%27Avidit%C3%A0",
+    "categoria": "Campo Aperto",
+    "livello": 20,
+    "hp": null,
+    "drop": [],
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/6/63/Metin_dell%27Avidit%C3%A0.png/260px-Metin_dell%27Avidit%C3%A0.png"
+  },
+  {
+    "nome": "Metin della Malvagità",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Metin_della_Malvagit%C3%A0",
+    "categoria": "Campo Aperto",
+    "livello": 25,
+    "hp": null,
+    "drop": [],
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/f/fa/Metin_della_Malvagit%C3%A0.png/260px-Metin_della_Malvagit%C3%A0.png"
+  },
+  {
+    "nome": "Metin dell'Oscurità",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Metin_dell%27Oscurit%C3%A0",
+    "categoria": "Campo Aperto",
+    "livello": 30,
+    "hp": null,
+    "drop": [],
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/0/0c/Metin_dell%27Oscurit%C3%A0.png/260px-Metin_dell%27Oscurit%C3%A0.png"
+  },
+  {
+    "nome": "Metin della Gelosia",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Metin_della_Gelosia",
+    "categoria": "Campo Aperto",
+    "livello": 35,
+    "hp": null,
+    "drop": [],
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/1/15/Metin_della_Gelosia.png/260px-Metin_della_Gelosia.png"
+  },
+  {
+    "nome": "Metin dell'Anima",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Metin_dell%27Anima",
+    "categoria": "Campo Aperto",
+    "livello": 40,
+    "hp": null,
+    "drop": [],
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/7/7f/Metin_dell%27Anima.png/260px-Metin_dell%27Anima.png"
+  },
+  {
+    "nome": "Metin dell'Ombra",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Metin_dell%27Ombra",
+    "categoria": "Campo Aperto",
+    "livello": 45,
+    "hp": null,
+    "drop": [],
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/4/4d/Metin_dell%27Ombra.png/260px-Metin_dell%27Ombra.png"
+  },
+  {
+    "nome": "Metin della Durezza",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Metin_della_Durezza",
+    "categoria": "Campo Aperto",
+    "livello": 50,
+    "hp": null,
+    "drop": [],
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/e/e4/Metin_della_Durezza.png/260px-Metin_della_Durezza.png"
+  },
+  {
+    "nome": "Metin del Diavolo",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Metin_del_Diavolo",
+    "categoria": "Campo Aperto",
+    "livello": 55,
+    "hp": null,
+    "drop": [],
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/2/24/Metin_del_Diavolo.png/260px-Metin_del_Diavolo.png"
+  },
+  {
+    "nome": "Metin della Caduta",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Metin_della_Caduta",
+    "categoria": "Campo Aperto",
+    "livello": 60,
+    "hp": null,
+    "drop": [],
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/4/41/Metin_della_Caduta.png/260px-Metin_della_Caduta.png"
+  },
+  {
+    "nome": "Metin della Morte",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Metin_della_Morte",
+    "categoria": "Campo Aperto",
+    "livello": 65,
+    "hp": null,
+    "drop": [],
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/c/cd/Metin_della_Morte.png/260px-Metin_della_Morte.png"
+  },
+  {
+    "nome": "Metin dell'Assassino",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Metin_dell%27Assassino",
+    "categoria": "Campo Aperto",
+    "livello": 70,
+    "hp": null,
+    "drop": [],
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/a/a3/Metin_dell%27Assassino.png/260px-Metin_dell%27Assassino.png"
+  },
+  {
+    "nome": "Metin Pung-Ma",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Metin_Pung-Ma",
+    "categoria": "Campo Aperto",
+    "livello": 75,
+    "hp": null,
+    "drop": [],
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/4/4a/Metin_Pung-Ma.png/260px-Metin_Pung-Ma.png"
+  },
+  {
+    "nome": "Metin Ma-An",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Metin_Ma-An",
+    "categoria": "Campo Aperto",
+    "livello": 80,
+    "hp": null,
+    "drop": [],
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/f/f3/Metin_Ma-An.png/260px-Metin_Ma-An.png"
+  },
+  {
+    "nome": "Metin Tu-Young",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Metin_Tu-Young",
+    "categoria": "Campo Aperto",
+    "livello": 85,
+    "hp": null,
+    "drop": [],
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/9/9c/Metin_Tu-Young.png/260px-Metin_Tu-Young.png"
+  },
+  {
+    "nome": "Metin Jeon-Un",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Metin_Jeon-Un",
+    "categoria": "Campo Aperto",
+    "livello": 90,
+    "hp": null,
+    "drop": [],
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/9/99/Metin_Jeon-Un.png/260px-Metin_Jeon-Un.png"
+  },
+  {
+    "nome": "Metin delle Tenebre",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Metin_delle_Tenebre",
+    "categoria": "Campo Aperto",
+    "livello": 95,
+    "hp": null,
+    "drop": [],
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/b/bd/Metin_delle_Tenebre.png/260px-Metin_delle_Tenebre.png"
+  },
+  {
+    "nome": "Metin dell'Incandescenza",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Metin_dell%27Incandescenza",
+    "categoria": "Campo Aperto",
+    "livello": 95,
+    "hp": null,
+    "drop": [],
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/c/c5/Metin_dell%27Incandescenza.png/260px-Metin_dell%27Incandescenza.png"
+  },
+  {
+    "nome": "Metin della Vanità",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Metin_della_Vanit%C3%A0",
+    "categoria": "Campo Aperto",
+    "livello": 100,
+    "hp": null,
+    "drop": [],
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/c/ce/Metin_della_Vanit%C3%A0.png/260px-Metin_della_Vanit%C3%A0.png"
+  },
+  {
+    "nome": "Metin della Collera",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Metin_della_Collera",
+    "categoria": "Campo Aperto",
+    "livello": 100,
+    "hp": null,
+    "drop": [],
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/a/af/Metin_della_Collera.png/260px-Metin_della_Collera.png"
+  },
+  {
+    "nome": "Metin Creature Arboree",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Metin_Creature_Arboree",
+    "categoria": "Campo Aperto",
+    "livello": 100,
+    "hp": null,
+    "drop": [],
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/1/1c/Metin_Creature_Arboree.png/260px-Metin_Creature_Arboree.png"
+  },
+  {
+    "nome": "Metin della Sciagura",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Metin_della_Sciagura",
+    "categoria": "Campo Aperto",
+    "livello": 105,
+    "hp": null,
+    "drop": [],
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/0/04/Metin_della_Sciagura.png/260px-Metin_della_Sciagura.png",
+    "grado": 5
+  },
+  {
+    "nome": "Metin dell'Infamia",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Metin_dell%27Infamia",
+    "categoria": "Campo Aperto",
+    "livello": 105,
+    "hp": null,
+    "drop": [],
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/7/72/Metin_dell%27Infamia.png/260px-Metin_dell%27Infamia.png"
+  },
+  {
+    "nome": "Metin del Bosco",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Metin_del_Bosco",
+    "categoria": "Campo Aperto",
+    "livello": 120,
+    "hp": null,
+    "drop": [],
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/4/4d/Metin_del_Bosco.png/260px-Metin_del_Bosco.png"
+  },
+  {
+    "nome": "Metin del Fuoco",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Metin_del_Fuoco",
+    "categoria": "Campo Aperto",
+    "livello": 120,
+    "hp": null,
+    "drop": [],
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/8/8d/Metin_del_Fuoco.png/260px-Metin_del_Fuoco.png",
+    "grado": 5
+  },
+  {
+    "nome": "Metin del Vento",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Metin_del_Vento",
+    "categoria": "Campo Aperto",
+    "livello": 120,
+    "hp": null,
+    "drop": [],
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/1/12/Metin_del_Vento.png/260px-Metin_del_Vento.png",
+    "grado": 5
+  },
+  {
+    "nome": "Metin dei Fulmini",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Metin_dei_Fulmini",
+    "categoria": "Campo Aperto",
+    "livello": 120,
+    "hp": null,
+    "drop": [],
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/1/17/Metin_dei_Fulmini.png/260px-Metin_dei_Fulmini.png"
+  },
+  {
+    "nome": "Metin del Ghiaccio",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Metin_del_Ghiaccio",
+    "categoria": "Campo Aperto",
+    "livello": 120,
+    "hp": null,
+    "drop": [],
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/2/2c/Metin_del_Ghiaccio.png/260px-Metin_del_Ghiaccio.png"
+  },
+  {
+    "nome": "Metin della Terra",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Metin_della_Terra",
+    "categoria": "Campo Aperto",
+    "livello": 120,
+    "hp": null,
+    "drop": [],
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/d/db/Metin_della_Terra.png/260px-Metin_della_Terra.png",
+    "grado": 5
+  },
+  {
+    "nome": "Metin della Notte",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Metin_della_Notte",
+    "categoria": "Campo Aperto",
+    "livello": 120,
+    "hp": null,
+    "drop": [],
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/6/62/Metin_della_Notte.png/260px-Metin_della_Notte.png"
+  },
+  {
+    "nome": "Metin della Percezione",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Metin_della_Percezione",
+    "categoria": "Campo Aperto",
+    "livello": 120,
+    "hp": null,
+    "drop": [],
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/2/23/Metin_della_Percezione.png/260px-Metin_della_Percezione.png",
+    "grado": 5
+  },
+  {
+    "nome": "Metin della Percezione (M)",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Metin_della_Percezione_(M)",
+    "categoria": "Campo Aperto",
+    "livello": 120,
+    "hp": null,
+    "drop": [],
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/2/21/Metin_della_Percezione_%28M%29.png/260px-Metin_della_Percezione_%28M%29.png",
+    "grado": 5
+  },
+  {
+    "nome": "Avamposto Troll",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Avamposto_Troll",
+    "categoria": "Campo Aperto",
+    "livello": 120,
+    "hp": null,
+    "drop": [],
+    "grado": 5,
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/a/a1/Avamposto_Troll.png/260px-Avamposto_Troll.png"
+  },
+  {
+    "nome": "Metin della Stima",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Metin_della_Stima",
+    "categoria": "Campo Aperto",
+    "livello": 120,
+    "hp": null,
+    "drop": [],
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/b/b8/Metin_della_Stima.png/260px-Metin_della_Stima.png",
+    "grado": 5
+  },
+  {
+    "nome": "Avamposto Myr 1",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Avamposto_Myr_1",
+    "categoria": "Campo Aperto",
+    "livello": 120,
+    "hp": null,
+    "drop": [],
+    "grado": 5,
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/7/77/Avamposto_Myr_1.png/260px-Avamposto_Myr_1.png"
+  },
+  {
+    "nome": "Metin dell'Attenzione",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Metin_dell%27Attenzione",
+    "categoria": "Campo Aperto",
+    "livello": 120,
+    "hp": null,
+    "drop": [],
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/c/c7/Metin_dell%27Attenzione.png/260px-Metin_dell%27Attenzione.png",
+    "grado": 5
+  },
+  {
+    "nome": "Metin del Jin",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Metin_del_Jin",
+    "categoria": "Campo Aperto",
+    "livello": 120,
+    "hp": null,
+    "drop": [],
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/4/4f/Metin_del_Jin.png/260px-Metin_del_Jin.png",
+    "grado": 5
+  },
+  {
+    "nome": "Avamposto Myr 2",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Avamposto_Myr_2",
+    "categoria": "Campo Aperto",
+    "livello": 120,
+    "hp": null,
+    "drop": [],
+    "grado": 5,
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/e/e4/Avamposto_Myr_2.png/260px-Avamposto_Myr_2.png"
+  },
+  {
+    "nome": "Metin dello Shiho",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Metin_dello_Shiho",
+    "categoria": "Campo Aperto",
+    "livello": 120,
+    "hp": null,
+    "drop": [],
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/4/48/Metin_dello_Shiho.png/260px-Metin_dello_Shiho.png",
+    "grado": 5
+  },
+  {
+    "nome": "Metin del Luce di Luna",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Metin_del_Luce_di_Luna",
+    "categoria": "Campo Aperto",
+    "livello": 120,
+    "hp": null,
+    "drop": [],
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/8/8b/Metin_del_Luce_di_Luna.png/260px-Metin_del_Luce_di_Luna.png",
+    "grado": 5
+  },
+  {
+    "nome": "Presagio di Avidità",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Presagio_di_Avidit%C3%A0",
+    "categoria": "Campo Aperto",
+    "livello": 120,
+    "hp": null,
+    "drop": [],
+    "grado": 5,
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/3/32/Presagio_di_Avidit%C3%A0.png/260px-Presagio_di_Avidit%C3%A0.png"
+  },
+  {
+    "nome": "Roccia Imperiale",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Roccia_Imperiale",
+    "categoria": "Speciali",
+    "livello": 1,
+    "hp": null,
+    "drop": [],
+    "grado": 5,
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/0/00/Roccia_Imperiale.png/260px-Roccia_Imperiale.png"
+  },
+  {
+    "nome": "Roccia Chunjo",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Roccia_Chunjo",
+    "categoria": "Speciali",
+    "livello": 1,
+    "hp": null,
+    "drop": [],
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/3/3e/Roccia_Chunjo.png/260px-Roccia_Chunjo.png"
+  },
+  {
+    "nome": "Roccia Shinsoo",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Roccia_Shinsoo",
+    "categoria": "Speciali",
+    "livello": 1,
+    "hp": null,
+    "drop": [],
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/2/22/Roccia_Shinsoo.png/260px-Roccia_Shinsoo.png"
+  },
+  {
+    "nome": "Roccia Jinno",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Roccia_Jinno",
+    "categoria": "Speciali",
+    "livello": 1,
+    "hp": null,
+    "drop": [],
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/e/ec/Roccia_Jinno.png/260px-Roccia_Jinno.png"
+  },
+  {
+    "nome": "Cassa Rifornimento (BR)",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Cassa_Rifornimento_(BR)",
+    "categoria": "Speciali",
+    "livello": 1,
+    "hp": null,
+    "drop": [],
+    "grado": 3,
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/8/80/Cassa_Rifornimento_%28BR%29.png/260px-Cassa_Rifornimento_%28BR%29.png"
+  },
+  {
+    "nome": "Cassa Equipaggiamento (BR)",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Cassa_Equipaggiamento_(BR)",
+    "categoria": "Speciali",
+    "livello": 1,
+    "hp": null,
+    "drop": [],
+    "grado": 3,
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/7/7d/Cassa_Equipaggiamento_%28BR%29.png/260px-Cassa_Equipaggiamento_%28BR%29.png"
+  },
+  {
+    "nome": "Cassa Rifornimento Speciale (BR)",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Cassa_Rifornimento_Speciale_(BR)",
+    "categoria": "Speciali",
+    "livello": 1,
+    "hp": null,
+    "drop": [],
+    "grado": 3,
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/9/9a/Cassa_Rifornimento_Speciale_%28BR%29.png/260px-Cassa_Rifornimento_Speciale_%28BR%29.png"
+  },
+  {
+    "nome": "Metin Pasquale",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Metin_Pasquale_(livello_10)",
+    "categoria": "Speciali",
+    "livello": null,
+    "hp": null,
+    "drop": [],
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/a/a1/Metin_Pasquale.png/260px-Metin_Pasquale.png"
+  },
+  {
+    "nome": "Rana Dorata",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Rana_Dorata",
+    "categoria": "Speciali",
+    "livello": 100,
+    "hp": null,
+    "drop": [],
+    "grado": 3,
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/b/b5/Rana_Dorata.png/260px-Rana_Dorata.png"
+  },
+  {
+    "nome": "Metin dell'Agonia",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Metin_dell%27Agonia",
+    "categoria": "Speciali",
+    "livello": 50,
+    "hp": null,
+    "drop": [],
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/3/33/Metin_dell%27Agonia.png/260px-Metin_dell%27Agonia.png"
+  },
+  {
+    "nome": "Santuario dell'Energia",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Santuario_dell%27Energia",
+    "categoria": "Speciali",
+    "livello": 0,
+    "hp": null,
+    "drop": [],
+    "grado": 5,
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/8/89/Santuario_dell%27Energia.png/260px-Santuario_dell%27Energia.png"
+  },
+  {
+    "nome": "Santuario della Fortuna",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Santuario_della_Fortuna",
+    "categoria": "Speciali",
+    "livello": 0,
+    "hp": null,
+    "drop": [],
+    "grado": 5,
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/8/8f/Santuario_della_Fortuna.png/260px-Santuario_della_Fortuna.png"
+  },
+  {
+    "nome": "Santuario del Potere",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Santuario_del_Potere",
+    "categoria": "Speciali",
+    "livello": 0,
+    "hp": null,
+    "drop": [],
+    "grado": 5,
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/0/0c/Santuario_del_Potere.png/260px-Santuario_del_Potere.png"
+  },
+  {
+    "nome": "Santuario dei Tesori",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Santuario_dei_Tesori",
+    "categoria": "Speciali",
+    "livello": 0,
+    "hp": null,
+    "drop": [],
+    "grado": 5,
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/c/cd/Santuario_dei_Tesori.png/260px-Santuario_dei_Tesori.png"
+  },
+  {
+    "nome": "Santuario Illuminazione",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Santuario_Illuminazione",
+    "categoria": "Speciali",
+    "livello": 0,
+    "hp": null,
+    "drop": [],
+    "grado": 5,
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/8/87/Santuario_Illuminazione.png/260px-Santuario_Illuminazione.png"
+  },
+  {
+    "nome": "Metin della Prima Prova",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Metin_della_Prima_Prova",
+    "categoria": "Speciali",
+    "livello": 30,
+    "hp": null,
+    "drop": [],
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/c/c9/Metin_della_Prima_Prova.png/260px-Metin_della_Prima_Prova.png",
+    "grado": 5
+  },
+  {
+    "nome": "Metin della Seconda Prova",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Metin_della_Seconda_Prova",
+    "categoria": "Speciali",
+    "livello": 45,
+    "hp": null,
+    "drop": [],
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/7/70/Metin_della_Seconda_Prova.png/260px-Metin_della_Seconda_Prova.png",
+    "grado": 5
+  },
+  {
+    "nome": "Metin della Terza Prova",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Metin_della_Terza_Prova",
+    "categoria": "Speciali",
+    "livello": 55,
+    "hp": null,
+    "drop": [],
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/1/13/Metin_della_Terza_Prova.png/260px-Metin_della_Terza_Prova.png",
+    "grado": 5
+  },
+  {
+    "nome": "Metin della Quarta Prova",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Metin_della_Quarta_Prova",
+    "categoria": "Speciali",
+    "livello": 75,
+    "hp": null,
+    "drop": [],
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/5/5d/Metin_della_Quarta_Prova.png/260px-Metin_della_Quarta_Prova.png",
+    "grado": 5
+  },
+  {
+    "nome": "Metin della Quinta Prova",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Metin_della_Quinta_Prova",
+    "categoria": "Speciali",
+    "livello": 80,
+    "hp": null,
+    "drop": [],
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/8/8c/Metin_della_Quinta_Prova.png/260px-Metin_della_Quinta_Prova.png",
+    "grado": 5
+  },
+  {
+    "nome": "Metin della Sesta Prova",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Metin_della_Sesta_Prova",
+    "categoria": "Speciali",
+    "livello": 85,
+    "hp": null,
+    "drop": [],
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/c/c0/Metin_della_Sesta_Prova.png/260px-Metin_della_Sesta_Prova.png",
+    "grado": 5
+  },
+  {
+    "nome": "Metin della Settima Prova",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Metin_della_Settima_Prova",
+    "categoria": "Speciali",
+    "livello": 95,
+    "hp": null,
+    "drop": [],
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/9/98/Metin_della_Settima_Prova.png/260px-Metin_della_Settima_Prova.png",
+    "grado": 5
+  },
+  {
+    "nome": "Metin dell'Ottava Prova",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Metin_dell%27Ottava_Prova",
+    "categoria": "Speciali",
+    "livello": 105,
+    "hp": null,
+    "drop": [],
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/8/8c/Metin_dell%27Ottava_Prova.png/260px-Metin_dell%27Ottava_Prova.png",
+    "grado": 5
+  },
+  {
+    "nome": "Metin della Nona Prova",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Metin_della_Nona_Prova",
+    "categoria": "Speciali",
+    "livello": 115,
+    "hp": null,
+    "drop": [],
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/e/e3/Metin_della_Nona_Prova.png/260px-Metin_della_Nona_Prova.png",
+    "grado": 5
+  },
+  {
+    "nome": "Metin della Decima Prova",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Metin_della_Decima_Prova",
+    "categoria": "Speciali",
+    "livello": 120,
+    "hp": null,
+    "drop": [],
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/a/a3/Metin_della_Decima_Prova.png/260px-Metin_della_Decima_Prova.png",
+    "grado": 5
+  },
+  {
+    "nome": "Legno per Riparazione (metin)",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Legno_per_Riparazione_(metin)",
+    "categoria": "Dungeon",
+    "livello": 1,
+    "hp": null,
+    "drop": [],
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/3/34/Legno_per_Riparazione_%28metin%29.png/260px-Legno_per_Riparazione_%28metin%29.png"
+  },
+  {
+    "nome": "Statua di Zi",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Statua_di_Zi",
+    "categoria": "Dungeon",
+    "livello": 5,
+    "hp": null,
+    "drop": [],
+    "grado": 5,
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/a/a6/Statua_di_Zi.png/260px-Statua_di_Zi.png"
+  },
+  {
+    "nome": "Statua di Chou",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Statua_di_Chou",
+    "categoria": "Dungeon",
+    "livello": 5,
+    "hp": null,
+    "drop": [],
+    "grado": 5,
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/6/61/Statua_di_Chou.png/260px-Statua_di_Chou.png"
+  },
+  {
+    "nome": "Statua di Yin",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Statua_di_Yin",
+    "categoria": "Dungeon",
+    "livello": 5,
+    "hp": null,
+    "drop": [],
+    "grado": 5,
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/4/4d/Statua_di_Yin.png/260px-Statua_di_Yin.png"
+  },
+  {
+    "nome": "Statua di Mao",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Statua_di_Mao",
+    "categoria": "Dungeon",
+    "livello": 5,
+    "hp": null,
+    "drop": [],
+    "grado": 5,
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/7/72/Statua_di_Mao.png/260px-Statua_di_Mao.png"
+  },
+  {
+    "nome": "Statua di Chen",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Statua_di_Chen",
+    "categoria": "Dungeon",
+    "livello": 5,
+    "hp": null,
+    "drop": [],
+    "grado": 5,
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/6/68/Statua_di_Chen.png/260px-Statua_di_Chen.png"
+  },
+  {
+    "nome": "Statua di Si",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Statua_di_Si",
+    "categoria": "Dungeon",
+    "livello": 5,
+    "hp": null,
+    "drop": [],
+    "grado": 5,
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/9/9f/Statua_di_Si.png/260px-Statua_di_Si.png"
+  },
+  {
+    "nome": "Statua di Wu",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Statua_di_Wu",
+    "categoria": "Dungeon",
+    "livello": 5,
+    "hp": null,
+    "drop": [],
+    "grado": 5,
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/2/2a/Statua_di_Wu.png/260px-Statua_di_Wu.png"
+  },
+  {
+    "nome": "Statua di Wei",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Statua_di_Wei",
+    "categoria": "Dungeon",
+    "livello": 5,
+    "hp": null,
+    "drop": [],
+    "grado": 5,
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/1/1f/Statua_di_Wei.png/260px-Statua_di_Wei.png"
+  },
+  {
+    "nome": "Statua di Shen",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Statua_di_Shen",
+    "categoria": "Dungeon",
+    "livello": 5,
+    "hp": null,
+    "drop": [],
+    "grado": 5,
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/b/bf/Statua_di_Shen.png/260px-Statua_di_Shen.png"
+  },
+  {
+    "nome": "Statua di Yu",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Statua_di_Yu",
+    "categoria": "Dungeon",
+    "livello": 5,
+    "hp": null,
+    "drop": [],
+    "grado": 5,
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/6/67/Statua_di_Yu.png/260px-Statua_di_Yu.png"
+  },
+  {
+    "nome": "Statua di Xu",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Statua_di_Xu",
+    "categoria": "Dungeon",
+    "livello": 5,
+    "hp": null,
+    "drop": [],
+    "grado": 5,
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/e/ef/Statua_di_Xu.png/260px-Statua_di_Xu.png"
+  },
+  {
+    "nome": "Statua di Hai",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Statua_di_Hai",
+    "categoria": "Dungeon",
+    "livello": 5,
+    "hp": null,
+    "drop": [],
+    "grado": 5,
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/8/89/Statua_di_Hai.png/260px-Statua_di_Hai.png"
+  },
+  {
+    "nome": "Metin del Topo",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Metin_del_Topo",
+    "categoria": "Dungeon",
+    "livello": null,
+    "hp": null,
+    "drop": [],
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/4/4b/Metin_del_Topo.png/260px-Metin_del_Topo.png"
+  },
+  {
+    "nome": "Metin della Scimmia",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Metin_della_Scimmia",
+    "categoria": "Dungeon",
+    "livello": null,
+    "hp": null,
+    "drop": [],
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/2/23/Metin_della_Scimmia.png/260px-Metin_della_Scimmia.png",
+    "grado": 5
+  },
+  {
+    "nome": "Metin del Bufalo",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Metin_del_Bufalo",
+    "categoria": "Dungeon",
+    "livello": null,
+    "hp": null,
+    "drop": [],
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/b/bd/Metin_del_Bufalo.png/260px-Metin_del_Bufalo.png"
+  },
+  {
+    "nome": "Metin del Cane",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Metin_del_Cane",
+    "categoria": "Dungeon",
+    "livello": null,
+    "hp": null,
+    "drop": [],
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/9/98/Metin_del_Cane.png/260px-Metin_del_Cane.png"
+  },
+  {
+    "nome": "Metin della Tigre",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Metin_della_Tigre",
+    "categoria": "Dungeon",
+    "livello": null,
+    "hp": null,
+    "drop": [],
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/c/c7/Metin_della_Tigre.png/260px-Metin_della_Tigre.png",
+    "grado": null
+  },
+  {
+    "nome": "Metin della Durezza (Torre dei Demoni)",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Metin_della_Durezza_(Torre_dei_Demoni)",
+    "categoria": "Dungeon",
+    "livello": 50,
+    "hp": null,
+    "drop": [],
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/f/f2/Metin_della_Durezza_%28Torre_dei_Demoni%29.png/260px-Metin_della_Durezza_%28Torre_dei_Demoni%29.png",
+    "grado": 5
+  },
+  {
+    "nome": "Metin del Drago",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Metin_del_Drago",
+    "categoria": "Dungeon",
+    "livello": null,
+    "hp": null,
+    "drop": [],
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/c/c8/Metin_del_Drago.png/260px-Metin_del_Drago.png"
+  },
+  {
+    "nome": "Metin del Serpente",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Metin_del_Serpente",
+    "categoria": "Dungeon",
+    "livello": null,
+    "hp": null,
+    "drop": [],
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/b/be/Metin_del_Serpente.png/260px-Metin_del_Serpente.png"
+  },
+  {
+    "nome": "Metin del Diavolo (Torre dei Demoni)",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Metin_del_Diavolo_(Torre_dei_Demoni)",
+    "categoria": "Dungeon",
+    "livello": 55,
+    "hp": null,
+    "drop": [],
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/e/ef/Metin_del_Diavolo_%28Torre_dei_Demoni%29.png/260px-Metin_del_Diavolo_%28Torre_dei_Demoni%29.png",
+    "grado": 5
+  },
+  {
+    "nome": "Metin dell'Orgoglio",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Metin_dell%27Orgoglio",
+    "categoria": "Dungeon",
+    "livello": 60,
+    "hp": null,
+    "drop": [],
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/0/04/Metin_dell%27Orgoglio.png/260px-Metin_dell%27Orgoglio.png"
+  },
+  {
+    "nome": "Metin della Montagna",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Metin_della_Montagna",
+    "categoria": "Dungeon",
+    "livello": 60,
+    "hp": null,
+    "drop": [],
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/5/5f/Metin_della_Montagna.png/260px-Metin_della_Montagna.png"
+  },
+  {
+    "nome": "Metin della Solitudine",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Metin_della_Solitudine",
+    "categoria": "Dungeon",
+    "livello": 60,
+    "hp": null,
+    "drop": [],
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/6/6c/Metin_della_Solitudine.png/260px-Metin_della_Solitudine.png",
+    "grado": 5
+  },
+  {
+    "nome": "Metin della Vendetta",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Metin_della_Vendetta",
+    "categoria": "Dungeon",
+    "livello": 60,
+    "hp": null,
+    "drop": [],
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/c/c2/Metin_della_Vendetta.png/260px-Metin_della_Vendetta.png",
+    "grado": 5
+  },
+  {
+    "nome": "Metin della Morte (Torre dei Demoni)",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Metin_della_Morte_(Torre_dei_Demoni)",
+    "categoria": "Dungeon",
+    "livello": 65,
+    "hp": null,
+    "drop": [],
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/2/20/Metin_della_Morte_%28Torre_dei_Demoni%29.png/260px-Metin_della_Morte_%28Torre_dei_Demoni%29.png",
+    "grado": 5
+  },
+  {
+    "nome": "Metin dell'Assassino (Torre dei Demoni)",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Metin_dell%27Assassino_(Torre_dei_Demoni)",
+    "categoria": "Dungeon",
+    "livello": 70,
+    "hp": null,
+    "drop": [],
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/9/95/Metin_dell%27Assassino_%28Torre_dei_Demoni%29.png/260px-Metin_dell%27Assassino_%28Torre_dei_Demoni%29.png",
+    "grado": 5
+  },
+  {
+    "nome": "Metin del Tramonto",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Metin_del_Tramonto",
+    "categoria": "Dungeon",
+    "livello": 70,
+    "hp": null,
+    "drop": [],
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/3/35/Metin_del_Tramonto.png/260px-Metin_del_Tramonto.png"
+  },
+  {
+    "nome": "Metin della Fine",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Metin_della_Fine",
+    "categoria": "Dungeon",
+    "livello": 70,
+    "hp": null,
+    "drop": [],
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/7/7d/Metin_della_Fine.png/260px-Metin_della_Fine.png"
+  },
+  {
+    "nome": "Metin della Ritorsione",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Metin_della_Ritorsione",
+    "categoria": "Dungeon",
+    "livello": 85,
+    "hp": null,
+    "drop": [],
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/0/0b/Metin_della_Ritorsione.png/260px-Metin_della_Ritorsione.png"
+  },
+  {
+    "nome": "Metin del Purgatorio",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Metin_del_Purgatorio",
+    "categoria": "Dungeon",
+    "livello": 100,
+    "hp": null,
+    "drop": [],
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/0/05/Metin_del_Purgatorio.png/260px-Metin_del_Purgatorio.png"
+  },
+  {
+    "nome": "Metin del Freddo",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Metin_del_Freddo",
+    "categoria": "Dungeon",
+    "livello": 100,
+    "hp": null,
+    "drop": [],
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/1/13/Metin_del_Freddo.png/260px-Metin_del_Freddo.png"
+  },
+  {
+    "nome": "Colonna del Drago del Nord",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Colonna_del_Drago_del_Nord",
+    "categoria": "Dungeon",
+    "livello": 100,
+    "hp": null,
+    "drop": [],
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/6/63/Colonna_del_Drago_del_Nord.png/260px-Colonna_del_Drago_del_Nord.png"
+  },
+  {
+    "nome": "Cannone (Tempio dello Zodiaco)",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Cannone_(Tempio_dello_Zodiaco)",
+    "categoria": "Dungeon",
+    "livello": 100,
+    "hp": null,
+    "drop": [],
+    "grado": 3,
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/9/9e/Cannone_%28Tempio_dello_Zodiaco%29.png/260px-Cannone_%28Tempio_dello_Zodiaco%29.png"
+  },
+  {
+    "nome": "Uovo di Drago",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Uovo_di_Drago",
+    "categoria": "Dungeon",
+    "livello": 105,
+    "hp": null,
+    "drop": [],
+    "grado": 5,
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/6/6c/Uovo_di_Drago.png/260px-Uovo_di_Drago.png"
+  },
+  {
+    "nome": "Statua del Drago",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Statua_del_Drago",
+    "categoria": "Dungeon",
+    "livello": 105,
+    "hp": null,
+    "drop": [],
+    "grado": 5,
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/1/1d/Statua_del_Drago.png/260px-Statua_del_Drago.png"
+  },
+  {
+    "nome": "Metin del Purgatorio (FT)",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Metin_del_Purgatorio_(FT)",
+    "categoria": "Dungeon",
+    "livello": 115,
+    "hp": null,
+    "drop": [],
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/5/5c/Metin_del_Purgatorio_%28FT%29.png/260px-Metin_del_Purgatorio_%28FT%29.png"
+  },
+  {
+    "nome": "Metin del Purgatorio (RSV)",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Metin_del_Purgatorio_(RSV)",
+    "categoria": "Dungeon",
+    "livello": 115,
+    "hp": null,
+    "drop": [],
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/d/df/Metin_del_Purgatorio_%28RSV%29.png/260px-Metin_del_Purgatorio_%28RSV%29.png"
+  },
+  {
+    "nome": "Metin del Freddo (FT)",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Metin_del_Freddo_(FT)",
+    "categoria": "Dungeon",
+    "livello": 115,
+    "hp": null,
+    "drop": [],
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/9/92/Metin_del_Freddo_%28FT%29.png/260px-Metin_del_Freddo_%28FT%29.png"
+  },
+  {
+    "nome": "Metin del Freddo (RSV)",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Metin_del_Freddo_(RSV)",
+    "categoria": "Dungeon",
+    "livello": 115,
+    "hp": null,
+    "drop": [],
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/2/2f/Metin_del_Freddo_%28RSV%29.png/260px-Metin_del_Freddo_%28RSV%29.png"
+  },
+  {
+    "nome": "Uovo di Idra",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Uovo_di_Idra",
+    "categoria": "Dungeon",
+    "livello": 120,
+    "hp": null,
+    "drop": [],
+    "grado": 5,
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/d/da/Uovo_di_Idra.png/260px-Uovo_di_Idra.png"
+  },
+  {
+    "nome": "Metin dell'Apocalisse",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Metin_dell%27Apocalisse",
+    "categoria": "Dungeon",
+    "livello": 120,
+    "hp": null,
+    "drop": [],
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/b/b9/Metin_dell%27Apocalisse.png/260px-Metin_dell%27Apocalisse.png"
+  },
+  {
+    "nome": "Metin della Dannazione",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Metin_della_Dannazione",
+    "categoria": "Dungeon",
+    "livello": 120,
+    "hp": null,
+    "drop": [],
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/3/3d/Metin_della_Dannazione.png/260px-Metin_della_Dannazione.png"
+  },
+  {
+    "nome": "Colonna del Drago del Nord (FT)",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Colonna_del_Drago_del_Nord_(FT)",
+    "categoria": "Dungeon",
+    "livello": 120,
+    "hp": null,
+    "drop": [],
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/7/72/Colonna_del_Drago_del_Nord_%28FT%29.png/260px-Colonna_del_Drago_del_Nord_%28FT%29.png"
+  },
+  {
+    "nome": "Colonna del Drago del Nord (RSV)",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Colonna_del_Drago_del_Nord_(RSV)",
+    "categoria": "Dungeon",
+    "livello": 120,
+    "hp": null,
+    "drop": [],
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/3/3a/Colonna_del_Drago_del_Nord_%28RSV%29.png/260px-Colonna_del_Drago_del_Nord_%28RSV%29.png"
+  },
+  {
+    "nome": "Pietra Anime di Inferna",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Pietra_Anime_di_Inferna",
+    "categoria": "Dungeon",
+    "livello": 120,
+    "hp": null,
+    "drop": [],
+    "grado": 5,
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/e/e8/Pietra_Anime_di_Inferna.png/260px-Pietra_Anime_di_Inferna.png"
+  },
+  {
+    "nome": "Pietra Demoniaca di Inferna",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Pietra_Demoniaca_di_Inferna",
+    "categoria": "Dungeon",
+    "livello": 130,
+    "hp": null,
+    "drop": [],
+    "grado": 3,
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/f/f8/Pietra_Demoniaca_di_Inferna.png/260px-Pietra_Demoniaca_di_Inferna.png"
+  },
+  {
+    "nome": "Metin Serpens (ghiaccio)",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Metin_Serpens_(ghiaccio)",
+    "categoria": "Dungeon",
+    "livello": 120,
+    "hp": null,
+    "drop": [],
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/4/41/Metin_Serpens_%28ghiaccio%29.png/260px-Metin_Serpens_%28ghiaccio%29.png",
+    "grado": 5
+  },
+  {
+    "nome": "Metin Serpens (fuoco)",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Metin_Serpens_(fuoco)",
+    "categoria": "Dungeon",
+    "livello": 120,
+    "hp": null,
+    "drop": [],
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/0/04/Metin_Serpens_%28fuoco%29.png/260px-Metin_Serpens_%28fuoco%29.png",
+    "grado": 5
+  },
+  {
+    "nome": "Metin Serpens (terra)",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Metin_Serpens_(terra)",
+    "categoria": "Dungeon",
+    "livello": 120,
+    "hp": null,
+    "drop": [],
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/3/36/Metin_Serpens_%28terra%29.png/260px-Metin_Serpens_%28terra%29.png",
+    "grado": 5
+  },
+  {
+    "nome": "Metin Serpens (vento)",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Metin_Serpens_(vento)",
+    "categoria": "Dungeon",
+    "livello": 120,
+    "hp": null,
+    "drop": [],
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/1/14/Metin_Serpens_%28vento%29.png/260px-Metin_Serpens_%28vento%29.png",
+    "grado": 5
+  },
+  {
+    "nome": "Metin Serpens (fulmine)",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Metin_Serpens_(fulmine)",
+    "categoria": "Dungeon",
+    "livello": null,
+    "hp": null,
+    "drop": [],
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/1/1f/Metin_Serpens_%28fulmine%29.png/260px-Metin_Serpens_%28fulmine%29.png"
+  },
+  {
+    "nome": "Metin Damnatio",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Metin_Damnatio",
+    "categoria": "Dungeon",
+    "livello": 105,
+    "hp": null,
+    "drop": [],
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/f/fb/Metin_Damnatio.png/260px-Metin_Damnatio.png",
+    "grado": 5
+  },
+  {
+    "nome": "Metin Damnatio (guarigione)",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Metin_Damnatio_(guarigione)",
+    "categoria": "Dungeon",
+    "livello": 105,
+    "hp": null,
+    "drop": [],
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/1/17/Metin_Damnatio_%28guarigione%29.png/260px-Metin_Damnatio_%28guarigione%29.png",
+    "grado": 5
+  },
+  {
+    "nome": "Metin Salvezza",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Metin_Salvezza",
+    "categoria": "Dungeon",
+    "livello": 105,
+    "hp": null,
+    "drop": [],
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/4/48/Metin_Salvezza.png/260px-Metin_Salvezza.png",
+    "grado": 5
+  },
+  {
+    "nome": "Uovo Drago Bianco (facile)",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Uovo_Drago_Bianco_(facile)",
+    "categoria": "Dungeon",
+    "livello": 120,
+    "hp": null,
+    "drop": [],
+    "grado": 5,
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/e/e2/Uovo_Drago_Bianco_%28facile%29.png/260px-Uovo_Drago_Bianco_%28facile%29.png"
+  },
+  {
+    "nome": "Uovo Drago Bianco (difficile)",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Uovo_Drago_Bianco_(difficile)",
+    "categoria": "Dungeon",
+    "livello": 120,
+    "hp": null,
+    "drop": [],
+    "grado": 5,
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/5/5b/Uovo_Drago_Bianco_%28difficile%29.png/260px-Uovo_Drago_Bianco_%28difficile%29.png"
+  },
+  {
+    "nome": "Cristallo di ghiaccio antico",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Cristallo_di_ghiaccio_antico",
+    "categoria": "Dungeon",
+    "livello": 120,
+    "hp": null,
+    "drop": [
+      {
+        "name": "Freccia Infuocata",
+        "url": "https://it-wiki.metin2.gameforge.com/index.php/Freccia_Infuocata"
+      }
+    ],
+    "grado": 5,
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/1/1f/Cristallo_di_ghiaccio_antico.png/260px-Cristallo_di_ghiaccio_antico.png"
+  },
+  {
+    "nome": "Uovo di Drago congelato",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Uovo_di_Drago_congelato",
+    "categoria": "Dungeon",
+    "livello": 120,
+    "hp": null,
+    "drop": [],
+    "grado": 5,
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/9/91/Uovo_di_Drago_congelato.png/260px-Uovo_di_Drago_congelato.png"
+  },
+  {
+    "nome": "Uovo di Drago infuocato",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Uovo_di_Drago_infuocato",
+    "categoria": "Dungeon",
+    "livello": 120,
+    "hp": null,
+    "drop": [],
+    "grado": 5,
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/f/fe/Uovo_di_Drago_infuocato.png/260px-Uovo_di_Drago_infuocato.png"
+  },
+  {
+    "nome": "Grande muro di ghiaccio",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Grande_muro_di_ghiaccio",
+    "categoria": "Dungeon",
+    "livello": 120,
+    "hp": null,
+    "drop": [],
+    "grado": 3,
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/b/b5/Grande_muro_di_ghiaccio.png/260px-Grande_muro_di_ghiaccio.png"
+  },
+  {
+    "nome": "Tempio Enigma (bonus C)",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Tempio_Enigma_(bonus_C)",
+    "categoria": "Dungeon",
+    "livello": 90,
+    "hp": null,
+    "drop": [],
+    "grado": 3,
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/e/ec/Tempio_Enigma_%28bonus_C%29.png/260px-Tempio_Enigma_%28bonus_C%29.png"
+  },
+  {
+    "nome": "Tempio Enigma (bonus B)",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Tempio_Enigma_(bonus_B)",
+    "categoria": "Dungeon",
+    "livello": 105,
+    "hp": null,
+    "drop": [],
+    "grado": 3,
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/d/d9/Tempio_Enigma_%28bonus_B%29.png/260px-Tempio_Enigma_%28bonus_B%29.png"
+  },
+  {
+    "nome": "Tempio Enigma (bonus A)",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Tempio_Enigma_(bonus_A)",
+    "categoria": "Dungeon",
+    "livello": 120,
+    "hp": null,
+    "drop": [],
+    "grado": 3,
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/c/cb/Tempio_Enigma_%28bonus_A%29.png/260px-Tempio_Enigma_%28bonus_A%29.png"
+  },
+  {
+    "nome": "Metin Enigma",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Metin_Enigma",
+    "categoria": "Dungeon",
+    "livello": 120,
+    "hp": null,
+    "drop": [],
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/0/0b/Metin_Enigma.png/260px-Metin_Enigma.png",
+    "grado": 5
+  },
+  {
+    "nome": "Ricompensa Enigma",
+    "url": "https://it-wiki.metin2.gameforge.com/index.php/Ricompensa_Enigma",
+    "categoria": "Dungeon",
+    "livello": 3,
+    "hp": null,
+    "drop": [],
+    "grado": 1,
+    "icona": "https://it-wiki.metin2.gameforge.com/images/thumb/6/66/Ricompensa_Enigma.png/260px-Ricompensa_Enigma.png"
+  }
+]

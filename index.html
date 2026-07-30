@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metin2 DLE - Guess Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>⚔️ Metin2 DLE ⚔️</h1>
+            <p class="subtitle">Indovina mostri, NPC e luoghi del mondo di Metin2</p>
+        </header>
+
+        <nav class="menu">
+            <button class="mode-btn active" data-mode="monster">
+                🐉 Indovina il Mostro
+            </button>
+            <button class="mode-btn" data-mode="npc">
+                👤 Trova l'NPC
+            </button>
+            <button class="mode-btn" data-mode="blur">
+                🔍 Mostro Sfocato
+            </button>
+            <button class="mode-btn" data-mode="arma">
+                ⚔️ Trova l'Arma
+            </button>
+            <button class="mode-btn" data-mode="difesa">
+                🛡️ Indovina Difesa
+            </button>
+            <button class="mode-btn" data-mode="accessori">
+                💍 Indovina Accessori
+            </button>
+            <button class="mode-btn" data-mode="metin">
+                🪨 Indovina il Metin
+            </button>
+            <button class="mode-btn" data-mode="blur-metin">
+                🔍 Metin Sfocato
+            </button>
+        </nav>
+
+        <main class="game-area">
+            <!-- Modalità 1: Indovina il Mostro (Wordle style) -->
+            <section id="monster-mode" class="game-mode active">
+                <h2>🐉 Indovina il Mostro</h2>
+
+                <div class="wordle-container">
+                    <!-- Tentativi precedenti -->
+                    <div id="attempts-grid" class="attempts-grid"></div>
+
+                    <!-- Input con autocomplete -->
+                    <div class="guess-input-container">
+                        <input type="text" id="monster-guess" placeholder="Cerca un mostro..." autocomplete="off"
+                            autofocus>
+                        <button id="submit-monster">✓</button>
+                        <div id="suggestions" class="suggestions"></div>
+                    </div>
+                </div>
+
+                <div id="monster-feedback" class="feedback"></div>
+            </section>
+
+            <!-- Modalità 2: Trova l'NPC sulla mappa -->
+            <section id="npc-mode" class="game-mode">
+                <h2>👤 Trova l'NPC sulla Mappa</h2>
+                <div class="npc-challenge">
+                    <div class="npc-target">
+                        <img id="npc-image" src="" alt="NPC">
+                        <h3 id="npc-name">?</h3>
+                    </div>
+                    <div class="map-container">
+                        <img id="map-image" src="" alt="Mappa" class="clickable-map">
+                        <svg id="map-line" class="map-line" style="display:none;">
+                            <line id="map-line-element" x1="0" y1="0" x2="0" y2="0" stroke="#fff" stroke-width="2"
+                                stroke-dasharray="6,4" />
+                        </svg>
+                        <div id="map-marker" class="map-marker player-marker"></div>
+                        <div id="npc-marker" class="map-marker npc-marker"></div>
+                    </div>
+                    <div class="npc-info">
+                        <p id="npc-distance">Clicca sulla mappa dove si trova questo NPC</p>
+                        <div class="npc-buttons">
+                            <button id="confirm-npc" class="npc-btn" disabled>✓ Conferma</button>
+                            <button id="next-npc" class="npc-btn" style="display:none;">→ Prossimo</button>
+                        </div>
+                        <div id="npc-feedback" class="feedback"></div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Modalità 3: Mostro Sfocato -->
+            <section id="blur-mode" class="game-mode">
+                <h2>🔍 Indovina il Mostro (Sfocato)</h2>
+                <div class="blur-game">
+                    <img id="blur-image" src="" alt="Mostro sfocato" class="blurred">
+                    <div class="guess-input-container">
+                        <input type="text" id="blur-guess" placeholder="Cerca un mostro..." autocomplete="off">
+                        <button id="submit-blur">✓</button>
+                        <div id="blur-suggestions" class="suggestions"></div>
+                    </div>
+                    <div id="blur-feedback" class="feedback"></div>
+                </div>
+            </section>
+
+            <!-- Modalità 4: Trova l'Arma (Wordle style) -->
+            <section id="arma-mode" class="game-mode">
+                <h2>⚔️ Trova l'Arma</h2>
+                <div class="wordle-container">
+                    <div id="arma-attempts-grid" class="attempts-grid"></div>
+                    <div class="guess-input-container">
+                        <input type="text" id="arma-guess" placeholder="Cerca un'arma..." autocomplete="off">
+                        <button id="submit-arma">✓</button>
+                        <div id="arma-suggestions" class="suggestions"></div>
+                    </div>
+                </div>
+                <div id="arma-feedback" class="feedback"></div>
+            </section>
+
+            <!-- Modalità 5: Indovina Difesa (Wordle style) -->
+            <section id="difesa-mode" class="game-mode">
+                <h2>🛡️ Indovina Difesa</h2>
+                <div class="wordle-container">
+                    <div id="difesa-attempts-grid" class="attempts-grid"></div>
+                    <div class="guess-input-container">
+                        <input type="text" id="difesa-guess" placeholder="Cerca un'armatura/elmo/scudo..."
+                            autocomplete="off">
+                        <button id="submit-difesa">✓</button>
+                        <div id="difesa-suggestions" class="suggestions"></div>
+                    </div>
+                </div>
+                <div id="difesa-feedback" class="feedback"></div>
+            </section>
+
+            <!-- Modalità 6: Indovina Accessori (Wordle style) -->
+            <section id="accessori-mode" class="game-mode">
+                <h2>💍 Indovina Accessori</h2>
+                <div class="wordle-container">
+                    <div id="accessori-attempts-grid" class="attempts-grid"></div>
+                    <div class="guess-input-container">
+                        <input type="text" id="accessori-guess" placeholder="Cerca un bracciale/collana/orecchino..."
+                            autocomplete="off">
+                        <button id="submit-accessori">✓</button>
+                        <div id="accessori-suggestions" class="suggestions"></div>
+                    </div>
+                </div>
+                <div id="accessori-feedback" class="feedback"></div>
+            </section>
+
+            <!-- Modalità 7: Indovina il Metin (Wordle style) -->
+            <section id="metin-mode" class="game-mode">
+                <h2>🪨 Indovina il Metin</h2>
+                <div class="wordle-container">
+                    <div id="metin-attempts-grid" class="attempts-grid"></div>
+                    <div class="guess-input-container">
+                        <input type="text" id="metin-guess" placeholder="Cerca un Metin..." autocomplete="off">
+                        <button id="submit-metin">✓</button>
+                        <div id="metin-suggestions" class="suggestions"></div>
+                    </div>
+                </div>
+                <div id="metin-feedback" class="feedback"></div>
+            </section>
+
+            <!-- Modalità 8: Metin Sfocato -->
+            <section id="blur-metin-mode" class="game-mode">
+                <h2>🔍 Metin Sfocato</h2>
+                <div class="blur-game">
+                    <img id="blur-metin-image" src="" alt="Metin sfocato" class="blurred">
+                    <div class="guess-input-container">
+                        <input type="text" id="blur-metin-guess" placeholder="Cerca un Metin..." autocomplete="off">
+                        <button id="submit-blur-metin">✓</button>
+                        <div id="blur-metin-suggestions" class="suggestions"></div>
+                    </div>
+                    <div id="blur-metin-feedback" class="feedback"></div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>Dati estratti da <a href="https://it-wiki.metin2.gameforge.com" target="_blank">Metin2 Wiki ITA</a></p>
+            <p id="score">Punteggio: 0</p>
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
