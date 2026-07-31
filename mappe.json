@@ -1665,6 +1665,7 @@
   },
   {
     "regno": "Zone Neutrali",
+    "url_mappa_pulita": "https://ro-wiki.metin2.gameforge.com/images/b/b2/Bazar1_Map.png",
     "livello": "1",
     "immagine": "",
     "info": "Questa mappa è l'hub del commercio, è possibile creare solo qui i [[Sistema dei Negozi|negozi]] privati.",
@@ -1712,7 +1713,7 @@
     "mob": [],
     "boss": [],
     "minimappa": "Minimappa Bazar.png",
-    "dimensioni": "512x512",
+    "dimensioni": "575x512",
     "nome": "Bazar",
     "url": "https://it-wiki.metin2.gameforge.com/index.php/Bazar",
     "minimappa_locale": "images/mappe/Bazar_map.jpg",
