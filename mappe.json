@@ -1105,7 +1105,7 @@
       }
     ],
     "minimappa": "Baia Nefrite.png",
-    "dimensioni": "",
+    "dimensioni": "1024x2048",
     "nome": "Baia Nefrite",
     "url": "https://it-wiki.metin2.gameforge.com/index.php/Baia Nefrite",
     "immagine_locale": "images/mappe/Baia_Nefrite_banner.png",
@@ -1116,6 +1116,7 @@
   {
     "regno": "Jinno",
     "livello": "25",
+    "url_mappa_pulita": "https://ro-wiki.metin2.gameforge.com/images/thumb/9/98/IG-MAP2BLUE.jpg/300px-IG-MAP2BLUE.jpg",
     "immagine": "Mappa Bakra.png",
     "info": "La Contea di Bakra è il secondo villaggio del regno [[Jinno]]. Questa [[mappa]] è molto popolata, e i mob sono tanti e vari. Al centro della mappa è situata una piazza circondata da NPC utili per le missioni e l'equipaggiamento.",
     "zone_limitrofe": [
@@ -1498,7 +1499,7 @@
       }
     ],
     "minimappa": "Bakra.jpg",
-    "dimensioni": "",
+    "dimensioni": "1024x1024",
     "nome": "Bakra",
     "url": "https://it-wiki.metin2.gameforge.com/index.php/Bakra",
     "immagine_locale": "images/mappe/Bakra_banner.png",
@@ -1719,6 +1720,7 @@
   },
   {
     "regno": "Chunjo",
+    "url_mappa_pulita": "https://ro-wiki.metin2.gameforge.com/images/thumb/0/09/IG-MAP2GALBENI.jpg/300px-IG-MAP2GALBENI.jpg",
     "livello": "25",
     "immagine": "Mappa Bokjung.png",
     "info": "Bokjung è il secondo villaggio del regno [[Chunjo]]. Questa [[mappa]] è molto popolata, e i [[mob|mostri]] sono tanti e vari. Al centro della mappa è situata una piazza circondata da NPC utili per le missioni e l'equipaggiamento.",
@@ -2112,7 +2114,7 @@
       }
     ],
     "minimappa": "Bokjung.jpg",
-    "dimensioni": "",
+    "dimensioni": "1024x1024",
     "nome": "Bokjung",
     "url": "https://it-wiki.metin2.gameforge.com/index.php/Bokjung",
     "immagine_locale": "images/mappe/Bokjung_banner.png",
@@ -2194,7 +2196,7 @@
       }
     ],
     "minimappa": "MappaBoscoRossoHQ.png",
-    "dimensioni": "",
+    "dimensioni": "768x768",
     "nome": "Bosco Rosso",
     "url": "https://it-wiki.metin2.gameforge.com/index.php/Bosco Rosso",
     "immagine_locale": "images/mappe/Bosco_Rosso_banner.png",
@@ -2486,7 +2488,7 @@
       }
     ],
     "minimappa": "Minimappa Canyon Boreale.png",
-    "dimensioni": "256×205",
+    "dimensioni": "1536x1024",
     "nome": "Canyon Boreale",
     "url": "https://it-wiki.metin2.gameforge.com/index.php/Canyon Boreale",
     "immagine_locale": "images/mappe/Canyon_Boreale_banner.png",
@@ -3336,7 +3338,7 @@
     "mob": [],
     "boss": [],
     "minimappa": "Contea Gilde.png",
-    "dimensioni": "",
+    "dimensioni": "384x384",
     "nome": "Contea Daeyami",
     "url": "https://it-wiki.metin2.gameforge.com/index.php/Contea Daeyami",
     "immagine_locale": "images/mappe/Contea_Daeyami_banner.png",
@@ -3383,7 +3385,7 @@
     "mob": [],
     "boss": [],
     "minimappa": "Contea Gilde.png",
-    "dimensioni": "",
+    "dimensioni": "384x384",
     "nome": "Contea Miryang",
     "url": "https://it-wiki.metin2.gameforge.com/index.php/Contea Miryang",
     "immagine_locale": "images/mappe/Contea_Miryang_banner.png",
@@ -3430,7 +3432,7 @@
     "mob": [],
     "boss": [],
     "minimappa": "Contea Gilde.png",
-    "dimensioni": "",
+    "dimensioni": "384x384",
     "nome": "Contea Songpa",
     "url": "https://it-wiki.metin2.gameforge.com/index.php/Contea Songpa",
     "immagine_locale": "images/mappe/Contea_Songpa_banner.png",
@@ -3645,6 +3647,7 @@
   },
   {
     "regno": "Zone Neutrali",
+    "url_mappa_pulita": "https://ro-wiki.metin2.gameforge.com/images/thumb/2/2f/IG-De%C5%9Fertul_Yongbi.jpg/300px-IG-De%C5%9Fertul_Yongbi.jpg",
     "livello": "40",
     "immagine": "Mappa Deserto Yongbi.png",
     "info": "Il Deserto è una delle [[mappa|mappe]] più vaste: i mostri sono tanti, e sono utili sia per fare esperienza, sia per fare le missioni del cavallo. Nella mappa si trovano anche 3 tipi di Metin, ma a causa della vastità della zona sono molto rari da trovare. Inoltre è la mappa con più zone limitrofe del gioco.",
@@ -3990,7 +3993,7 @@
       }
     ],
     "minimappa": "Deserto Yongbi.png",
-    "dimensioni": "",
+    "dimensioni": "1536x1536",
     "nome": "Deserto Yongbi (Invasione SungMa)",
     "url": "https://it-wiki.metin2.gameforge.com/index.php/Deserto Yongbi (Invasione SungMa)",
     "immagine_locale": "images/mappe/Deserto_Yongbi_(Invasione_SungMa)_banner.png",
@@ -4144,7 +4147,7 @@
     ],
     "boss": [],
     "minimappa": "Minimappa Difesa Nave.png",
-    "dimensioni": "256x256",
+    "dimensioni": "512x768",
     "nome": "Difesa Nave",
     "url": "https://it-wiki.metin2.gameforge.com/index.php/Difesa Nave",
     "minimappa_locale": "images/mappe/Difesa_Nave_map.jpg",
@@ -4404,7 +4407,7 @@
       }
     ],
     "minimappa": "Terra del Fuoco.png",
-    "dimensioni": "",
+    "dimensioni": "384x1280",
     "nome": "Doyyumhwaji",
     "url": "https://it-wiki.metin2.gameforge.com/index.php/Doyyumhwaji",
     "immagine_locale": "images/mappe/Doyyumhwaji_banner.png",
@@ -4964,7 +4967,7 @@
       }
     ],
     "minimappa": "Falesia di Gautama.png",
-    "dimensioni": "",
+    "dimensioni": "1280x1024",
     "nome": "Falesia di Gautama",
     "url": "https://it-wiki.metin2.gameforge.com/index.php/Falesia di Gautama",
     "immagine_locale": "images/mappe/Falesia_di_Gautama_banner.png",
@@ -5270,7 +5273,7 @@
       }
     ],
     "minimappa": "Minimappa Fortezza Abbandonata.png",
-    "dimensioni": "256x256",
+    "dimensioni": "384x384",
     "nome": "Fortezza Abbandonata",
     "url": "https://it-wiki.metin2.gameforge.com/index.php/Fortezza Abbandonata",
     "minimappa_locale": "images/mappe/Fortezza_Abbandonata_map.jpg",
@@ -5406,7 +5409,7 @@
       }
     ],
     "minimappa": "Mini_Fortezza_del_Drago_Rosso.png",
-    "dimensioni": "",
+    "dimensioni": "512x768",
     "nome": "Fortezza del Drago Rosso",
     "url": "https://it-wiki.metin2.gameforge.com/index.php/Fortezza del Drago Rosso",
     "immagine_locale": "images/mappe/Fortezza_del_Drago_Rosso_banner.png",
@@ -5539,7 +5542,7 @@
       }
     ],
     "minimappa": "Mini Fortezza del Drago Rosso.png",
-    "dimensioni": "",
+    "dimensioni": "512x512",
     "nome": "Fortezza del Drago Rosso (FT)",
     "url": "https://it-wiki.metin2.gameforge.com/index.php/Fortezza del Drago Rosso (FT)",
     "immagine_locale": "images/mappe/Fortezza_del_Drago_Rosso_(FT)_banner.png",
@@ -5672,7 +5675,7 @@
       }
     ],
     "minimappa": "Mini Fortezza del Drago Rosso.png",
-    "dimensioni": "",
+    "dimensioni": "512x512",
     "nome": "Fortezza del Drago Rosso (RSV)",
     "url": "https://it-wiki.metin2.gameforge.com/index.php/Fortezza del Drago Rosso (RSV)",
     "immagine_locale": "images/mappe/Fortezza_del_Drago_Rosso_(RSV)_banner.png",
@@ -5856,7 +5859,7 @@
       }
     ],
     "minimappa": "Minimappa Gola delle Anime.png",
-    "dimensioni": "256x256",
+    "dimensioni": "768x1024",
     "nome": "Gola delle Anime",
     "url": "https://it-wiki.metin2.gameforge.com/index.php/Gola delle Anime",
     "immagine_locale": "images/mappe/Gola_delle_Anime_banner.png",
@@ -5867,6 +5870,7 @@
   {
     "regno": "Zone Neutrali",
     "livello": "75",
+    "url_mappa_pulita": "https://ro-wiki.metin2.gameforge.com/images/thumb/0/0e/IG-Grota_Exilului1.jpg/300px-IG-Grota_Exilului1.jpg",
     "immagine": "Mappa Grotta dell'Esilio - Primo Piano.png",
     "info": "La Grotta dell'Esilio, chiamata ZinGrotte e conosciuta anche come Atlantide, è un sotterraneo contenente mostri molto forti, per questo l'entrata è consigliata solo a personaggi di livello alto e con le abilità ben impostate. L'ingresso alla grotta è riservato agli over 75 che portano una [[Ematite]] a [[Koe-Pung]] ([[NPC]] situato nella [[Valle_di_Seungryong|Valle del Drago]]).L'[[Ematite]] si può trovare nell'[[Item Shop]], da [[Seon-Hae]] o dalla [[Grande Strega di Ghiaccio]]. Al primo piano di questa mappa vi sono i [[Mostri del Ghiaccio]], identici nell'aspetto a quelli del monte ma molto più forti, utilizzati principalmente per expare in assenza di equip con [[Forte contro Diavolo|diavolo]] fino all'80~90, e i [[Setaou]] bianchi. È consigliato prima di avventurarsi in questa mappa di alzare le skill principali almeno a G ed essere accompagnati da una [[Shamana]] Drago con [[Benedizione]] alta, anch'essa a G/P. * Nel portale [[Cultura in Metin2]] ci sono degli approfondimenti su questo elemento: [[Cultura in Metin2: Simboli#Corvo a tre zampe|Simboli]]",
     "zone_limitrofe": [
@@ -5991,8 +5995,9 @@
       }
     ],
     "minimappa": "ZinGrotte_Map.jpg",
-    "dimensioni": "",
-    "nome": "Grotta dell'Esilio - Primo Piano",
+    "dimensioni": "1536x1536",
+    "nome": "Grotta 1",
+    "nome2": "Grotta dell'Esilio - Primo Piano",
     "url": "https://it-wiki.metin2.gameforge.com/index.php/Grotta dell'Esilio - Primo Piano",
     "immagine_locale": "images/mappe/Grotta_dell'Esilio_-_Primo_Piano_banner.png",
     "immagine_url": "https://it-wiki.metin2.gameforge.com/images/f/f8/Mappa_Grotta_dell%27Esilio_-_Primo_Piano.png",
@@ -6001,6 +6006,7 @@
   },
   {
     "regno": "Zone Neutrali",
+    "url_mappa_pulita": "https://ro-wiki.metin2.gameforge.com/images/thumb/3/32/IG-GROTA2.jpg/300px-IG-GROTA2.jpg",
     "livello": "75",
     "immagine": "Mappa Grotta dell'Esilio - Secondo Piano.png",
     "info": "Il secondo piano della Grotta dell'Esilio (o Atlantide) è caratterizzato dalla presenza di soli [[Setaou]]. L'ingresso è riservato agli over 75 che oltrepassano il portale situato alla fine del primo piano della [[Grotta dell'Esilio|grotta]]. I mostri in questa mappa sono molto forti e tutti aggressivi, l'ingresso è consigliato a personaggi over 80 con le abilità ben impostate e le [[Ricerca del Biologo (tavola di tugyi)|tavole]] del biologo completate, possibilmente accompagnati da una [[Shamana]] Drago. Per reggere, è bene sfruttare anche la [[Resistenza Lampo]].<br> La mappa è stata aggiunta in data 7.09.2010 sul metin2 italiano.<br> Dal 22.02.2011 attraverso questa mappa si può accedere al [[Tempio del Drago]] parlando con lo [[Spirito di un Sura]] e consegnadogli 3 [[Chiave a Spirale|chiavi a spirale]].<br> Nel portale [[Cultura in Metin2]] ci sono degli approfondimenti su questo elemento: [[Cultura in Metin2: Simboli#Corvo a tre zampe|Simboli]]",
@@ -6119,7 +6125,8 @@
     ],
     "minimappa": "",
     "dimensioni": "1536x1536",
-    "nome": "Grotta dell'Esilio - Secondo Piano",
+    "nome": "Grotta 2",
+    "nome2": "Grotta dell'Esilio - Secondo Piano",
     "url": "https://it-wiki.metin2.gameforge.com/index.php/Grotta dell'Esilio - Secondo Piano",
     "immagine_locale": "images/mappe/Grotta_dell'Esilio_-_Secondo_Piano_banner.png",
     "immagine_url": "https://it-wiki.metin2.gameforge.com/images/3/34/Mappa_Grotta_dell%27Esilio_-_Secondo_Piano.png"
@@ -7282,6 +7289,7 @@
   {
     "regno": "Shinsoo",
     "livello": "25",
+    "url_mappa_pulita": "https://ro-wiki.metin2.gameforge.com/images/thumb/5/50/IG-MAP2RED.jpg/300px-IG-MAP2RED.jpg",
     "immagine": "Mappa Jayang.png",
     "info": "La Contea di Jayang è il secondo villaggio del regno [[Shinsoo]]. Questa mappa è molto popolata, e i [[mob]] sono tanti e vari. Al centro della mappa è situata una piazza circondata da NPC utili per le missioni e l'equipaggiamento.",
     "zone_limitrofe": [
@@ -8525,7 +8533,7 @@
       }
     ],
     "minimappa": "Scimmie_2.jpg",
-    "dimensioni": "",
+    "dimensioni": "512x1024",
     "nome": "Jungsun Dong",
     "url": "https://it-wiki.metin2.gameforge.com/index.php/Jungsun Dong",
     "immagine_locale": "images/mappe/Jungsun_Dong_banner.png",
@@ -8783,7 +8791,7 @@
     ],
     "boss": [],
     "minimappa": "MappaLungsam1HQ.png",
-    "dimensioni": "",
+    "dimensioni": "256x384",
     "nome": "Lungsam",
     "url": "https://it-wiki.metin2.gameforge.com/index.php/Lungsam",
     "immagine_locale": "images/mappe/Lungsam_banner.png",
@@ -8924,7 +8932,7 @@
     "mob": [],
     "boss": [],
     "minimappa": "MappaWeddingHQ1.png",
-    "dimensioni": "",
+    "dimensioni": "256x256",
     "nome": "Mappa Matrimonio",
     "url": "https://it-wiki.metin2.gameforge.com/index.php/Mappa Matrimonio",
     "immagine_locale": "images/mappe/Mappa_Matrimonio_banner.png",
@@ -9147,6 +9155,7 @@
   },
   {
     "regno": "Zone Neutrali",
+    "url_mappa_pulita": "https://ro-wiki.metin2.gameforge.com/images/thumb/3/38/IG-Muntele_Sohan.jpg/300px-IG-Muntele_Sohan.jpg",
     "livello": "55",
     "immagine": "Mappa Monte Sohan.png",
     "info": "In gioco è conosciuta come montagna di ghiaccio. In questo posto si possono trovare Non-Morti (zombie) come l'[[Uomo Appestato]], mostri di ghiaccio come il [[Golem di Ghiaccio]] e il [[Nove Code]]. Nella parte Sud-Est si trova il [[Lungsam|Bosco Fantasma]], il quale a sua volta ci porterà al [[Bosco Rosso]]. Fino al 2010, durante il periodo natalizio, al centro della mappa, si trovava l'[[Albero di Natale (monte)]] dove potevano essere appese le [[Calza (vecchia)|calze]].",
@@ -10421,7 +10430,7 @@
       }
     ],
     "minimappa": "Minimappa Pendio Boreale.png",
-    "dimensioni": "384×384",
+    "dimensioni": "512x256",
     "nome": "Pendio Boreale",
     "url": "https://it-wiki.metin2.gameforge.com/index.php/Pendio Boreale",
     "immagine_locale": "images/mappe/Pendio_Boreale_banner.png",
@@ -10665,7 +10674,7 @@
       }
     ],
     "minimappa": "Minimappa Piana Dongan.png",
-    "dimensioni": "512x768",
+    "dimensioni": "1280x1280",
     "nome": "Piana Dongan",
     "url": "https://it-wiki.metin2.gameforge.com/index.php/Piana Dongan",
     "immagine_locale": "images/mappe/Piana_Dongan_banner.png",
@@ -10722,7 +10731,7 @@
     "mob": [],
     "boss": [],
     "minimappa": "Minimappa Porto del Nuovo Continente.png",
-    "dimensioni": "256x256",
+    "dimensioni": "384x768",
     "nome": "Porto del Nuovo Continente",
     "url": "https://it-wiki.metin2.gameforge.com/index.php/Porto del Nuovo Continente",
     "minimappa_locale": "images/mappe/Porto_del_Nuovo_Continente_map.jpg",
@@ -10730,7 +10739,7 @@
   },
   {
     "regno": "Jinno",
-    "livello": "",
+    "livello": "1",
     "url_mappa_pulita": "https://ro-wiki.metin2.gameforge.com/images/thumb/2/2c/IG-MAP1BLUE2.jpg/300px-IG-MAP1BLUE2.jpg",
     "immagine": "Mappa Pyungmoo.png",
     "info": "Pyungmoo è la [[Mappa]]1 ([[villo 1]]) nel Regno di [[Jinno]] (blu).Qui comincia la vostra avventura! In questa mappa potrete incontrare gli animali come cani, tigri, orsi, lupi e i loro \"boss\".<br> In alcuni punti, si possono trovare anche i mostri del clan [[Eid]].<br> A Pyungmoo sono situati la maggior parte degli [[NPC]] del gioco: la bottegaia, il fabbro, il magazziniere, la vecchietta, i mercanti di armi e armature, il guardiano del villaggio/piazza, comandante del regno e gli insegnanti delle dottrine.<br> In occasione di diversi eventi il centro del villaggio è decorato con dei banner (un'opzione all'interno del gioco permette di nascondere tutte le decorazioni dell'evento).",
@@ -11485,7 +11494,7 @@
       }
     ],
     "minimappa": "Minimappa Rifugio Boreale.png",
-    "dimensioni": "384×384",
+    "dimensioni": "256x1024",
     "nome": "Rifugio Boreale",
     "url": "https://it-wiki.metin2.gameforge.com/index.php/Rifugio Boreale",
     "immagine_locale": "images/mappe/Rifugio_Boreale_banner.png",
@@ -11968,7 +11977,7 @@
     ],
     "boss": [],
     "minimappa": "Covo3.png",
-    "dimensioni": "",
+    "dimensioni": "256x768",
     "nome": "Sotterraneo dei Ragni 3",
     "url": "https://it-wiki.metin2.gameforge.com/index.php/Sotterraneo dei Ragni 3",
     "immagine_locale": "images/mappe/Sotterraneo_dei_Ragni_3_banner.png",
@@ -12107,7 +12116,7 @@
       }
     ],
     "minimappa": "MiniMappa Sottobosco.png",
-    "dimensioni": "",
+    "dimensioni": "1024x1280",
     "nome": "Sottobosco",
     "url": "https://it-wiki.metin2.gameforge.com/index.php/Sottobosco",
     "immagine_locale": "images/mappe/Sottobosco_banner.png",
@@ -12241,7 +12250,7 @@
       }
     ],
     "minimappa": "MiniMappa Sottobosco.png",
-    "dimensioni": "",
+    "dimensioni": "1024x1280",
     "nome": "Sottobosco (FT)",
     "url": "https://it-wiki.metin2.gameforge.com/index.php/Sottobosco (FT)",
     "immagine_locale": "images/mappe/Sottobosco_(FT)_banner.png",
@@ -12375,7 +12384,7 @@
       }
     ],
     "minimappa": "MiniMappa Sottobosco.png",
-    "dimensioni": "",
+    "dimensioni": "1024x1280",
     "nome": "Sottobosco (RSV)",
     "url": "https://it-wiki.metin2.gameforge.com/index.php/Sottobosco (RSV)",
     "immagine_locale": "images/mappe/Sottobosco_(RSV)_banner.png",
@@ -15930,6 +15939,7 @@
   },
   {
     "regno": "Zone Neutrali",
+    "url_mappa_pulita": "https://ro-wiki.metin2.gameforge.com/images/thumb/7/7e/IG-Templul_Hwang.jpg/300px-IG-Templul_Hwang.jpg",
     "livello": "50",
     "immagine": "Mappa Tempio Hwang.png",
     "info": "Il tempio è una [[mappa]] formata da più stanze ( per un totale di 10), contenenti diverse tipologie di mostri, con al centro un'isola, dove é posizionata la [[Torre dei Demoni]]. Nelle stanze troviamo vari tipi di [[esoterici]], più forti rispetto a quelli della [[Valle di Seungryong]], mentre l'isola è il regno delle [[rane]]. * Nel portale [[Cultura in Metin2]] ci sono degli approfondimenti su questo elemento: [[Cultura in Metin2: Architettura#Pagoda|Architettura]]",
@@ -16146,7 +16156,7 @@
       }
     ],
     "minimappa": "MappaTempioHwangHQ1.png",
-    "dimensioni": "",
+    "dimensioni": "1024x1024",
     "nome": "Tempio Hwang",
     "url": "https://it-wiki.metin2.gameforge.com/index.php/Tempio Hwang",
     "immagine_locale": "images/mappe/Tempio_Hwang_banner.png",
@@ -17502,6 +17512,7 @@
   },
   {
     "regno": "Zone Neutrali",
+    "url_mappa_pulita": "https://ro-wiki.metin2.gameforge.com/images/thumb/1/11/IG-Valea_Seungryong.jpg/300px-IG-Valea_Seungryong.jpg",
     "livello": "40",
     "immagine": "Mappa Valle di Seungryong.png",
     "info": "In gioco è chiamata semplicemente Valle. Questa [[mappa]] è molto vasta e popolata, e i mostri che si incontrano sono tantissimi, diversi per categoria e per forza. Questa è la mappa degli [[Orchi]], e degli [[Esoterici]] facili.",

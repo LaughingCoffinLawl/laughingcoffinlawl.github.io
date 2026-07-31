@@ -1040,7 +1040,21 @@
     ],
     "ha_missioni": false,
     "vende": [],
-    "venditore": false
+    "venditore": false,
+    "posizioni": {
+      "Joan": {
+        "x": 634,
+        "y": 538
+      },
+      "Pyungmoo": {
+        "x": 344,
+        "y": 722
+      },
+      "Yongan": {
+        "x": 554,
+        "y": 549
+      }
+    }
   },
   {
     "nome": "Cittadino Ubriaco",
@@ -1994,6 +2008,10 @@
       "Jayang": {
         "x": 548,
         "y": 631
+      },
+      "Piana Dongan": {
+        "x": 549,
+        "y": 696
       }
     }
   },
@@ -2854,7 +2872,13 @@
     ],
     "ha_missioni": false,
     "vende": [],
-    "venditore": false
+    "venditore": false,
+    "posizioni": {
+      "Hasun Dong": {
+        "x": 591,
+        "y": 331
+      }
+    }
   },
   {
     "nome": "Monumento Mok",
@@ -3188,6 +3212,18 @@
     "vende": [],
     "venditore": true,
     "posizioni": {
+      "Joan": {
+        "x": 675,
+        "y": 539
+      },
+      "Pyungmoo": {
+        "x": 386,
+        "y": 849
+      },
+      "Yongan": {
+        "x": 195,
+        "y": 937
+      },
       "Capo Fuoco del Drago": {
         "x": 838,
         "y": 1187
@@ -3206,7 +3242,29 @@
     ],
     "ha_missioni": false,
     "vende": [],
-    "venditore": false
+    "venditore": false,
+    "posizioni": {
+      "Monte Sohan": {
+        "x": 156,
+        "y": 700
+      },
+      "Tempio Hwang": {
+        "x": 822,
+        "y": 875
+      },
+      "Valle di Seungryong": {
+        "x": 362,
+        "y": 462
+      },
+      "Deserto Yongbi": {
+        "x": 296,
+        "y": 328
+      },
+      "Doyyumhwaji": {
+        "x": 268,
+        "y": 851
+      }
+    }
   },
   {
     "nome": "Portale di Chen",
@@ -3475,7 +3533,13 @@
     "funzione": [],
     "ha_missioni": false,
     "vende": [],
-    "venditore": false
+    "venditore": false,
+    "posizioni": {
+      "Sotterraneo dei Ragni 2": {
+        "x": 385,
+        "y": 274
+      }
+    }
   },
   {
     "nome": "Raccoglitore di Ginseng",
@@ -3519,7 +3583,13 @@
     ],
     "ha_missioni": false,
     "vende": [],
-    "venditore": false
+    "venditore": false,
+    "posizioni": {
+      "Torre dei Demoni": {
+        "x": 640,
+        "y": 460
+      }
+    }
   },
   {
     "nome": "Sam Pumpkin",
@@ -3560,7 +3630,13 @@
     "funzione": [],
     "ha_missioni": false,
     "vende": [],
-    "venditore": false
+    "venditore": false,
+    "posizioni": {
+      "Grotta 1": {
+        "x": 235,
+        "y": 900
+      }
+    }
   },
   {
     "nome": "Scheletro di Sura 2",
@@ -3570,7 +3646,13 @@
     "funzione": [],
     "ha_missioni": false,
     "vende": [],
-    "venditore": false
+    "venditore": false,
+    "posizioni": {
+      "Grotta 1": {
+        "x": 150,
+        "y": 1340
+      }
+    }
   },
   {
     "nome": "Scheletro di Sura 3",
@@ -4659,7 +4741,13 @@
       "Una traccia nel deserto di ghiaccio"
     ],
     "vende": [],
-    "venditore": false
+    "venditore": false,
+    "posizioni": {
+      "Monte Sohan": {
+        "x": 467,
+        "y": 503
+      }
+    }
   },
   {
     "nome": "Vecchietta",
@@ -4782,7 +4870,13 @@
     ],
     "ha_missioni": false,
     "vende": [],
-    "venditore": false
+    "venditore": false,
+    "posizioni": {
+      "Torre dei Demoni": {
+        "x": 398,
+        "y": 392
+      }
+    }
   },
   {
     "nome": "Waheela",
@@ -5263,7 +5357,13 @@
     ],
     "ha_missioni": false,
     "vende": [],
-    "venditore": false
+    "venditore": false,
+    "posizioni": {
+      "mappe": {
+        "x": 255,
+        "y": 345
+      }
+    }
   },
   {
     "nome": "Guardiano Hae-Tae",

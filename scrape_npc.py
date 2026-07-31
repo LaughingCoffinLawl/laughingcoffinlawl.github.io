@@ -53,19 +53,27 @@ def extract_npc_detail(page_title):
         info["vende"] = parse_wiki_links(vende) if vende else []
         info["venditore"] = bool(vende)
 
-
         # Posizione: estrai mappe con coordinate
         # I parametri sono nomi di mappe (Joan, Pyungmoo, Yongan, etc.)
-        # con valore (x, y)
+        # con valore (x, y) o (x1,y1), (x2,y2), (x3,y3) per posizioni multiple
         posizioni = {}
         for key, val in template.items():
             val_clean = val.strip()
-            if val_clean and re.match(r"^\(\d+\s*,\s*\d+\)$", val_clean):
-                coords = re.match(r"\((\d+)\s*,\s*(\d+)\)", val_clean)
-                if coords:
+            # Match single position: (x, y)
+            single_match = re.match(r"^\((\d+)\s*,\s*(\d+)\)$", val_clean)
+            if single_match:
+                posizioni[key] = {
+                    "x": int(single_match.group(1)),
+                    "y": int(single_match.group(2)),
+                }
+            else:
+                # Match multiple positions: (x1,y1), (x2,y2), ...
+                multi_matches = re.findall(r"\((\d+)\s*,\s*(\d+)\)", val_clean)
+                if multi_matches:
+                    # Usa la prima posizione
                     posizioni[key] = {
-                        "x": int(coords.group(1)),
-                        "y": int(coords.group(2)),
+                        "x": int(multi_matches[0][0]),
+                        "y": int(multi_matches[0][1]),
                     }
         if posizioni:
             info["posizioni"] = posizioni
