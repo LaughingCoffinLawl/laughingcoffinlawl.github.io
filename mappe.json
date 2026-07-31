@@ -2124,6 +2124,7 @@
   },
   {
     "regno": "Zone Neutrali",
+    "url_mappa_pulita": "https://ro-wiki.metin2.gameforge.com/images/thumb/4/48/IG-P%C4%83durea_ro%C5%9Fie.jpg/300px-IG-P%C4%83durea_ro%C5%9Fie.jpg",
     "livello": "75",
     "immagine": "Mappa Bosco Rosso.png",
     "info": "Questa [[mappa]] contiene mostri molto forti, per questo prima dell'implementazione del [[Sotterraneo dei Ragni 2]] e della [[Grotta dell'Esilio - Primo Piano]] era usata da livelli alti per fare esperienza. Adesso è utilizzata per cercare Metin e per completare alcune missioni.",
@@ -4301,6 +4302,7 @@
   },
   {
     "regno": "Zone Neutrali",
+    "url_mappa_pulita": "https://static.wikia.nocookie.net/metin2012/images/9/9f/Doyum.jpg/revision/latest/scale-to-width-down/250?cb=20250701233001&path-prefix=tr",
     "livello": "70",
     "immagine": "Mappa Doyyumhwaji.png",
     "info": "Comunemente detta Carta e conosciuta anche come Terra del Fuoco, è una [[mappa]] abbastanza vasta, con mostri di pochi tipi e pochi NPC. Talvolta viene utilizzata per eventi ufficiali. È una mappa frequentata per svolgere una missione per il [[Cavallo Medio|cavallo medio]], per lo svolgimento della missione \"[[Nella Grotta]]\" e di qualche [[Libro Missione (esperta)]], per i [[Metin dell'Assassino]] e per il [[Re Fiamme]], unico Boss reperibile a Doyyumhwaji. Da qui si può anche accedere alla [[Fortezza del Drago Rosso]]. Si può raggiungere con i [[Teleporter]] presenti nei villaggi 1 e 2 ( costo: 11.000 [[Yang]] al livello 60, il minimo, ogni 5 livelli dal minimo si aggiungono altri 1.000 [[Yang]] al costo ), oppure con il [[Vecchietto]] nei secondi villaggi ( costo 1.000 [[Yang]] per tutti i livelli, e utilizzabile senza limite di livello ).",
@@ -4407,7 +4409,7 @@
       }
     ],
     "minimappa": "Terra del Fuoco.png",
-    "dimensioni": "384x1280",
+    "dimensioni": "1536x1536",
     "nome": "Doyyumhwaji",
     "url": "https://it-wiki.metin2.gameforge.com/index.php/Doyyumhwaji",
     "immagine_locale": "images/mappe/Doyyumhwaji_banner.png",
@@ -8725,6 +8727,7 @@
   },
   {
     "regno": "Zone Neutrali",
+    "url_mappa_pulita": "https://static.wikia.nocookie.net/metin2012/images/4/4a/Hayalet.jpg/revision/latest/scale-to-width-down/250?cb=20250628202524&path-prefix=tr",
     "livello": "65",
     "immagine": "Mappa Lungsam.png",
     "info": "Detta anche Bosco Fantasma, è una [[mappa]] molto intricata, non molto varia quanto a tipi di mostri. Questa mappa è inutile ai fini dell'esperienza, ma è un'ottima meta per i cercatori di Metin (sono di livello 75 e 80, ma relativamente facili, anche se, a parte la PDA, non danno altro di buono), e per chi vuole affrontare un [[Libro Missione (esperta)]]: infatti le missioni di questi libri che si svolgono al Bosco Fantasma sono le uniche con un'infima percentuale di dare la [[Pietra delle Anime]] come ricompensa per il corretto svolgimento.",
@@ -8791,7 +8794,7 @@
     ],
     "boss": [],
     "minimappa": "MappaLungsam1HQ.png",
-    "dimensioni": "256x384",
+    "dimensioni": "512x512",
     "nome": "Lungsam",
     "url": "https://it-wiki.metin2.gameforge.com/index.php/Lungsam",
     "immagine_locale": "images/mappe/Lungsam_banner.png",
