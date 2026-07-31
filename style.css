@@ -550,6 +550,8 @@ header h1 {
 
 .map-container img {
     max-width: 100%;
+    width: 700px;
+    /* la dimensione che preferisci, es. 500-700px */
     height: auto;
     display: block;
 }

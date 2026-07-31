@@ -7668,6 +7668,7 @@
   },
   {
     "regno": "Chunjo",
+    "url_mappa_pulita": "https://ro-wiki.metin2.gameforge.com/images/thumb/d/d0/IG-MAP1GALBENI1.jpg/300px-IG-MAP1GALBENI1.jpg",
     "livello": "1",
     "immagine": "",
     "info": "Joan è la prima [[mappa]] ( definita \"[[Villo1]]\" ) del Regno di [[Chunjo]]. Questa è la mappa di partenza per i nuovi giocatori, i mostri presenti, infatti, sono tra i più deboli del gioco: troviamo quindi cani e lupi, cinghiali, tigri e orsi, e i rispettivi \"boss\". Inoltre, possiamo trovare alcuni mostri del clan Eid Bianche.<br> A Joan sono situati la maggior parte degli NPC del gioco: la bottegaia, il fabbro, il magazziniere, la vecchietta, i mercanti di armi e armature, il guardiano del villaggio/piazza, comandante del regno e gli insegnanti delle dottrine.<br> In occasione di diversi eventi il centro del villaggio è decorato con dei banner (un'opzione all'interno del gioco permette di nascondere tutte le decorazioni dell'evento).",
@@ -10730,6 +10731,7 @@
   {
     "regno": "Jinno",
     "livello": "",
+    "url_mappa_pulita": "https://ro-wiki.metin2.gameforge.com/images/thumb/2/2c/IG-MAP1BLUE2.jpg/300px-IG-MAP1BLUE2.jpg",
     "immagine": "Mappa Pyungmoo.png",
     "info": "Pyungmoo è la [[Mappa]]1 ([[villo 1]]) nel Regno di [[Jinno]] (blu).Qui comincia la vostra avventura! In questa mappa potrete incontrare gli animali come cani, tigri, orsi, lupi e i loro \"boss\".<br> In alcuni punti, si possono trovare anche i mostri del clan [[Eid]].<br> A Pyungmoo sono situati la maggior parte degli [[NPC]] del gioco: la bottegaia, il fabbro, il magazziniere, la vecchietta, i mercanti di armi e armature, il guardiano del villaggio/piazza, comandante del regno e gli insegnanti delle dottrine.<br> In occasione di diversi eventi il centro del villaggio è decorato con dei banner (un'opzione all'interno del gioco permette di nascondere tutte le decorazioni dell'evento).",
     "zone_limitrofe": [
@@ -18162,6 +18164,7 @@
   {
     "regno": "Shinsoo",
     "livello": "1",
+    "url_mappa_pulita": "https://ro-wiki.metin2.gameforge.com/images/thumb/7/78/IG-MAP1RED3.jpg/300px-IG-MAP1RED3.jpg",
     "immagine": "Mappa Yongan.png",
     "info": "Yongan è la prima [[mappa]] ( definita \"[[Villo1]]\" ) del Regno di [[Shinsoo]]. Questa è la mappa di partenza per i nuovi giocatori, i mostri presenti, infatti, sono tra i più deboli del gioco: troviamo quindi cani e lupi, cinghiali, tigri e orsi, e i rispettivi \"boss\". Inoltre, a nord e in alcuni punti a est e a ovest, possiamo trovare alcuni mostri del clan Eid Bianche. A Yongan sono situati la maggior parte degli NPC del gioco: la bottegaia, il fabbro, il magazziniere, la vecchietta, i mercanti di armi e armature, il guardiano del villaggio/piazza, comandante del regno e gli insegnanti delle dottrine.<br> * Nel portale [[Cultura in Metin2]] ci sono degli approfondimenti su questo elemento: [[Cultura in Metin2: Varie#Yongan|Yongan]] In occasione di diversi eventi il centro del villaggio è decorato con dei banner (un'opzione all'interno del gioco permette di nascondere tutte le decorazioni dell'evento).",
     "zone_limitrofe": [],

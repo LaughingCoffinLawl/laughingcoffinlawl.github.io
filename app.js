@@ -6,8 +6,8 @@ let mostriData = [];
 let npcData = [];
 let mappeData = [];
 let armiData = [];
-let difesaData = [];   // armature + elmi + scudi
-let accessoriData = []; // bracciali + collane + orecchini + scarpe + cinture + guanti
+let difesaData = [];
+let accessoriData = [];
 
 // Stato gioco
 let currentMode = 'monster';
@@ -20,36 +20,24 @@ let playerClickPos = null;
 let attempts = [];
 let maxAttempts = 6;
 
-// Target per modalità equipaggiamento
 let targetEquip = null;
 let equipAttempts = [];
 
-// Inizializzazione
 document.addEventListener('DOMContentLoaded', async () => {
     await loadData();
     setupEventListeners();
     startNewGame();
 });
 
-// Costruisci URL immagine completo
 function getMonsterImage(monster) {
-    // Prova prima immagine_card (URL completo)
-    if (monster.immagine_card) {
-        return monster.immagine_card;
-    }
-    // Altrimenti costruisci da immagine (nome file)
+    if (monster.immagine_card) return monster.immagine_card;
     if (monster.immagine) {
-        // Se è già un URL completo, usalo
-        if (monster.immagine.startsWith('http')) {
-            return monster.immagine;
-        }
-        // Altrimenti costruisci il percorso
+        if (monster.immagine.startsWith('http')) return monster.immagine;
         return `https://it-wiki.metin2.gameforge.com/images/${monster.immagine}`;
     }
     return '';
 }
 
-// Carica tutti i dati JSON
 async function loadData() {
     try {
         const [mostri, npc, mappe, armi, armature, elmi, scudi,
@@ -70,12 +58,10 @@ async function loadData() {
                 fetch('metin.json').then(r => r.json())
             ]);
 
-        // Filtra solo mostri/NPC con immagini
         mostriData = mostri.filter(m => m.immagine_card || m.immagine);
         npcData = npc.filter(n => n.immagine_card || n.immagine);
         mappeData = mappe;
 
-        // Equipaggiamento: filtra solo item con icona
         armiData = armi.filter(a => a.icona);
         difesaData = [
             ...armature.filter(a => a.icona),
@@ -91,46 +77,31 @@ async function loadData() {
             ...guanti.filter(g => g.icona)
         ];
 
-        // Metin: filtra solo con icona
         metinData = metin.filter(m => m.icona);
 
         console.log(`Caricati: ${mostriData.length} mostri, ${npcData.length} NPC, ${mappeData.length} mappe, ${armiData.length} armi, ${difesaData.length} difesa, ${accessoriData.length} accessori, ${metinData.length} metin`);
     } catch (error) {
         console.error('Errore caricamento dati:', error);
-        alert('Impossibile caricare i dati del gioco. Assicurati che i file JSON siano presenti.');
+        alert('Impossibile caricare i dati del gioco.');
     }
 }
 
-// Setup event listeners
 function setupEventListeners() {
-    // Bottoni modalità
     document.querySelectorAll('.mode-btn').forEach(btn => {
-        btn.addEventListener('click', () => {
-            const mode = btn.dataset.mode;
-            switchMode(mode);
-        });
+        btn.addEventListener('click', () => switchMode(btn.dataset.mode));
     });
 
-    // Submit mostro
-    document.getElementById('submit-monster').addEventListener('click', () => {
-        checkMonsterGuess();
-    });
-
+    document.getElementById('submit-monster').addEventListener('click', checkMonsterGuess);
     document.getElementById('monster-guess').addEventListener('keypress', (e) => {
         if (e.key === 'Enter') checkMonsterGuess();
     });
 
-    // Autocomplete per la ricerca (modalità mostro)
     const guessInput = document.getElementById('monster-guess');
-    guessInput.addEventListener('input', (e) => {
-        showSuggestions(e.target.value, 'suggestions', 'monster-guess', checkMonsterGuess);
-    });
-
+    guessInput.addEventListener('input', (e) => showSuggestions(e.target.value, 'suggestions', 'monster-guess', checkMonsterGuess));
     guessInput.addEventListener('focus', (e) => {
         if (e.target.value) showSuggestions(e.target.value, 'suggestions', 'monster-guess', checkMonsterGuess);
     });
 
-    // Chiudi suggerimenti quando si clicca fuori
     document.addEventListener('click', (e) => {
         if (!e.target.closest('.guess-input-container')) {
             document.getElementById('suggestions').style.display = 'none';
@@ -138,40 +109,21 @@ function setupEventListeners() {
         }
     });
 
-    // Submit blur
-    document.getElementById('submit-blur').addEventListener('click', () => {
-        checkBlurGuess();
-    });
-
+    document.getElementById('submit-blur').addEventListener('click', checkBlurGuess);
     document.getElementById('blur-guess').addEventListener('keypress', (e) => {
         if (e.key === 'Enter') checkBlurGuess();
     });
 
-    // Autocomplete per modalità blur (stessa funzione)
     const blurInput = document.getElementById('blur-guess');
-    blurInput.addEventListener('input', (e) => {
-        showSuggestions(e.target.value, 'blur-suggestions', 'blur-guess', checkBlurGuess);
-    });
-
+    blurInput.addEventListener('input', (e) => showSuggestions(e.target.value, 'blur-suggestions', 'blur-guess', checkBlurGuess));
     blurInput.addEventListener('focus', (e) => {
         if (e.target.value) showSuggestions(e.target.value, 'blur-suggestions', 'blur-guess', checkBlurGuess);
     });
 
-    // Click sulla mappa
-    document.getElementById('map-image').addEventListener('click', (e) => {
-        handleMapClick(e);
-    });
+    document.getElementById('map-image').addEventListener('click', handleMapClick);
+    document.getElementById('confirm-npc').addEventListener('click', confirmNPCGuess);
+    document.getElementById('next-npc').addEventListener('click', startNPCMode);
 
-    // Pulsanti modalità NPC
-    document.getElementById('confirm-npc').addEventListener('click', () => {
-        confirmNPCGuess();
-    });
-
-    document.getElementById('next-npc').addEventListener('click', () => {
-        startNPCMode();
-    });
-
-    // === Modalità equipaggiamento (arma, difesa, accessori) ===
     const equipModes = [
         { mode: 'arma', data: armiData },
         { mode: 'difesa', data: difesaData },
@@ -179,27 +131,18 @@ function setupEventListeners() {
     ];
 
     equipModes.forEach(({ mode, data }) => {
-        const submitBtn = document.getElementById(`submit-${mode}`);
-        const input = document.getElementById(`${mode}-guess`);
-
-        submitBtn.addEventListener('click', () => {
-            checkEquipGuess(mode, data);
-        });
-
-        input.addEventListener('keypress', (e) => {
+        document.getElementById(`submit-${mode}`).addEventListener('click', () => checkEquipGuess(mode, data));
+        document.getElementById(`${mode}-guess`).addEventListener('keypress', (e) => {
             if (e.key === 'Enter') checkEquipGuess(mode, data);
         });
-
-        input.addEventListener('input', (e) => {
+        document.getElementById(`${mode}-guess`).addEventListener('input', (e) => {
             showEquipSuggestions(e.target.value, `${mode}-suggestions`, `${mode}-guess`, () => checkEquipGuess(mode, data), data);
         });
-
-        input.addEventListener('focus', (e) => {
+        document.getElementById(`${mode}-guess`).addEventListener('focus', (e) => {
             if (e.target.value) showEquipSuggestions(e.target.value, `${mode}-suggestions`, `${mode}-guess`, () => checkEquipGuess(mode, data), data);
         });
     });
 
-    // Chiudi suggerimenti equipaggiamento quando si clicca fuori
     document.addEventListener('click', (e) => {
         if (!e.target.closest('.guess-input-container')) {
             ['arma-suggestions', 'difesa-suggestions', 'accessori-suggestions'].forEach(id => {
@@ -209,46 +152,28 @@ function setupEventListeners() {
         }
     });
 
-    // === Modalità Metin ===
-    // Submit metin
-    document.getElementById('submit-metin').addEventListener('click', () => {
-        checkMetinGuess();
-    });
-
+    document.getElementById('submit-metin').addEventListener('click', checkMetinGuess);
     document.getElementById('metin-guess').addEventListener('keypress', (e) => {
         if (e.key === 'Enter') checkMetinGuess();
     });
 
-    // Autocomplete per metin
     const metinInput = document.getElementById('metin-guess');
-    metinInput.addEventListener('input', (e) => {
-        showMetinSuggestions(e.target.value, 'metin-suggestions', 'metin-guess', checkMetinGuess, metinData);
-    });
-
+    metinInput.addEventListener('input', (e) => showMetinSuggestions(e.target.value, 'metin-suggestions', 'metin-guess', checkMetinGuess, metinData));
     metinInput.addEventListener('focus', (e) => {
         if (e.target.value) showMetinSuggestions(e.target.value, 'metin-suggestions', 'metin-guess', checkMetinGuess, metinData);
     });
 
-    // Submit blur metin
-    document.getElementById('submit-blur-metin').addEventListener('click', () => {
-        checkBlurMetinGuess();
-    });
-
+    document.getElementById('submit-blur-metin').addEventListener('click', checkBlurMetinGuess);
     document.getElementById('blur-metin-guess').addEventListener('keypress', (e) => {
         if (e.key === 'Enter') checkBlurMetinGuess();
     });
 
-    // Autocomplete per blur metin
     const blurMetinInput = document.getElementById('blur-metin-guess');
-    blurMetinInput.addEventListener('input', (e) => {
-        showMetinSuggestions(e.target.value, 'blur-metin-suggestions', 'blur-metin-guess', checkBlurMetinGuess, metinData);
-    });
-
+    blurMetinInput.addEventListener('input', (e) => showMetinSuggestions(e.target.value, 'blur-metin-suggestions', 'blur-metin-guess', checkBlurMetinGuess, getCampoApertoMetin()));
     blurMetinInput.addEventListener('focus', (e) => {
-        if (e.target.value) showMetinSuggestions(e.target.value, 'blur-metin-suggestions', 'blur-metin-guess', checkBlurMetinGuess, metinData);
+        if (e.target.value) showMetinSuggestions(e.target.value, 'blur-metin-suggestions', 'blur-metin-guess', checkBlurMetinGuess, getCampoApertoMetin());
     });
 
-    // Chiudi suggerimenti metin quando si clicca fuori
     document.addEventListener('click', (e) => {
         if (!e.target.closest('.guess-input-container')) {
             ['metin-suggestions', 'blur-metin-suggestions'].forEach(id => {
@@ -259,44 +184,29 @@ function setupEventListeners() {
     });
 }
 
-// Mostra suggerimenti con immagini e dati (funzione unica per mostro e blur)
 function showSuggestions(query, suggestionsId, inputId, callback) {
     const suggestionsDiv = document.getElementById(suggestionsId);
-    if (!query || query.length < 2) {
-        suggestionsDiv.style.display = 'none';
-        return;
-    }
+    if (!query || query.length < 2) { suggestionsDiv.style.display = 'none'; return; }
 
-    const queryLower = query.toLowerCase();
-    const matches = mostriData.filter(m =>
-        m.nome.toLowerCase().includes(queryLower)
-    ).slice(0, 8); // Mostra max 8 suggerimenti
-
-    if (matches.length === 0) {
-        suggestionsDiv.style.display = 'none';
-        return;
-    }
+    const matches = mostriData.filter(m => m.nome.toLowerCase().includes(query.toLowerCase())).slice(0, 8);
+    if (matches.length === 0) { suggestionsDiv.style.display = 'none'; return; }
 
     suggestionsDiv.innerHTML = matches.map(m => {
         const imgSrc = getMonsterImage(m);
         const level = m.livello || m.livello_card || '-';
         const category = m.categoria || '-';
-        const rank = m.rank_card || '-';
-
+        const grado = m.rank_card !== null && m.rank_card !== undefined ? String(m.rank_card) : (m.boss ? 'Boss' : '-');
         return `
         <div class="suggestion-item" data-name="${m.nome}">
             <img src="${imgSrc}" alt="${m.nome}" class="suggestion-img">
             <div class="suggestion-info">
                 <span class="suggestion-name">${m.nome}</span>
-                <span class="suggestion-details">LIV ${level} · ${category} · RANK ${rank}</span>
+                <span class="suggestion-details">LIV ${level} · ${category} · GRADO ${grado}</span>
             </div>
-        </div>
-    `;
+        </div>`;
     }).join('');
 
     suggestionsDiv.style.display = 'block';
-
-    // Click su suggerimento
     suggestionsDiv.querySelectorAll('.suggestion-item').forEach(item => {
         item.addEventListener('click', () => {
             document.getElementById(inputId).value = item.dataset.name;
@@ -306,138 +216,94 @@ function showSuggestions(query, suggestionsId, inputId, callback) {
     });
 }
 
-// Cambia modalità
 function switchMode(mode) {
     currentMode = mode;
-
-    // Aggiorna bottoni
-    document.querySelectorAll('.mode-btn').forEach(btn => {
-        btn.classList.toggle('active', btn.dataset.mode === mode);
-    });
-
-    // Aggiorna sezioni
-    document.querySelectorAll('.game-mode').forEach(section => {
-        section.classList.toggle('active', section.id === `${mode}-mode`);
-    });
-
+    document.querySelectorAll('.mode-btn').forEach(btn => btn.classList.toggle('active', btn.dataset.mode === mode));
+    document.querySelectorAll('.game-mode').forEach(section => section.classList.toggle('active', section.id === `${mode}-mode`));
     startNewGame();
 }
 
-// Inizia nuova partita
 function startNewGame() {
-    if (currentMode === 'monster') {
-        startMonsterMode();
-    } else if (currentMode === 'npc') {
-        startNPCMode();
-    } else if (currentMode === 'blur') {
-        startBlurMode();
-    } else if (currentMode === 'arma') {
-        startEquipMode('arma', armiData);
-    } else if (currentMode === 'difesa') {
-        startEquipMode('difesa', difesaData);
-    } else if (currentMode === 'accessori') {
-        startEquipMode('accessori', accessoriData);
-    } else if (currentMode === 'metin') {
-        startMetinMode();
-    } else if (currentMode === 'blur-metin') {
-        startBlurMetinMode();
-    }
+    if (currentMode === 'monster') startMonsterMode();
+    else if (currentMode === 'npc') startNPCMode();
+    else if (currentMode === 'blur') startBlurMode();
+    else if (currentMode === 'arma') startEquipMode('arma', armiData);
+    else if (currentMode === 'difesa') startEquipMode('difesa', difesaData);
+    else if (currentMode === 'accessori') startEquipMode('accessori', accessoriData);
+    else if (currentMode === 'metin') startMetinMode();
+    else if (currentMode === 'blur-metin') startBlurMetinMode();
 }
 
-// ==================== MODALITÀ 1: INDOVINA IL MOSTRO (Wordle Style) ====================
+// ==================== MODALITÀ 1: INDOVINA IL MOSTRO ====================
 
 function startMonsterMode() {
-    // Scegli mostro segreto
     targetMonster = mostriData[Math.floor(Math.random() * mostriData.length)];
     attempts = [];
-
-    // Reset UI
     document.getElementById('monster-guess').value = '';
     document.getElementById('monster-feedback').innerHTML = '';
     document.getElementById('attempts-grid').innerHTML = '';
-
-    console.log('Mostro segreto:', targetMonster.nome); // Per debug
+    console.log('Mostro segreto:', targetMonster.nome);
 }
 
 function checkMonsterGuess() {
     const guess = document.getElementById('monster-guess').value.trim();
     if (!guess) return;
 
-    // Cerca il mostro nel database
-    const guessedMonster = mostriData.find(m =>
-        m.nome.toLowerCase() === guess.toLowerCase()
-    );
+    const guessedMonster = mostriData.find(m => m.nome.toLowerCase() === guess.toLowerCase());
+    if (!guessedMonster) { alert('Mostro non trovato!'); return; }
 
-    if (!guessedMonster) {
-        alert('Mostro non trovato nel database!');
-        return;
-    }
-
-    // Controlla se corretto
     const isCorrect = guessedMonster.nome === targetMonster.nome;
-
-    // Confronta attributi
     const comparison = compareMonsters(targetMonster, guessedMonster);
-
-    // Aggiungi tentativo
-    attempts.push({
-        guess: guessedMonster,
-        comparison: comparison,
-        isCorrect: isCorrect
-    });
-
-    // Mostra tentativo nella griglia
+    attempts.push({ guess: guessedMonster, comparison, isCorrect });
     addAttemptToGrid(guessedMonster, comparison, isCorrect);
 
-    // Mostra feedback
     if (isCorrect) {
         score += 10;
         updateScore();
-        document.getElementById('monster-feedback').innerHTML =
-            '<div class="attempt correct">✅ Corretto! Era ' + targetMonster.nome + '! +10 punti</div>';
+        document.getElementById('monster-feedback').innerHTML = `<div class="attempt correct">✅ Corretto! Era ${targetMonster.nome}! +10 punti</div>`;
         setTimeout(startMonsterMode, 3000);
     } else {
-        document.getElementById('monster-feedback').innerHTML =
-            '<div class="attempt wrong">❌ Sbagliato! Prova ancora</div>';
+        document.getElementById('monster-feedback').innerHTML = '<div class="attempt wrong">❌ Sbagliato! Prova ancora</div>';
     }
 
-    // Reset input
     document.getElementById('monster-guess').value = '';
     document.getElementById('suggestions').style.display = 'none';
 }
 
 function addAttemptToGrid(monster, comparison, isCorrect) {
     const grid = document.getElementById('attempts-grid');
-
     const attemptDiv = document.createElement('div');
     attemptDiv.className = `attempt-row ${isCorrect ? 'correct' : 'wrong'}`;
 
-    // Ottieni URL immagine completo
-    const monsterImg = getMonsterImage(monster);
+    const getGrado = (m) => {
+        if (m.rank_card !== null && m.rank_card !== undefined) return String(m.rank_card);
+        return m.boss ? 'Boss' : '-';
+    };
 
-    // Crea i quadrati per ogni attributo
+    const getElemento = (m) => {
+        if (m.elemento && m.elemento.length > 0) return m.elemento.join(', ');
+        return '-';
+    };
+
     const squares = [
-        { type: 'image', value: monsterImg, label: '', isImage: true },
+        { type: 'image', value: getMonsterImage(monster), label: '', isImage: true },
         { type: 'name', value: monster.nome, label: '' },
-        { type: 'level', value: getLevelArrow(targetMonster, monster), label: 'LIV' },
         { type: 'category', value: monster.categoria || '-', label: 'CAT' },
-        { type: 'rank', value: getRankArrow(targetMonster, monster), label: 'RANK' },
+        { type: 'level', value: getLevelArrow(targetMonster, monster), label: 'LIV' },
+        { type: 'grado', value: getGrado(monster), label: 'GRADO' },
         { type: 'boss', value: monster.boss ? '✓' : '✗', label: 'BOSS' },
-        { type: 'exp', value: getExpArrow(targetMonster, monster), label: 'EXP' },
         { type: 'stun', value: monster.stordimento ? '✓' : '✗', label: 'STUN' },
         { type: 'slow', value: monster.rallentamento ? '✓' : '✗', label: 'SLOW' },
         { type: 'fear', value: monster.paura ? '✓' : '✗', label: 'FEAR' },
         { type: 'aggro', value: monster.aggressivo ? '✓' : '✗', label: 'AGGR' },
+        { type: 'elemento', value: getElemento(monster), label: 'ELEM' },
+        { type: 'exp', value: getExpArrow(targetMonster, monster), label: 'EXP' },
     ];
 
     squares.forEach(sq => {
         const square = document.createElement('div');
         square.className = `attr-square ${sq.type}`;
-
-        // Applica colore in base al confronto
-        if (comparison[sq.type]) {
-            square.classList.add(comparison[sq.type]);
-        }
+        if (comparison[sq.type] && comparison[sq.type] !== 'none') square.classList.add(comparison[sq.type]);
 
         const label = document.createElement('div');
         label.className = 'square-label';
@@ -464,46 +330,47 @@ function addAttemptToGrid(monster, comparison, isCorrect) {
 }
 
 function getLevelArrow(target, guess) {
-    const targetLevel = target.livello || target.livello_card || 0;
-    const guessLevel = guess.livello || guess.livello_card || 0;
-    if (!targetLevel || !guessLevel) return '-';
-    if (guessLevel === targetLevel) return `${guessLevel} ✓`;
-    if (guessLevel < targetLevel) return `${guessLevel} ↑`;  // target è più alto
-    return `${guessLevel} ↓`;  // target è più basso
-}
-
-function getRankArrow(target, guess) {
-    const targetRank = target.rank_card || 0;
-    const guessRank = guess.rank_card || 0;
-    if (!targetRank || !guessRank) return '-';
-    if (guessRank === targetRank) return `${guessRank} ✓`;
-    if (guessRank < targetRank) return `${guessRank} ↑`;  // target è più alto
-    return `${guessRank} ↓`;  // target è più basso
+    const tLv = target.livello || target.livello_card || 0;
+    const gLv = guess.livello || guess.livello_card || 0;
+    if (!tLv && !gLv) return '-';
+    if (!tLv || !gLv) return `${gLv || 0} -`;
+    if (gLv === tLv) return `${gLv} ✓`;
+    if (gLv < tLv) return `${gLv} ↑`;
+    return `${gLv} ↓`;
 }
 
 function getExpArrow(target, guess) {
-    const targetExp = target.esperienza || 0;
-    const guessExp = guess.esperienza || 0;
-    if (!targetExp || !guessExp) return '-';
-    if (guessExp === targetExp) return `${guessExp} ✓`;
-    if (guessExp < targetExp) return `${guessExp} ↑`;  // target è più alto
-    return `${guessExp} ↓`;  // target è più basso
+    const tExp = target.esperienza || 0;
+    const gExp = guess.esperienza || 0;
+    if (!tExp && !gExp) return '-';
+    if (!tExp || !gExp) return `${gExp || 0} -`;
+    if (gExp === tExp) return `${gExp} ✓`;
+    if (gExp < tExp) return `${gExp} ↑`;
+    return `${gExp} ↓`;
 }
 
 function compareMonsters(target, guess) {
-    // Restituisce un oggetto con i colori per ogni attributo
-    const result = {
-        level: getColor(target.livello || target.livello_card || 0, guess.livello || guess.livello_card || 0, 5),
+    const getGrado = (m) => {
+        if (m.rank_card !== null && m.rank_card !== undefined) return String(m.rank_card);
+        return m.boss ? 'Boss' : '-';
+    };
+    const getElemento = (m) => {
+        if (m.elemento && m.elemento.length > 0) return m.elemento.join(', ');
+        return '-';
+    };
+
+    return {
         category: target.categoria === guess.categoria ? 'correct' : 'wrong',
-        rank: getColor(target.rank_card || 0, guess.rank_card || 0, 2),
+        level: getColor(target.livello || target.livello_card || 0, guess.livello || guess.livello_card || 0, 5),
+        grado: getGrado(target) === getGrado(guess) ? 'correct' : 'wrong',
         boss: target.boss === guess.boss ? 'correct' : 'wrong',
-        exp: getColor(target.esperienza || 0, guess.esperienza || 0, 20),
         stun: target.stordimento === guess.stordimento ? 'correct' : 'wrong',
         slow: target.rallentamento === guess.rallentamento ? 'correct' : 'wrong',
         fear: target.paura === guess.paura ? 'correct' : 'wrong',
         aggro: target.aggressivo === guess.aggressivo ? 'correct' : 'wrong',
+        elemento: getElemento(target) === getElemento(guess) ? 'correct' : 'wrong',
+        exp: getColor(target.esperienza || 0, guess.esperienza || 0, 20),
     };
-    return result;
 }
 
 function getColor(targetVal, guessVal, tolerance) {
@@ -516,210 +383,136 @@ function getColor(targetVal, guessVal, tolerance) {
 
 // ==================== MODALITÀ 2: TROVA L'NPC SULLA MAPPA ====================
 
-// Helper: parse map dimensions from string like "1024x768"
 function parseMapDimensions(dimStr) {
-    if (!dimStr) return { width: 1024, height: 1024 };
-    const parts = dimStr.toLowerCase().split('x');
-    const w = parseInt(parts[0]);
-    const h = parseInt(parts[1]);
-    return {
-        width: isNaN(w) ? 1024 : w,
-        height: isNaN(h) ? 1024 : h
-    };
+    if (!dimStr) return null;
+    const normalized = dimStr.toLowerCase().replace(/×/g, 'x').replace(/\s+/g, '');
+    const parts = normalized.split('x');
+    const width = parseInt(parts[0]);
+    const height = parseInt(parts[1]);
+    if (isNaN(width) || isNaN(height) || width <= 0 || height <= 0) return null;
+    return { width, height };
 }
 
-// Helper: find NPC in npcData by name (case-insensitive)
 function findNpcByName(name) {
     return npcData.find(n => n.nome.toLowerCase() === name.toLowerCase());
 }
 
-// Helper: get valid NPC+position pairs for a map (cross-reference mappe.json with npc.json)
-// Also computes the coordinate space bounds (maxX, maxY) from all NPC positions
 function getValidNpcPositionsForMap(mapData) {
     if (!mapData.npc || mapData.npc.length === 0) return { positions: [], maxX: 0, maxY: 0 };
     const result = [];
-    let maxX = 0;
-    let maxY = 0;
     for (const mapNpc of mapData.npc) {
         const fullNpc = findNpcByName(mapNpc.nome);
         if (!fullNpc || !fullNpc.posizioni) continue;
         const pos = fullNpc.posizioni[mapData.nome];
         if (!pos) continue;
-        const x = parseInt(pos.x);
-        const y = parseInt(pos.y);
+        const x = parseInt(pos.x), y = parseInt(pos.y);
         if (isNaN(x) || isNaN(y)) continue;
-        result.push({
-            npc: fullNpc,
-            mapNpc: mapNpc,
-            x: x,
-            y: y
-        });
-        if (x > maxX) maxX = x;
-        if (y > maxY) maxY = y;
+        result.push({ npc: fullNpc, mapNpc, x, y });
     }
-    // Ensure minimum bounds to avoid extreme scaling with few NPCs
-    maxX = Math.max(maxX, 512);
-    maxY = Math.max(maxY, 512);
-    return { positions: result, maxX: maxX, maxY: maxY };
+
+    const dims = parseMapDimensions(mapData.dimensioni);
+    let maxX, maxY;
+    if (dims) {
+        maxX = dims.width;
+        maxY = dims.height;
+    } else {
+        // fallback solo se la mappa non ha 'dimensioni' valide
+        maxX = Math.max(512, ...result.map(r => r.x));
+        maxY = Math.max(512, ...result.map(r => r.y));
+    }
+
+    return { positions: result, maxX, maxY };
 }
 
 function startNPCMode() {
-    // Reset state
     npcAnswered = false;
     playerClickPos = null;
     currentMapData = null;
 
-    // Filtra mappe con minimappa e almeno un NPC con posizione valida
+    // Filtra mappe che hanno url_mappa_pulita (mappe pulite dei villaggi principali)
+    // e almeno un NPC con posizione valida
     const mappeValide = mappeData.filter(m => {
-        if (!m.minimappa_url && !m.minimappa_locale) return false;
+        if (!m.url_mappa_pulita) return false;
         if (!m.npc || m.npc.length === 0) return false;
         return getValidNpcPositionsForMap(m).positions.length > 0;
     });
 
     if (mappeValide.length === 0) {
-        alert('Nessuna mappa con NPC e coordinate disponibili. Torna alla modalità Indovina il Mostro.');
+        alert('Nessuna mappa pulita con NPC disponibile.');
         switchMode('monster');
         return;
     }
 
-    // Scegli mappa casuale
     const mapData = mappeValide[Math.floor(Math.random() * mappeValide.length)];
     currentMapData = mapData;
-
-    // Scegli NPC casuale con posizione valida
     const npcData = getValidNpcPositionsForMap(mapData);
     const chosen = npcData.positions[Math.floor(Math.random() * npcData.positions.length)];
     currentNPC = chosen.npc;
+    const npcX = chosen.x, npcY = chosen.y;
 
-    // Salva coordinate NPC target (in game coordinate space)
-    const npcX = chosen.x;
-    const npcY = chosen.y;
-
-    // Mostra immagine NPC
     const img = document.getElementById('npc-image');
-    const npcImg = currentNPC.immagine_card || currentNPC.immagine || '';
-    img.src = npcImg;
+    img.src = currentNPC.immagine_card || currentNPC.immagine || '';
     img.alt = currentNPC.nome;
-
     document.getElementById('npc-name').textContent = currentNPC.nome;
     document.getElementById('npc-distance').textContent = 'Clicca sulla mappa dove si trova questo NPC';
 
-    // Mostra mappa
+    // Usa l'immagine della mappa pulita
     const mapImg = document.getElementById('map-image');
-    const mapSrc = mapData.minimappa_url || mapData.minimappa_locale || '';
-    mapImg.src = mapSrc;
+    mapImg.src = mapData.url_mappa_pulita || '';
     mapImg.dataset.mapName = mapData.nome;
     mapImg.dataset.npcX = String(npcX);
     mapImg.dataset.npcY = String(npcY);
-
-    // Salva bounds dello spazio coordinate (ricavato dalle posizioni reali degli NPC)
-    // Le coordinate di gioco possono superare le "dimensioni" dichiarate della mappa,
-    // quindi usiamo i limiti reali osservati dalle posizioni degli NPC
     mapImg.dataset.coordMaxX = String(npcData.maxX);
     mapImg.dataset.coordMaxY = String(npcData.maxY);
 
-    // Nascondi marker e linea
     document.getElementById('map-marker').style.display = 'none';
     document.getElementById('npc-marker').style.display = 'none';
     document.getElementById('map-line').style.display = 'none';
-
-    // Reset pulsanti
     document.getElementById('confirm-npc').disabled = true;
     document.getElementById('confirm-npc').style.display = 'inline-block';
     document.getElementById('next-npc').style.display = 'none';
-
-    // Reset feedback
     document.getElementById('npc-feedback').innerHTML = '';
-
-    // Assicurati che la mappa sia cliccabile
     mapImg.style.pointerEvents = 'auto';
     mapImg.style.cursor = 'crosshair';
 }
 
 function handleMapClick(e) {
     if (npcAnswered) return;
-
     const mapImg = document.getElementById('map-image');
-
-    // Verifica coordinate NPC valide
-    const npcX = parseInt(mapImg.dataset.npcX);
-    const npcY = parseInt(mapImg.dataset.npcY);
-
-    if (isNaN(npcX) || isNaN(npcY)) {
-        alert('Coordinate NPC non disponibili. Riprova.');
-        return;
-    }
-
+    const npcX = parseInt(mapImg.dataset.npcX), npcY = parseInt(mapImg.dataset.npcY);
+    if (isNaN(npcX) || isNaN(npcY)) { alert('Coordinate NPC non disponibili.'); return; }
     e.preventDefault();
 
-    // Calcola posizione click (in pixel display)
     const rect = mapImg.getBoundingClientRect();
-    const clickX = e.clientX - rect.left;
-    const clickY = e.clientY - rect.top;
+    const clickX = e.clientX - rect.left, clickY = e.clientY - rect.top;
+    if (clickX < 0 || clickY < 0 || clickX > rect.width || clickY > rect.height) return;
 
-    // Verifica che il click sia dentro l'immagine
-    if (clickX < 0 || clickY < 0 || clickX > rect.width || clickY > rect.height) {
-        return;
-    }
-
-    // Salva posizione click (display coordinates)
     playerClickPos = { x: clickX, y: clickY };
-
-    // Mostra marker giocatore
     const marker = document.getElementById('map-marker');
     marker.style.left = `${clickX}px`;
     marker.style.top = `${clickY}px`;
     marker.style.display = 'block';
-
-    // Abilita pulsante conferma
     document.getElementById('confirm-npc').disabled = false;
-
-    // Aggiorna testo
     document.getElementById('npc-distance').textContent = 'Posizione selezionata. Clicca "Conferma" per verificare.';
 }
 
 function confirmNPCGuess() {
     if (npcAnswered || !playerClickPos) return;
-
     const mapImg = document.getElementById('map-image');
-    const npcX = parseInt(mapImg.dataset.npcX);
-    const npcY = parseInt(mapImg.dataset.npcY);
-    const coordMaxX = parseInt(mapImg.dataset.coordMaxX);
-    const coordMaxY = parseInt(mapImg.dataset.coordMaxY);
-
-    // Posizione click in display coordinates
-    const clickX = playerClickPos.x;
-    const clickY = playerClickPos.y;
-
-    // Dimensioni display dell'immagine
+    const npcX = parseInt(mapImg.dataset.npcX), npcY = parseInt(mapImg.dataset.npcY);
+    const coordMaxX = parseInt(mapImg.dataset.coordMaxX), coordMaxY = parseInt(mapImg.dataset.coordMaxY);
+    const clickX = playerClickPos.x, clickY = playerClickPos.y;
     const rect = mapImg.getBoundingClientRect();
+    const scaleX = coordMaxX / rect.width, scaleY = coordMaxY / rect.height;
+    const clickGameX = clickX * scaleX, clickGameY = clickY * scaleY;
+    const distance = Math.sqrt(Math.pow(clickGameX - npcX, 2) + Math.pow(clickGameY - npcY, 2));
+    const npcDisplayX = npcX / scaleX, npcDisplayY = npcY / scaleY;
 
-    // Mappa: game coordinate space [0..coordMaxX] x [0..coordMaxY] → display [0..rect.width] x [0..rect.height]
-    // Scala: display → game
-    const scaleX = coordMaxX / rect.width;
-    const scaleY = coordMaxY / rect.height;
-
-    // Converti click da display a game coordinates
-    const clickGameX = clickX * scaleX;
-    const clickGameY = clickY * scaleY;
-
-    // Calcola distanza in game coordinates
-    const distance = Math.sqrt(
-        Math.pow(clickGameX - npcX, 2) +
-        Math.pow(clickGameY - npcY, 2)
-    );
-
-    // Converti posizione NPC da game a display coordinates (per marker)
-    const npcDisplayX = npcX / scaleX;
-    const npcDisplayY = npcY / scaleY;
-
-    // Mostra marker NPC reale
     const npcMarker = document.getElementById('npc-marker');
     npcMarker.style.left = `${npcDisplayX}px`;
     npcMarker.style.top = `${npcDisplayY}px`;
     npcMarker.style.display = 'block';
 
-    // Disegna linea tra click e NPC
     const lineSvg = document.getElementById('map-line');
     const lineElement = document.getElementById('map-line-element');
     lineElement.setAttribute('x1', clickX);
@@ -728,51 +521,22 @@ function confirmNPCGuess() {
     lineElement.setAttribute('y2', npcDisplayY);
     lineSvg.style.display = 'block';
 
-    // Calcola punteggio basato sulla distanza percentuale
-    // Usa la diagonale dello spazio coordinate come riferimento
     const diag = Math.sqrt(coordMaxX * coordMaxX + coordMaxY * coordMaxY);
     const distancePercent = (distance / diag) * 100;
+    let points = 0, feedbackMsg = '', feedbackClass = '';
 
-    let points = 0;
-    let feedbackMsg = '';
-    let feedbackClass = '';
-
-    if (distancePercent < 3) {
-        points = 100;
-        feedbackMsg = `🎯 Perfetto! Distanza: ${Math.round(distance)} px | +${points} punti`;
-        feedbackClass = 'correct';
-    } else if (distancePercent < 7) {
-        points = 75;
-        feedbackMsg = `👌 Molto bene! Distanza: ${Math.round(distance)} px | +${points} punti`;
-        feedbackClass = 'correct';
-    } else if (distancePercent < 15) {
-        points = 50;
-        feedbackMsg = `👍 Buono! Distanza: ${Math.round(distance)} px | +${points} punti`;
-        feedbackClass = 'correct';
-    } else if (distancePercent < 30) {
-        points = 25;
-        feedbackMsg = `🤔 Non male. Distanza: ${Math.round(distance)} px | +${points} punti`;
-        feedbackClass = 'wrong';
-    } else {
-        points = 0;
-        feedbackMsg = `😢 Troppo lontano! Distanza: ${Math.round(distance)} px | +${points} punti`;
-        feedbackClass = 'wrong';
-    }
+    if (distancePercent < 3) { points = 100; feedbackMsg = `🎯 Perfetto! Distanza: ${Math.round(distance)} px | +${points} punti`; feedbackClass = 'correct'; }
+    else if (distancePercent < 7) { points = 75; feedbackMsg = `👌 Molto bene! Distanza: ${Math.round(distance)} px | +${points} punti`; feedbackClass = 'correct'; }
+    else if (distancePercent < 15) { points = 50; feedbackMsg = `👍 Buono! Distanza: ${Math.round(distance)} px | +${points} punti`; feedbackClass = 'correct'; }
+    else if (distancePercent < 30) { points = 25; feedbackMsg = `🤔 Non male. Distanza: ${Math.round(distance)} px | +${points} punti`; feedbackClass = 'wrong'; }
+    else { points = 0; feedbackMsg = `😢 Troppo lontano! Distanza: ${Math.round(distance)} px | +${points} punti`; feedbackClass = 'wrong'; }
 
     score += points;
     updateScore();
-
-    // Mostra feedback
-    document.getElementById('npc-feedback').innerHTML =
-        `<div class="attempt ${feedbackClass}">${feedbackMsg}</div>`;
-    document.getElementById('npc-distance').textContent =
-        `Distanza: ${Math.round(distance)} px (${distancePercent.toFixed(1)}% della mappa)`;
-
-    // Cambia pulsanti: nascondi Conferma, mostra Prossimo
+    document.getElementById('npc-feedback').innerHTML = `<div class="attempt ${feedbackClass}">${feedbackMsg}</div>`;
+    document.getElementById('npc-distance').textContent = `Distanza: ${Math.round(distance)} px (${distancePercent.toFixed(1)}% della mappa)`;
     document.getElementById('confirm-npc').style.display = 'none';
     document.getElementById('next-npc').style.display = 'inline-block';
-
-    // Blocca ulteriori click sulla mappa
     npcAnswered = true;
     mapImg.style.cursor = 'default';
 }
@@ -781,19 +545,15 @@ function confirmNPCGuess() {
 
 let currentBlurLevel = 20;
 const initialBlur = 20;
-const blurDecrement = 3; // Riduce di 3px per ogni errore
+const blurDecrement = 3;
 
 function startBlurMode() {
     const randomMonster = mostriData[Math.floor(Math.random() * mostriData.length)];
-
     const img = document.getElementById('blur-image');
     img.src = randomMonster.immagine_card || randomMonster.immagine;
     img.alt = randomMonster.nome;
-
-    // Reset blur level
     currentBlurLevel = initialBlur;
     img.style.filter = `blur(${currentBlurLevel}px)`;
-
     document.getElementById('blur-guess').value = '';
     document.getElementById('blur-feedback').innerHTML = '';
 }
@@ -801,51 +561,35 @@ function startBlurMode() {
 function checkBlurGuess() {
     const guess = document.getElementById('blur-guess').value.trim();
     if (!guess) return;
-
     const img = document.getElementById('blur-image');
     const targetName = img.alt;
     const isCorrect = guess.toLowerCase() === targetName.toLowerCase();
-
     const feedback = document.getElementById('blur-feedback');
+
     if (isCorrect) {
         const points = Math.max(1, 15 - Math.floor(currentBlurLevel / 2));
         score += points;
         updateScore();
-        // Rimuovi il blur per mostrare il mostro
         img.style.filter = 'none';
         feedback.innerHTML = `<div class="attempt correct">✅ Corretto! Era ${targetName}! +${points} punti</div>`;
         setTimeout(startBlurMode, 2000);
     } else {
-        // Riduci sfocatura
         currentBlurLevel = Math.max(0, currentBlurLevel - blurDecrement);
         img.style.filter = `blur(${currentBlurLevel}px)`;
-
         feedback.innerHTML = `<div class="attempt wrong">❌ Sbagliato! Sfocatura ridotta a ${currentBlurLevel}px</div>`;
     }
-
     document.getElementById('blur-guess').value = '';
 }
 
-// ==================== MODALITÀ 4,5,6: EQUIPAGGIAMENTO (Wordle Style) ====================
+// ==================== MODALITÀ 4,5,6: EQUIPAGGIAMENTO ====================
 
 function startEquipMode(mode, data) {
-    if (!data || data.length === 0) {
-        alert(`Nessun dato disponibile per ${mode}. Riprova più tardi.`);
-        return;
-    }
-
+    if (!data || data.length === 0) { alert(`Nessun dato disponibile per ${mode}.`); return; }
     targetEquip = data[Math.floor(Math.random() * data.length)];
     equipAttempts = [];
-
-    // Reset UI
-    const grid = document.getElementById(`${mode}-attempts-grid`);
-    const input = document.getElementById(`${mode}-guess`);
-    const feedback = document.getElementById(`${mode}-feedback`);
-
-    grid.innerHTML = '';
-    input.value = '';
-    feedback.innerHTML = '';
-
+    document.getElementById(`${mode}-attempts-grid`).innerHTML = '';
+    document.getElementById(`${mode}-guess`).value = '';
+    document.getElementById(`${mode}-feedback`).innerHTML = '';
     console.log(`[${mode}] Target:`, targetEquip.nome);
 }
 
@@ -853,67 +597,82 @@ function checkEquipGuess(mode, data) {
     const input = document.getElementById(`${mode}-guess`);
     const guess = input.value.trim();
     if (!guess) return;
-
-    const guessedItem = data.find(item =>
-        item.nome.toLowerCase() === guess.toLowerCase()
-    );
-
-    if (!guessedItem) {
-        alert('Oggetto non trovato nel database!');
-        return;
-    }
+    const guessedItem = data.find(item => item.nome.toLowerCase() === guess.toLowerCase());
+    if (!guessedItem) { alert('Oggetto non trovato!'); return; }
 
     const isCorrect = guessedItem.nome === targetEquip.nome;
-    const comparison = compareEquip(targetEquip, guessedItem);
-
+    const comparison = compareEquip(targetEquip, guessedItem, mode);
     equipAttempts.push({ guess: guessedItem, comparison, isCorrect });
-
     addEquipAttemptToGrid(mode, guessedItem, comparison, isCorrect);
 
     const feedback = document.getElementById(`${mode}-feedback`);
     if (isCorrect) {
-        const points = 10;
-        score += points;
+        score += 10;
         updateScore();
-        feedback.innerHTML = `<div class="attempt correct">✅ Corretto! Era ${targetEquip.nome}! +${points} punti</div>`;
+        feedback.innerHTML = `<div class="attempt correct">✅ Corretto! Era ${targetEquip.nome}! +10 punti</div>`;
         setTimeout(() => startEquipMode(mode, data), 3000);
     } else {
-        feedback.innerHTML = `<div class="attempt wrong">❌ Sbagliato! Prova ancora</div>`;
+        feedback.innerHTML = '<div class="attempt wrong">❌ Sbagliato! Prova ancora</div>';
     }
-
     input.value = '';
     document.getElementById(`${mode}-suggestions`).style.display = 'none';
 }
 
 function addEquipAttemptToGrid(mode, item, comparison, isCorrect) {
     const grid = document.getElementById(`${mode}-attempts-grid`);
-
     const attemptDiv = document.createElement('div');
     attemptDiv.className = `attempt-row ${isCorrect ? 'correct' : 'wrong'}`;
 
-    const imgSrc = item.icona || '';
+    const getSlotDisplay = (item) => {
+        if (item.slot === undefined) return '-';
+        if (targetEquip.slot === item.slot) return `${item.slot} ✓`;
+        return `${item.slot}`;
+    };
 
-    const squares = [
-        { type: 'image', value: imgSrc, label: '', isImage: true },
+    const getPrice = (item) => {
+        if (!item.prezzo_vendita || item.prezzo_vendita === 'Non disponibile') return '0';
+        return item.prezzo_vendita;
+    };
+
+    const getYang = (item) => {
+        return item.costo_yang || '-';
+    };
+
+    let squares = [
+        { type: 'image', value: item.icona || '', label: '', isImage: true },
         { type: 'name', value: item.nome, label: '' },
-        { type: 'level', value: getEquipLevelArrow(targetEquip, item), label: 'LIV' },
-        { type: 'category', value: item.categoria || '-', label: 'CAT' },
         { type: 'type', value: item.tipo || '-', label: 'TIPO' },
-        { type: 'attack', value: getEquipValueArrow(targetEquip, item, 'attacco'), label: 'ATK' },
-        { type: 'magic_attack', value: getEquipValueArrow(targetEquip, item, 'attacco_magico'), label: 'MATK' },
-        { type: 'defense', value: getEquipValueArrow(targetEquip, item, 'difesa'), label: 'DEF' },
-        { type: 'magic_defense', value: getEquipValueArrow(targetEquip, item, 'difesa_magica'), label: 'MDEF' },
-        { type: 'speed', value: getEquipValueArrow(targetEquip, item, 'velocita_attacco', 'velocita_movimento'), label: 'SPD' },
-        { type: 'slots', value: item.slot !== undefined ? `${item.slot} ✓` : '-', label: 'SLOT' },
     ];
+
+    if (mode === 'arma') {
+        squares = squares.concat([
+            { type: 'prezzo_vendita', value: getPrice(item), label: 'PREZZO' },
+            { type: 'slot', value: getSlotDisplay(item), label: 'SLOT' },
+            { type: 'attack', value: getEquipOriginalValue(targetEquip, item, 'attacco'), label: 'ATK' },
+            { type: 'magic_attack', value: getEquipOriginalValue(targetEquip, item, 'attacco_magico'), label: 'MATK' },
+            { type: 'speed', value: getEquipOriginalValue(targetEquip, item, 'velocita_attacco'), label: 'VEL' },
+            { type: 'costo_yang', value: getYang(item), label: 'YANG' },
+        ]);
+    } else if (mode === 'difesa') {
+        squares = squares.concat([
+            { type: 'prezzo_vendita', value: getPrice(item), label: 'PREZZO' },
+            { type: 'slot', value: getSlotDisplay(item), label: 'SLOT' },
+            { type: 'defense', value: getEquipOriginalValue(targetEquip, item, 'difesa'), label: 'DEF' },
+            { type: 'costo_yang', value: getYang(item), label: 'YANG' },
+        ]);
+    } else if (mode === 'accessori') {
+        squares = squares.concat([
+            { type: 'livello', value: getEquipLevelArrow(targetEquip, item), label: 'LIV' },
+            { type: 'prezzo_vendita', value: getPrice(item), label: 'PREZZO' },
+            { type: 'slot', value: getSlotDisplay(item), label: 'SLOT' },
+            { type: 'costo_yang', value: getYang(item), label: 'YANG' },
+        ]);
+    }
 
     squares.forEach(sq => {
         const square = document.createElement('div');
         square.className = `attr-square ${sq.type}`;
-
-        if (comparison[sq.type]) {
-            square.classList.add(comparison[sq.type]);
-        }
+        if (comparison[sq.type] && comparison[sq.type] !== 'none') square.classList.add(comparison[sq.type]);
 
         const label = document.createElement('div');
         label.className = 'square-label';
@@ -946,89 +705,113 @@ function addEquipAttemptToGrid(mode, item, comparison, isCorrect) {
 function getEquipLevelArrow(target, guess) {
     const tLv = target.livello || 0;
     const gLv = guess.livello || 0;
-    if (!tLv || !gLv) return '-';
+    if (!tLv && !gLv) return '-';
+    if (!tLv || !gLv) return `${gLv || 0} -`;
     if (gLv === tLv) return `${gLv} ✓`;
     if (gLv < tLv) return `${gLv} ↑`;
     return `${gLv} ↓`;
 }
 
-function getEquipValueArrow(target, guess, ...fields) {
-    const tVal = parseEquipValue(target, fields);
-    const gVal = parseEquipValue(guess, fields);
+function getEquipOriginalValue(target, guess, field) {
+    const tVal = target[field];
+    const gVal = guess[field];
     if (!tVal && !gVal) return '-';
-    if (tVal === gVal) return `${gVal} ✓`;
-    if (gVal < tVal) return `${gVal} ↑`;
+    if (!tVal || !gVal) return `${gVal || '-'} -`;
+
+    const tNum = parseEquipValue(target, [field]);
+    const gNum = parseEquipValue(guess, [field]);
+
+    if (tNum === null && gNum === null) return gVal || '-';
+    if (tNum === gNum) return `${gVal} ✓`;
+    if (gNum < tNum) return `${gVal} ↑`;
     return `${gVal} ↓`;
 }
 
 function parseEquipValue(item, fields) {
     for (const f of fields) {
         if (item[f]) {
-            const val = parseFloat(item[f].toString().replace(/[^\d.-]/g, ''));
+            const str = item[f].toString();
+            const rangeMatch = str.match(/(\d+)\s*[-–]\s*(\d+)/);
+            if (rangeMatch) {
+                const low = parseFloat(rangeMatch[1]), high = parseFloat(rangeMatch[2]);
+                if (!isNaN(low) && !isNaN(high)) return Math.round((low + high) / 2);
+            }
+            const val = parseFloat(str.replace(/[^\d.-]/g, ''));
             if (!isNaN(val)) return val;
         }
     }
     return null;
 }
 
-function compareEquip(target, guess) {
+function parsePrice(price) {
+    if (!price) return null;
+    const str = price.toString().replace(/\./g, '').replace(/[^\d]/g, '');
+    const val = parseInt(str);
+    return isNaN(val) ? null : val;
+}
+
+function compareEquip(target, guess, mode) {
     const result = {
-        level: getEquipColor(target.livello || 0, guess.livello || 0, 5),
-        category: target.categoria === guess.categoria ? 'correct' : 'wrong',
         type: target.tipo === guess.tipo ? 'correct' : 'wrong',
-        attack: getEquipColor(parseEquipValue(target, ['attacco']), parseEquipValue(guess, ['attacco']), 10),
-        magic_attack: getEquipColor(parseEquipValue(target, ['attacco_magico']), parseEquipValue(guess, ['attacco_magico']), 10),
-        defense: getEquipColor(parseEquipValue(target, ['difesa']), parseEquipValue(guess, ['difesa']), 10),
-        magic_defense: getEquipColor(parseEquipValue(target, ['difesa_magica']), parseEquipValue(guess, ['difesa_magica']), 10),
-        speed: getEquipColor(parseEquipValue(target, ['velocita_attacco', 'velocita_movimento']), parseEquipValue(guess, ['velocita_attacco', 'velocita_movimento']), 5),
-        slots: target.slot === guess.slot ? 'correct' : 'wrong',
+        prezzo_vendita: comparePrice(target.prezzo_vendita, guess.prezzo_vendita),
+        slot: target.slot === guess.slot ? 'correct' : 'wrong',
+        costo_yang: comparePrice(target.costo_yang, guess.costo_yang),
     };
+
+    if (mode === 'arma') {
+        result.attack = getEquipColor(parseEquipValue(target, ['attacco']), parseEquipValue(guess, ['attacco']), 10);
+        result.magic_attack = getEquipColor(parseEquipValue(target, ['attacco_magico']), parseEquipValue(guess, ['attacco_magico']), 10);
+        result.speed = getEquipColor(parseEquipValue(target, ['velocita_attacco']), parseEquipValue(guess, ['velocita_attacco']), 5);
+    } else if (mode === 'difesa') {
+        result.defense = getEquipColor(parseEquipValue(target, ['difesa']), parseEquipValue(guess, ['difesa']), 10);
+    } else if (mode === 'accessori') {
+        result.livello = getEquipColor(target.livello || 0, guess.livello || 0, 5);
+    }
+
     return result;
 }
 
-function getEquipColor(targetVal, guessVal, tolerance) {
-    if (!targetVal && !guessVal) return 'wrong';
-    if (targetVal === guessVal) return 'correct';
-    if (Math.abs((guessVal || 0) - (targetVal || 0)) <= tolerance) return 'partial';
+function comparePrice(targetPrice, guessPrice) {
+    const tVal = parsePrice(targetPrice);
+    const gVal = parsePrice(guessPrice);
+    if (tVal === null && gVal === null) return 'none';
+    if (tVal === null || gVal === null) return 'wrong';
+    if (tVal === gVal) return 'correct';
+    if (Math.abs(tVal - gVal) <= 1000) return 'partial';
     return 'wrong';
 }
 
-// Suggerimenti per modalità equipaggiamento
+function getEquipColor(targetVal, guessVal, tolerance) {
+    if (targetVal === null && guessVal === null) return 'none';
+    if (targetVal === undefined && guessVal === undefined) return 'none';
+    if (targetVal === null || targetVal === undefined) return 'wrong';
+    if (guessVal === null || guessVal === undefined) return 'wrong';
+    if (targetVal === guessVal) return 'correct';
+    if (Math.abs(guessVal - targetVal) <= tolerance) return 'partial';
+    return 'wrong';
+}
+
 function showEquipSuggestions(query, suggestionsId, inputId, callback, data) {
     const suggestionsDiv = document.getElementById(suggestionsId);
-    if (!query || query.length < 2) {
-        suggestionsDiv.style.display = 'none';
-        return;
-    }
+    if (!query || query.length < 2) { suggestionsDiv.style.display = 'none'; return; }
 
-    const queryLower = query.toLowerCase();
-    const matches = data.filter(item =>
-        item.nome.toLowerCase().includes(queryLower)
-    ).slice(0, 8);
-
-    if (matches.length === 0) {
-        suggestionsDiv.style.display = 'none';
-        return;
-    }
+    const matches = data.filter(item => item.nome.toLowerCase().includes(query.toLowerCase())).slice(0, 8);
+    if (matches.length === 0) { suggestionsDiv.style.display = 'none'; return; }
 
     suggestionsDiv.innerHTML = matches.map(item => {
         const level = item.livello || '-';
         const type = item.tipo || '-';
-        const category = item.categoria || '-';
-
         return `
         <div class="suggestion-item" data-name="${item.nome}">
             <img src="${item.icona || ''}" alt="${item.nome}" class="suggestion-img">
             <div class="suggestion-info">
                 <span class="suggestion-name">${item.nome}</span>
-                <span class="suggestion-details">LIV ${level} · ${type} · ${category}</span>
+                <span class="suggestion-details">TIPO ${type} · LIV ${level}</span>
             </div>
-        </div>
-    `;
+        </div>`;
     }).join('');
 
     suggestionsDiv.style.display = 'block';
-
     suggestionsDiv.querySelectorAll('.suggestion-item').forEach(item => {
         item.addEventListener('click', () => {
             document.getElementById(inputId).value = item.dataset.name;
@@ -1044,84 +827,60 @@ let metinData = [];
 let targetMetin = null;
 let metinAttempts = [];
 
-function startMetinMode() {
-    if (!metinData || metinData.length === 0) {
-        alert('Nessun dato Metin disponibile. Riprova più tardi.');
-        return;
-    }
+function getCampoApertoMetin() {
+    return metinData.filter(m => m.categoria === 'Campo Aperto');
+}
 
+function startMetinMode() {
+    if (!metinData || metinData.length === 0) { alert('Nessun dato Metin disponibile.'); return; }
     targetMetin = metinData[Math.floor(Math.random() * metinData.length)];
     metinAttempts = [];
-
-    const grid = document.getElementById('metin-attempts-grid');
-    const input = document.getElementById('metin-guess');
-    const feedback = document.getElementById('metin-feedback');
-
-    grid.innerHTML = '';
-    input.value = '';
-    feedback.innerHTML = '';
-
+    document.getElementById('metin-attempts-grid').innerHTML = '';
+    document.getElementById('metin-guess').value = '';
+    document.getElementById('metin-feedback').innerHTML = '';
     console.log('[Metin] Target:', targetMetin.nome);
 }
 
 function checkMetinGuess() {
     const guess = document.getElementById('metin-guess').value.trim();
     if (!guess) return;
-
-    const guessedMetin = metinData.find(m =>
-        m.nome.toLowerCase() === guess.toLowerCase()
-    );
-
-    if (!guessedMetin) {
-        alert('Metin non trovato nel database!');
-        return;
-    }
+    const guessedMetin = metinData.find(m => m.nome.toLowerCase() === guess.toLowerCase());
+    if (!guessedMetin) { alert('Metin non trovato!'); return; }
 
     const isCorrect = guessedMetin.nome === targetMetin.nome;
     const comparison = compareMetin(targetMetin, guessedMetin);
-
     metinAttempts.push({ guess: guessedMetin, comparison, isCorrect });
-
     addMetinAttemptToGrid(guessedMetin, comparison, isCorrect);
 
     const feedback = document.getElementById('metin-feedback');
     if (isCorrect) {
-        const points = 10;
-        score += points;
+        score += 10;
         updateScore();
-        feedback.innerHTML = `<div class="attempt correct">✅ Corretto! Era ${targetMetin.nome}! +${points} punti</div>`;
+        feedback.innerHTML = `<div class="attempt correct">✅ Corretto! Era ${targetMetin.nome}! +10 punti</div>`;
         setTimeout(startMetinMode, 3000);
     } else {
-        feedback.innerHTML = `<div class="attempt wrong">❌ Sbagliato! Prova ancora</div>`;
+        feedback.innerHTML = '<div class="attempt wrong">❌ Sbagliato! Prova ancora</div>';
     }
-
     document.getElementById('metin-guess').value = '';
     document.getElementById('metin-suggestions').style.display = 'none';
 }
 
 function addMetinAttemptToGrid(metin, comparison, isCorrect) {
     const grid = document.getElementById('metin-attempts-grid');
-
     const attemptDiv = document.createElement('div');
     attemptDiv.className = `attempt-row ${isCorrect ? 'correct' : 'wrong'}`;
 
-    const imgSrc = metin.icona || '';
-
     const squares = [
-        { type: 'image', value: imgSrc, label: '', isImage: true },
+        { type: 'image', value: metin.icona || '', label: '', isImage: true },
         { type: 'name', value: metin.nome, label: '' },
         { type: 'category', value: metin.categoria || '-', label: 'CAT' },
         { type: 'level', value: getMetinLevelArrow(targetMetin, metin), label: 'LIV' },
-        { type: 'hp', value: getMetinValueArrow(targetMetin, metin, 'hp'), label: 'HP' },
     ];
 
     squares.forEach(sq => {
         const square = document.createElement('div');
         square.className = `attr-square ${sq.type}`;
-
-        if (comparison[sq.type]) {
-            square.classList.add(comparison[sq.type]);
-        }
+        if (comparison[sq.type] && comparison[sq.type] !== 'none') square.classList.add(comparison[sq.type]);
 
         const label = document.createElement('div');
         label.className = 'square-label';
@@ -1154,50 +913,35 @@ function addMetinAttemptToGrid(metin, comparison, isCorrect) {
 function getMetinLevelArrow(target, guess) {
     const tLv = target.livello || 0;
     const gLv = guess.livello || 0;
-    if (!tLv || !gLv) return '-';
+    if (!tLv && !gLv) return '-';
+    if (!tLv || !gLv) return `${gLv || 0} -`;
     if (gLv === tLv) return `${gLv} ✓`;
     if (gLv < tLv) return `${gLv} ↑`;
     return `${gLv} ↓`;
 }
 
-function getMetinValueArrow(target, guess, field) {
-    const tVal = target[field] || 0;
-    const gVal = guess[field] || 0;
-    if (!tVal && !gVal) return '-';
-    if (gVal === tVal) return `${gVal} ✓`;
-    if (gVal < tVal) return `${gVal} ↑`;
-    return `${gVal} ↓`;
-}
-
 function compareMetin(target, guess) {
-    const result = {
+    return {
         category: target.categoria === guess.categoria ? 'correct' : 'wrong',
         level: getEquipColor(target.livello || 0, guess.livello || 0, 5),
-        hp: getEquipColor(parseInt(target.hp) || 0, parseInt(guess.hp) || 0, 100),
     };
-    return result;
 }
 
-// Metin Sfocato
+// Metin Sfocato (solo Campo Aperto)
 let currentBlurMetinLevel = 20;
 const initialBlurMetin = 20;
 const blurMetinDecrement = 3;
 
 function startBlurMetinMode() {
-    if (!metinData || metinData.length === 0) {
-        alert('Nessun dato Metin disponibile. Riprova più tardi.');
-        return;
-    }
+    const campoApertoMetin = getCampoApertoMetin();
+    if (!campoApertoMetin || campoApertoMetin.length === 0) { alert('Nessun Metin Campo Aperto disponibile.'); return; }
 
-    const randomMetin = metinData[Math.floor(Math.random() * metinData.length)];
-
+    const randomMetin = campoApertoMetin[Math.floor(Math.random() * campoApertoMetin.length)];
     const img = document.getElementById('blur-metin-image');
     img.src = randomMetin.icona || randomMetin.url || '';
     img.alt = randomMetin.nome;
-
     currentBlurMetinLevel = initialBlurMetin;
     img.style.filter = `blur(${currentBlurMetinLevel}px)`;
-
     document.getElementById('blur-metin-guess').value = '';
     document.getElementById('blur-metin-feedback').innerHTML = '';
 }
@@ -1205,12 +949,11 @@ function startBlurMetinMode() {
 function checkBlurMetinGuess() {
     const guess = document.getElementById('blur-metin-guess').value.trim();
     if (!guess) return;
-
     const img = document.getElementById('blur-metin-image');
     const targetName = img.alt;
     const isCorrect = guess.toLowerCase() === targetName.toLowerCase();
-
     const feedback = document.getElementById('blur-metin-feedback');
+
     if (isCorrect) {
         const points = Math.max(1, 15 - Math.floor(currentBlurMetinLevel / 2));
         score += points;
@@ -1223,32 +966,19 @@ function checkBlurMetinGuess() {
         img.style.filter = `blur(${currentBlurMetinLevel}px)`;
         feedback.innerHTML = `<div class="attempt wrong">❌ Sbagliato! Sfocatura ridotta a ${currentBlurMetinLevel}px</div>`;
     }
-
     document.getElementById('blur-metin-guess').value = '';
 }
 
-// Suggerimenti per Metin
 function showMetinSuggestions(query, suggestionsId, inputId, callback, data) {
     const suggestionsDiv = document.getElementById(suggestionsId);
-    if (!query || query.length < 2) {
-        suggestionsDiv.style.display = 'none';
-        return;
-    }
+    if (!query || query.length < 2) { suggestionsDiv.style.display = 'none'; return; }
 
-    const queryLower = query.toLowerCase();
-    const matches = data.filter(item =>
-        item.nome.toLowerCase().includes(queryLower)
-    ).slice(0, 8);
-
-    if (matches.length === 0) {
-        suggestionsDiv.style.display = 'none';
-        return;
-    }
+    const matches = data.filter(item => item.nome.toLowerCase().includes(query.toLowerCase())).slice(0, 8);
+    if (matches.length === 0) { suggestionsDiv.style.display = 'none'; return; }
 
     suggestionsDiv.innerHTML = matches.map(item => {
         const level = item.livello || '-';
         const category = item.categoria || '-';
-
         return `
         <div class="suggestion-item" data-name="${item.nome}">
             <img src="${item.icona || ''}" alt="${item.nome}" class="suggestion-img">
@@ -1256,12 +986,10 @@ function showMetinSuggestions(query, suggestionsId, inputId, callback, data) {
                 <span class="suggestion-name">${item.nome}</span>
                 <span class="suggestion-details">LIV ${level} · ${category}</span>
             </div>
-        </div>
-    `;
+        </div>`;
     }).join('');
 
     suggestionsDiv.style.display = 'block';
-
     suggestionsDiv.querySelectorAll('.suggestion-item').forEach(item => {
         item.addEventListener('click', () => {
             document.getElementById(inputId).value = item.dataset.name;
@@ -1271,7 +999,6 @@ function showMetinSuggestions(query, suggestionsId, inputId, callback, data) {
     });
 }
 
-// Aggiorna punteggio
 function updateScore() {
     document.getElementById('score').textContent = `Punteggio: ${score}`;
 }
