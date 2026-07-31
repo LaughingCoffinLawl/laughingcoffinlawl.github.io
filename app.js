@@ -8,6 +8,8 @@ let mappeData = [];
 let armiData = [];
 let difesaData = [];
 let accessoriData = [];
+let upgradeMaterialsData = {};
+let allEquipData = [];
 
 // Stato gioco
 let currentMode = 'monster';
@@ -41,7 +43,7 @@ function getMonsterImage(monster) {
 async function loadData() {
     try {
         const [mostri, npc, mappe, armi, armature, elmi, scudi,
-            bracciali, collane, orecchini, scarpe, cinture, guanti, metin] = await Promise.all([
+            bracciali, collane, orecchini, scarpe, cinture, guanti, metin, upgradeMaterials] = await Promise.all([
                 fetch('mostri.json').then(r => r.json()),
                 fetch('npc.json').then(r => r.json()),
                 fetch('mappe.json').then(r => r.json()),
@@ -55,7 +57,8 @@ async function loadData() {
                 fetch('scarpe.json').then(r => r.json()),
                 fetch('cinture.json').then(r => r.json()),
                 fetch('guanti.json').then(r => r.json()),
-                fetch('metin.json').then(r => r.json())
+                fetch('metin.json').then(r => r.json()),
+                fetch('output/materiali_upgrade.json').then(r => r.json()).catch(() => ({}))
             ]);
 
         mostriData = mostri.filter(m => m.immagine_card || m.immagine);
@@ -79,7 +82,15 @@ async function loadData() {
 
         metinData = metin.filter(m => m.icona);
 
-        console.log(`Caricati: ${mostriData.length} mostri, ${npcData.length} NPC, ${mappeData.length} mappe, ${armiData.length} armi, ${difesaData.length} difesa, ${accessoriData.length} accessori, ${metinData.length} metin`);
+        // Carica dati upgrade
+        upgradeMaterialsData = upgradeMaterials || {};
+        allEquipData = [
+            ...armiData,
+            ...difesaData,
+            ...accessoriData
+        ];
+
+        console.log(`Caricati: ${mostriData.length} mostri, ${npcData.length} NPC, ${mappeData.length} mappe, ${armiData.length} armi, ${difesaData.length} difesa, ${accessoriData.length} accessori, ${metinData.length} metin, ${Object.keys(upgradeMaterialsData).length} categorie upgrade`);
     } catch (error) {
         console.error('Errore caricamento dati:', error);
         alert('Impossibile caricare i dati del gioco.');
@@ -174,9 +185,22 @@ function setupEventListeners() {
         if (e.target.value) showMetinSuggestions(e.target.value, 'blur-metin-suggestions', 'blur-metin-guess', checkBlurMetinGuess, getCampoApertoMetin());
     });
 
+    document.getElementById('submit-upgrade').addEventListener('click', checkUpgradeGuess);
+    document.getElementById('upgrade-guess').addEventListener('keypress', (e) => {
+        if (e.key === 'Enter') checkUpgradeGuess();
+    });
+
+    const upgradeInput = document.getElementById('upgrade-guess');
+    upgradeInput.addEventListener('input', (e) => {
+        showUpgradeSuggestions(e.target.value, 'upgrade-suggestions', 'upgrade-guess');
+    });
+    upgradeInput.addEventListener('focus', (e) => {
+        if (e.target.value) showUpgradeSuggestions(e.target.value, 'upgrade-suggestions', 'upgrade-guess');
+    });
+
     document.addEventListener('click', (e) => {
         if (!e.target.closest('.guess-input-container')) {
-            ['metin-suggestions', 'blur-metin-suggestions'].forEach(id => {
+            ['metin-suggestions', 'blur-metin-suggestions', 'upgrade-suggestions'].forEach(id => {
                 const el = document.getElementById(id);
                 if (el) el.style.display = 'none';
             });
@@ -232,6 +256,7 @@ function startNewGame() {
     else if (currentMode === 'accessori') startEquipMode('accessori', accessoriData);
     else if (currentMode === 'metin') startMetinMode();
     else if (currentMode === 'blur-metin') startBlurMetinMode();
+    else if (currentMode === 'upgrade') startUpgradeMode();
 }
 
 // ==================== MODALITÀ 1: INDOVINA IL MOSTRO ====================
@@ -1001,4 +1026,163 @@ function showMetinSuggestions(query, suggestionsId, inputId, callback, data) {
 
 function updateScore() {
     document.getElementById('score').textContent = `Punteggio: ${score}`;
+}
+
+// ==================== MODALITÀ 9: INDOVINA L'UPGRADE ====================
+
+let currentUpgrade = null;
+let upgradeAttempts = [];
+
+function startUpgradeMode() {
+    // Trova tutti gli oggetti che hanno materiali di upgrade
+    const itemsWithMaterials = [];
+
+    for (const [categoria, items] of Object.entries(upgradeMaterialsData)) {
+        for (const [itemName, itemData] of Object.entries(items)) {
+            if (itemData.materiali && Object.keys(itemData.materiali).length > 0) {
+                // Trova l'oggetto completo nei dati
+                const fullItem = allEquipData.find(e => e.nome === itemName);
+                itemsWithMaterials.push({
+                    nome: itemName,
+                    categoria: categoria,
+                    materiali: itemData.materiali,
+                    url: itemData.url,
+                    icona: fullItem ? fullItem.icona : '',
+                    tipo: fullItem ? fullItem.tipo : '',
+                    livello: fullItem ? fullItem.livello : null
+                });
+            }
+        }
+    }
+
+    if (itemsWithMaterials.length === 0) {
+        alert('Nessun dato di upgrade disponibile.');
+        return;
+    }
+
+    // Scegli un oggetto casuale
+    currentUpgrade = itemsWithMaterials[Math.floor(Math.random() * itemsWithMaterials.length)];
+    upgradeAttempts = [];
+
+    // Scegli un livello di upgrade casuale che ha materiali
+    const levelsWithMaterials = Object.keys(currentUpgrade.materiali).filter(l => currentUpgrade.materiali[l]);
+    const randomLevel = levelsWithMaterials[Math.floor(Math.random() * levelsWithMaterials.length)];
+    currentUpgrade.targetLevel = randomLevel;
+
+    // Mostra i materiali
+    displayUpgradeMaterials(randomLevel);
+
+    // Reset UI
+    document.getElementById('upgrade-guess').value = '';
+    document.getElementById('upgrade-feedback').innerHTML = '';
+    document.getElementById('upgrade-suggestions').style.display = 'none';
+
+    console.log('[Upgrade] Target:', currentUpgrade.nome, randomLevel);
+}
+
+function displayUpgradeMaterials(level) {
+    const materialsList = document.getElementById('upgrade-materials-list');
+    const material = currentUpgrade.materiali[level];
+
+    if (!material) {
+        materialsList.innerHTML = '<p>Nessun materiale per questo livello</p>';
+        return;
+    }
+
+    let html = `<div class="material-item">
+        <span class="material-name">${material.nome}</span>
+        <span class="material-quantity">x${material.quantita}</span>
+    </div>`;
+
+    // Se c'è un secondo materiale (per +7, +8, +9)
+    if (material.nome2) {
+        html += `<div class="material-item">
+            <span class="material-name">${material.nome2}</span>
+            <span class="material-quantity">x${material.quantita2}</span>
+        </div>`;
+    }
+
+    materialsList.innerHTML = html;
+}
+
+function checkUpgradeGuess() {
+    const guess = document.getElementById('upgrade-guess').value.trim();
+    if (!guess || !currentUpgrade) return;
+
+    const guessedItem = allEquipData.find(item => item.nome.toLowerCase() === guess.toLowerCase());
+    if (!guessedItem) {
+        alert('Oggetto non trovato!');
+        return;
+    }
+
+    const isCorrect = guessedItem.nome === currentUpgrade.nome;
+    const selectedLevel = document.getElementById('upgrade-level').value;
+    const isLevelCorrect = selectedLevel === currentUpgrade.targetLevel;
+
+    // Calcola indizi
+    const hints = {
+        nomeCorretto: isCorrect,
+        livelloCorretto: isLevelCorrect,
+        categoriaCorretta: guessedItem.categoria === currentUpgrade.categoria,
+        tipoCorretto: guessedItem.tipo === currentUpgrade.tipo,
+        livelloOggettoCorretto: guessedItem.livello === currentUpgrade.livello
+    };
+
+    // Punteggio
+    let points = 0;
+    let feedbackMsg = '';
+
+    if (isCorrect && isLevelCorrect) {
+        points = 25;
+        feedbackMsg = `✅ Perfetto! Era ${currentUpgrade.nome} ${currentUpgrade.targetLevel}! +${points} punti`;
+        setTimeout(startUpgradeMode, 3000);
+    } else if (isCorrect) {
+        points = 10;
+        feedbackMsg = `🟡 Oggetto corretto! Ma il livello è sbagliato. Era ${currentUpgrade.targetLevel}`;
+    } else {
+        feedbackMsg = '❌ Sbagliato! ';
+        if (hints.categoriaCorretta) feedbackMsg += 'Categoria corretta. ';
+        if (hints.tipoCorretto) feedbackMsg += 'Tipo corretto. ';
+        if (hints.livelloOggettoCorretto) feedbackMsg += 'Livello corretto. ';
+    }
+
+    score += points;
+    updateScore();
+
+    const feedback = document.getElementById('upgrade-feedback');
+    feedback.innerHTML = `<div class="attempt ${isCorrect && isLevelCorrect ? 'correct' : 'wrong'}">${feedbackMsg}</div>`;
+
+    document.getElementById('upgrade-guess').value = '';
+    document.getElementById('upgrade-suggestions').style.display = 'none';
+}
+
+function showUpgradeSuggestions(query, suggestionsId, inputId) {
+    const suggestionsDiv = document.getElementById(suggestionsId);
+    if (!query || query.length < 2) { suggestionsDiv.style.display = 'none'; return; }
+
+    const matches = allEquipData.filter(item => item.nome.toLowerCase().includes(query.toLowerCase())).slice(0, 8);
+    if (matches.length === 0) { suggestionsDiv.style.display = 'none'; return; }
+
+    suggestionsDiv.innerHTML = matches.map(item => {
+        const level = item.livello || '-';
+        const type = item.tipo || '-';
+        const category = item.categoria || '-';
+        return `
+        <div class="suggestion-item" data-name="${item.nome}">
+            <img src="${item.icona || ''}" alt="${item.nome}" class="suggestion-img">
+            <div class="suggestion-info">
+                <span class="suggestion-name">${item.nome}</span>
+                <span class="suggestion-details">${category} · ${type} · LIV ${level}</span>
+            </div>
+        </div>`;
+    }).join('');
+
+    suggestionsDiv.style.display = 'block';
+    suggestionsDiv.querySelectorAll('.suggestion-item').forEach(item => {
+        item.addEventListener('click', () => {
+            document.getElementById(inputId).value = item.dataset.name;
+            suggestionsDiv.style.display = 'none';
+            checkUpgradeGuess();
+        });
+    });
 }

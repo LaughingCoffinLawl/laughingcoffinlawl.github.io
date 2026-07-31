@@ -40,6 +40,9 @@
             <button class="mode-btn" data-mode="blur-metin">
                 🔍 Metin Sfocato
             </button>
+            <button class="mode-btn" data-mode="upgrade">
+                ⬆️ Indovina l'Upgrade
+            </button>
         </nav>
 
         <main class="game-area">
@@ -174,6 +177,40 @@
                         <div id="blur-metin-suggestions" class="suggestions"></div>
                     </div>
                     <div id="blur-metin-feedback" class="feedback"></div>
+                </div>
+            </section>
+
+            <!-- Modalità 9: Indovina l'Upgrade -->
+            <section id="upgrade-mode" class="game-mode">
+                <h2>⬆️ Indovina l'Upgrade</h2>
+                <div class="upgrade-game">
+                    <div class="upgrade-materials">
+                        <h3>Materiali necessari:</h3>
+                        <div id="upgrade-materials-list"></div>
+                    </div>
+                    <div class="upgrade-guess-container">
+                        <div class="guess-input-container">
+                            <input type="text" id="upgrade-guess" placeholder="Cerca un oggetto..." autocomplete="off">
+                            <button id="submit-upgrade">✓</button>
+                            <div id="upgrade-suggestions" class="suggestions"></div>
+                        </div>
+                        <div class="upgrade-level-selector">
+                            <label>Livello upgrade: </label>
+                            <select id="upgrade-level">
+                                <option value="+0">+0</option>
+                                <option value="+1">+1</option>
+                                <option value="+2">+2</option>
+                                <option value="+3">+3</option>
+                                <option value="+4">+4</option>
+                                <option value="+5">+5</option>
+                                <option value="+6">+6</option>
+                                <option value="+7">+7</option>
+                                <option value="+8">+8</option>
+                                <option value="+9">+9</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div id="upgrade-feedback" class="feedback"></div>
                 </div>
             </section>
         </main>
